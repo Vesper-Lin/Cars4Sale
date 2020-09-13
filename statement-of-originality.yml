@@ -8,9 +8,7 @@ declaration: >-
 
 # add as many "name+comment" entries as necessary
 # (or remove it altogether if you haven't collaborated with anyone)
-collaboration:
-  - name:
-    comment: >-
+
 
 
 # add as many "url+licence+comment" entries as necessary
@@ -31,5 +29,9 @@ assets:
 
 
 # sign *your* name and uid here
-name:
-uid:
+name: Yuxuan Lin
+uid: u6828533
+name: Xinxin Li
+uid: u6750982
+name: Tianxiang Zhang
+uid: u6773547
