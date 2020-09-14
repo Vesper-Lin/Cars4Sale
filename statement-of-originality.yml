@@ -14,10 +14,12 @@ declaration: >-
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external code)
 code:
+  - comment: Material Components for Android
+    url: https://github.com/material-components/material-components-android
+    licence: Apache License 2.0
   - comment:
-    url:
-    licence:
-
+      url:
+      licence:
 
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
