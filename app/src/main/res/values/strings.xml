@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cars4Sale</string>
+    <string name="label">Car search</string>
+    <string name="helper_text">Please use the designated vocabulary</string>
 </resources>
