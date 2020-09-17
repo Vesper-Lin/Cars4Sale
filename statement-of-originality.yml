@@ -14,9 +14,12 @@ declaration: >-
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external code)
 code:
-  - comment: Material Components for Android Material Design
-    url: https://material.io/components
+  - comment: Outlined text field - Material Design
+    url: https://material.io/develop/android/components/text-fields
     licence: Apache license version 2.0
+  - comment: Top app bars - Material Design
+      url: https://material.io/develop/android/components/app-bars-top
+      licence: Apache license version 2.0
   - comment:
       url:
       licence:
@@ -24,6 +27,9 @@ code:
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
 assets:
+  - comment: Material Components for Android Material Design
+      url: https://material.io/components
+      licence: Apache license version 2.0
   - comment: Material Icons for Android Material Design
     url: https://material.io/resources/icons
     licence: Apache license version 2.0
