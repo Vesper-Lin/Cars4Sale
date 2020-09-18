@@ -20,6 +20,12 @@ code:
   - comment: Top app bars - Material Design
       url: https://material.io/develop/android/components/app-bars-top
       licence: Apache license version 2.0
+  - comment: Navigation drawer with fragments
+      url: https://codinginflow.com/tutorials/android/navigation-drawer/part-2-layouts
+      licence: Apache license version 2.0
+  - comment: Hide the keyboard when clicking outside of the text fields
+      url: https://stackoverflow.com/questions/20713273/dismiss-keyboard-when-click-outside-of-edittext-in-android/32149756
+      licence: Creative Commons Attribution-ShareAlike 4.0 International Public License
   - comment:
       url:
       licence:

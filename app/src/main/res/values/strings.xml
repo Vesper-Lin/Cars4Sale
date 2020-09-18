@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Cars4Sale</string>
+    <string name="tag_line">Get your car easier!</string>
     <string name="page_title">Home</string>
     <string name="appbar_scrolling_view_behavior">scrolling view behavior</string>
     <string name="label">Car search</string>
     <string name="helper_text">Please use the designated vocabulary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
