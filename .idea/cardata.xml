@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<People>
+<car id="1">
+<carName>b</carName>
+<location>f</location>
+<price>83</price>
+</car>
+<car id="2">
+<carName>b</carName>
+<location>o</location>
+<price>69</price>
+</car>
+<car id="3">
+<carName>b</carName>
+<location>g</location>
+<price>20</price>
+</car>
+<car id="4">
+<carName>d</carName>
+<location>p</location>
+<price>29</price>
+</car>
+<car id="5">
+<carName>a</carName>
+<location>p</location>
+<price>38</price>
+</car>
+<car id="6">
+<carName>b</carName>
+<location>k</location>
+<price>33</price>
+</car>
+<car id="7">
+<carName>a</carName>
+<location>g</location>
+<price>66</price>
+</car>
+<car id="8">
+<carName>c</carName>
+<location>o</location>
+<price>24</price>
+</car>
+<car id="9">
+<carName>a</carName>
+<location>p</location>
+<price>19</price>
+</car>
+</People>
