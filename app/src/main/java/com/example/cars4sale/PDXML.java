@@ -20,20 +20,20 @@ import org.w3c.dom.NodeList;
 
 public class PDXML {
 
-    List<car> cars;
+    List<Car> Cars;
 
     public PDXML()
     {
-        cars = new ArrayList<car>();
+        Cars = new ArrayList<Car>();
     }
 
-    public List<car> loadData(String filePath)
+    public List<Car> loadData(String filePath)
     {
         File f = new File(filePath);
         //create a DocumentBuilder instance: DocumentBuilderFactory
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         //list
-        List<car> lp = new ArrayList<car>();
+        List<Car> lp = new ArrayList<Car>();
 
         try {
             DocumentBuilder db = dbf.newDocumentBuilder();
@@ -53,7 +53,7 @@ public class PDXML {
                     String lastname 	= element.getElementsByTagName("location").item(0).getTextContent();
                     Integer price 			= Integer.parseInt(element.getAttribute("price"));
 
-                    car p 			= new car(id, firstname, lastname,price);
+                    Car p 			= new Car(id, firstname, lastname,price);
                     lp.add(p);
                 }
             }
@@ -83,7 +83,7 @@ public class PDXML {
             d.appendChild(rootElement); //append the root to the document
 
             //loop through all people to create each person element
-            for(car cc : cars)
+            for(Car cc : Cars)
             {
                 Element carElement = d.createElement("car");//<Person>..
                 carElement.setAttribute("id", Integer.toString(cc.getId()));//<Person id="1">..
@@ -152,7 +152,7 @@ public class PDXML {
         PDXML xml = new PDXML();
 
         for(int i =1;i<10;i++){
-            xml.cars.add(new car(i,getcarname(),getlocation(),getrandom(10,100)));
+            xml.Cars.add(new Car(i,getcarname(),getlocation(),getrandom(10,100)));
         }
         xml.saveData(".idea/cardata.xml");
 

@@ -1,12 +1,12 @@
 package com.example.cars4sale;
 
-public class car {
+public class Car {
     private int id;
     private String carname;
     private String location;
     private int price;
 
-    public car(int id, String carname, String location,int price)
+    public Car(int id, String carname, String location, int price)
     {
         this.id = id;
         this.carname = carname;
