@@ -8,6 +8,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -71,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
                 imm.hideSoftInputFromWindow(activity.getWindow().getDecorView().getWindowToken(), 0);
             }
         }
+    }
+
+    public void containedButton(View v) {
+        Intent intent = new Intent(this,ActivityWeb.class);
+        startActivity(intent);
     }
 
 }
