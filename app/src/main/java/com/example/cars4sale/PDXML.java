@@ -18,7 +18,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 
-public class PDXML {
+public class PDXML extends Data {
 
     List<Car> Cars;
 
@@ -40,7 +40,7 @@ public class PDXML {
             Document d = db.parse(f); //parse file f, it is the root of the document tree
             d.getDocumentElement().normalize(); //remove redundancies such as spaces between <  >, line breaks, some white spaces, ...
 
-            //get the list of nodes by tag name (all <person> items)
+            //get the list of nodes by tag name (all <car> items)
             NodeList nl = d.getElementsByTagName("car");
 
             for(int i = 0; i < nl.getLength(); i++)
@@ -49,11 +49,13 @@ public class PDXML {
                 if(n.getNodeType() == Node.ELEMENT_NODE) {
                     Element element		= (Element) n;
                     Integer id 			= Integer.parseInt(element.getAttribute("id"));
+                    Integer coding 			= Integer.parseInt(element.getAttribute("coding"));
                     String firstname 	= element.getElementsByTagName("carname").item(0).getTextContent();
                     String lastname 	= element.getElementsByTagName("location").item(0).getTextContent();
                     Integer price 			= Integer.parseInt(element.getAttribute("price"));
+                    Integer year 			= Integer.parseInt(element.getAttribute("year"));
 
-                    Car p 			= new Car(id, firstname, lastname,price);
+                    Car p 			= new Car(id, coding,firstname, lastname,price,year);
                     lp.add(p);
                 }
             }
@@ -82,11 +84,15 @@ public class PDXML {
             Element rootElement = d.createElement("People");//<People>
             d.appendChild(rootElement); //append the root to the document
 
-            //loop through all people to create each person element
+            //loop through all people to create each car element
             for(Car cc : Cars)
             {
-                Element carElement = d.createElement("car");//<Person>..
+                Element carElement = d.createElement("car");//
                 carElement.setAttribute("id", Integer.toString(cc.getId()));//<Person id="1">..
+
+                Element codingElement = d.createElement("coding");//<FirstName> ... </FirstName>
+                codingElement.appendChild(d.createTextNode(String.valueOf(cc.getcoding())));//<FirstName> here goes firstname </FirstName>
+                carElement.appendChild(codingElement);
 
                 Element carnameElement = d.createElement("carName");//<FirstName> ... </FirstName>
                 carnameElement.appendChild(d.createTextNode(cc.getcarname()));//<FirstName> here goes firstname </FirstName>
@@ -99,6 +105,10 @@ public class PDXML {
                 Element priceElement = d.createElement("price");//<FirstName> ... </FirstName>
                 priceElement.appendChild(d.createTextNode(String.valueOf(cc.getPrice())));//<FirstName> here goes firstname </FirstName>
                 carElement.appendChild(priceElement);
+
+                Element yearElement = d.createElement("year");//<FirstName> ... </FirstName>
+                yearElement.appendChild(d.createTextNode(String.valueOf(cc.getyear())));//<FirstName> here goes firstname </FirstName>
+                carElement.appendChild(yearElement);
 
                 rootElement.appendChild(carElement);
             }
@@ -129,10 +139,12 @@ public class PDXML {
         return num;
     }
 
+
+
     //产生汽车的型号
     public static String getcarname() {
         String ran = "";
-        String[] doc = {"a", "b", "c", "d", "e"};
+        String[] doc = name;
         int index = (int) (Math.random() * doc.length);
         ran = doc[index];
         return ran;
@@ -140,19 +152,28 @@ public class PDXML {
 
     public static String getlocation() {
         String ran = "";
-        String[] doc = {"f", "g", "k", "o", "p"};
+        String[] doc = lacation;
         int index = (int) (Math.random() * doc.length);
         ran = doc[index];
         return ran;
     }
 
-    //产生汽车的生产地
+    //year
+    public static int getye(int start,int end) {
+        int year=(int) (Math.random()*(end-start+1)+start);
+        return year;
+    }
+
+
+
+
+
     public static void main(String[] args)
     {
         PDXML xml = new PDXML();
 
-        for(int i =1;i<10;i++){
-            xml.Cars.add(new Car(i,getcarname(),getlocation(),getrandom(10,100)));
+        for(int i =1;i<1001;i++){
+            xml.Cars.add(new Car(i,i,getcarname(),getlocation(),getrandom(10000,1000000),getye(2000,2020)));
         }
         xml.saveData(".idea/cardata.xml");
 

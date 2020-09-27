@@ -13,7 +13,14 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawer;
@@ -26,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         // Navigation drawer
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        final EditText editText = (EditText) findViewById(R.id.t_text);
+
 
         drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -75,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void containedButton(View v) {
-        Intent intent = new Intent(this,ActivityWeb.class);
+        Intent intent = new Intent(this, ActivityWeb.class);
         startActivity(intent);
     }
 
