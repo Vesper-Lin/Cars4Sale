@@ -1,6 +1,6 @@
 Group project repo for COMP2100 (2020_S2) App - *Cars4Sale*
 
-## Team name - *Insert team name*
+## Team name - *Cars4Sale, Inc.*
 
 ## Team structure and roles
 
