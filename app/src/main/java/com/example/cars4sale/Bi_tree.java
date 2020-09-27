@@ -69,7 +69,6 @@ public class Bi_tree {
         String string2="";
         String string3="";
         String string4="";
-        String  ss = "";
 
 
         Scanner scanner = new Scanner(System.in);
