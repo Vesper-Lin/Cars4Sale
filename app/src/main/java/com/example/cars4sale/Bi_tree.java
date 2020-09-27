@@ -1,16 +1,9 @@
 package com.example.cars4sale;
 
-import android.widget.EditText;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.w3c.dom.ls.LSOutput;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,13 +15,13 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class Bi_tree {
 
-    public static void node(NodeList list){
+    public static void node(NodeList list) {
         List nodeList = new ArrayList<>();
-        for (int i = 0; i <list.getLength() ; i++) {
+        for (int i = 0; i < list.getLength(); i++) {
             Node node = list.item(i);
             NodeList childtext = node.getChildNodes();
-            for (int j = 0; j <childtext.getLength() ; j++) {
-                if (childtext.item(j).getNodeType()==Node.ELEMENT_NODE) {
+            for (int j = 0; j < childtext.getLength(); j++) {
+                if (childtext.item(j).getNodeType() == Node.ELEMENT_NODE) {
                     nodeList.add(childtext.item(j).getFirstChild().getNodeValue());
                 }
             }
@@ -37,16 +30,17 @@ public class Bi_tree {
         Map aa = groupList(nodeList);
         System.out.println(aa.get(0));
     }
-    public static Map groupList(List list){
-        int listSize=list.size();
-        int toIndex=5;
+
+    public static Map groupList(List list) {
+        int listSize = list.size();
+        int toIndex = 5;
         Map map = new HashMap();
         int keynub = 0;
-        for(int i = 0;i<list.size();i+=5){
-            if(i+4>listSize){
-                toIndex=listSize-i;
+        for (int i = 0; i < list.size(); i += 5) {
+            if (i + 4 > listSize) {
+                toIndex = listSize - i;
             }
-            List newList = list.subList(i,i+toIndex);
+            List newList = list.subList(i, i + toIndex);
             map.put(keynub, newList);
             keynub++;
         }
@@ -65,10 +59,10 @@ public class Bi_tree {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        String string1="";
-        String string2="";
-        String string3="";
-        String string4="";
+        String string1 = "";
+        String string2 = "";
+        String string3 = "";
+        String string4 = "";
 
 
         Scanner scanner = new Scanner(System.in);
@@ -76,23 +70,16 @@ public class Bi_tree {
         String[] as = input.split(";");
         for (int i = 0; i < as.length; i++) {
             System.out.println(as[i]);
-            if(i==0){
+            if (i == 0) {
                 string1 = as[i];
-            }else if(i==1){
+            } else if (i == 1) {
                 string2 = as[i];
-            }else if(i==2){
+            } else if (i == 2) {
                 string3 = as[i];
-            }else {
+            } else {
                 string4 = as[i];
             }
         }
-
-
-
-
-
-
-
 
 
     }

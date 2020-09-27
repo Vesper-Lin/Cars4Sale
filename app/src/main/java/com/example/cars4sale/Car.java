@@ -8,8 +8,7 @@ public class Car {
     private int price;
     private int year;
 
-    public Car(int id,int coding, String carname, String location, int price,int year)
-    {
+    public Car(int id, int coding, String carname, String location, int price, int year) {
         this.id = id;
         this.coding = coding;
         this.carname = carname;
@@ -51,25 +50,25 @@ public class Car {
         this.location = location;
     }
 
-    public int getPrice(){
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(int price){
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    public int getyear(){
+    public int getyear() {
         return year;
     }
 
-    public void setyear(int price){
+    public void setyear(int price) {
         this.year = year;
     }
 
 
     //public String toString()
     //{
-     //   return "id: " + this.id + " - Carname: " + this.carname + " - Location: " + this.location + "- Price: " + this.price ;
-   // }
+    //   return "id: " + this.id + " - Carname: " + this.carname + " - Location: " + this.location + "- Price: " + this.price ;
+    // }
 }
