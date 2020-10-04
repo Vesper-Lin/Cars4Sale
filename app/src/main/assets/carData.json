@@ -1,0 +1,8002 @@
+[
+  {
+    "@id": "1",
+    "coding": "1",
+    "name": "SATURN Outlook",
+    "location": "Toowoomba",
+    "price": "468003",
+    "year": "2000"
+  },
+  {
+    "@id": "2",
+    "coding": "2",
+    "name": "OPEL Mokka-e",
+    "location": "Toowoomba",
+    "price": "537072",
+    "year": "2007"
+  },
+  {
+    "@id": "3",
+    "coding": "3",
+    "name": "HINDUSTAN RTV",
+    "location": "Gold Coast",
+    "price": "961099",
+    "year": "2002"
+  },
+  {
+    "@id": "4",
+    "coding": "4",
+    "name": "SCION iM",
+    "location": "Hobart",
+    "price": "400597",
+    "year": "2001"
+  },
+  {
+    "@id": "5",
+    "coding": "5",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Hobart",
+    "price": "320114",
+    "year": "2001"
+  },
+  {
+    "@id": "6",
+    "coding": "6",
+    "name": "FSO Polonez Kombi",
+    "location": "Perth",
+    "price": "239506",
+    "year": "2019"
+  },
+  {
+    "@id": "7",
+    "coding": "7",
+    "name": "ALPINE A110S",
+    "location": "Caloundra",
+    "price": "917290",
+    "year": "2001"
+  },
+  {
+    "@id": "8",
+    "coding": "8",
+    "name": "BUICK Regal",
+    "location": "Cocos Keeling Islands",
+    "price": "236886",
+    "year": "2014"
+  },
+  {
+    "@id": "9",
+    "coding": "9",
+    "name": "VOLKSWAGEN Passat GTE",
+    "location": "Cairns",
+    "price": "273937",
+    "year": "2014"
+  },
+  {
+    "@id": "10",
+    "coding": "10",
+    "name": "GEELY Emgrand EC718",
+    "location": "Christmas Island",
+    "price": "788673",
+    "year": "2014"
+  },
+  {
+    "@id": "11",
+    "coding": "11",
+    "name": "AUDI S5 Cabriolet",
+    "location": "Norfolk Island",
+    "price": "531567",
+    "year": "2004"
+  },
+  {
+    "@id": "12",
+    "coding": "12",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Cairns",
+    "price": "913213",
+    "year": "2010"
+  },
+  {
+    "@id": "13",
+    "coding": "13",
+    "name": "PROTON Iriz",
+    "location": "Toowoomba",
+    "price": "820442",
+    "year": "2012"
+  },
+  {
+    "@id": "14",
+    "coding": "14",
+    "name": "PAGANI Imola",
+    "location": "Canberra",
+    "price": "520321",
+    "year": "2002"
+  },
+  {
+    "@id": "15",
+    "coding": "15",
+    "name": "PANOZ Roadster",
+    "location": "Sydney",
+    "price": "651602",
+    "year": "2005"
+  },
+  {
+    "@id": "16",
+    "coding": "16",
+    "name": "QOROS 3 Hatchbach",
+    "location": "Cairns",
+    "price": "139673",
+    "year": "2012"
+  },
+  {
+    "@id": "17",
+    "coding": "17",
+    "name": "MARUTI SUZUKI Wagon R",
+    "location": "Brisbane",
+    "price": "135936",
+    "year": "2002"
+  },
+  {
+    "@id": "18",
+    "coding": "18",
+    "name": "FISKER Karma",
+    "location": "Caloundra",
+    "price": "865807",
+    "year": "2005"
+  },
+  {
+    "@id": "19",
+    "coding": "19",
+    "name": "MINI John Cooper Works GP",
+    "location": "Toowoomba",
+    "price": "901329",
+    "year": "2005"
+  },
+  {
+    "@id": "20",
+    "coding": "20",
+    "name": "ALFA ROMEO Stelvio Quadrifoglio",
+    "location": "Hobart",
+    "price": "594554",
+    "year": "2007"
+  },
+  {
+    "@id": "21",
+    "coding": "21",
+    "name": "SMART EQ forfour",
+    "location": "Canberra",
+    "price": "936453",
+    "year": "2017"
+  },
+  {
+    "@id": "22",
+    "coding": "22",
+    "name": "NISSAN Rogue",
+    "location": "Gold Coast",
+    "price": "693215",
+    "year": "2013"
+  },
+  {
+    "@id": "23",
+    "coding": "23",
+    "name": "SATURN Aura",
+    "location": "Caloundra",
+    "price": "597262",
+    "year": "2003"
+  },
+  {
+    "@id": "24",
+    "coding": "24",
+    "name": "BUFORI MK II",
+    "location": "Norfolk Island",
+    "price": "864256",
+    "year": "2016"
+  },
+  {
+    "@id": "25",
+    "coding": "25",
+    "name": "VAUXHALL Zafira Tourer",
+    "location": "Cocos Keeling Islands",
+    "price": "629735",
+    "year": "2001"
+  },
+  {
+    "@id": "26",
+    "coding": "26",
+    "name": "MASERATI Ghibli Trofeo",
+    "location": "Toowoomba",
+    "price": "799856",
+    "year": "2009"
+  },
+  {
+    "@id": "27",
+    "coding": "27",
+    "name": "PAGANI Huayra Roadster",
+    "location": "Sydney",
+    "price": "39921",
+    "year": "2005"
+  },
+  {
+    "@id": "28",
+    "coding": "28",
+    "name": "CADILLAC Escalade",
+    "location": "Cairns",
+    "price": "742102",
+    "year": "2004"
+  },
+  {
+    "@id": "29",
+    "coding": "29",
+    "name": "FORD F-150 Raptor SVT",
+    "location": "Adelaide",
+    "price": "899857",
+    "year": "2008"
+  },
+  {
+    "@id": "30",
+    "coding": "30",
+    "name": "LINCOLN Aviator",
+    "location": "Sydney",
+    "price": "241126",
+    "year": "2009"
+  },
+  {
+    "@id": "31",
+    "coding": "31",
+    "name": "DAEWOO Nubira Hatchback",
+    "location": "Toowoomba",
+    "price": "695382",
+    "year": "2001"
+  },
+  {
+    "@id": "32",
+    "coding": "32",
+    "name": "LINCOLN Aviator",
+    "location": "Jervis Bay",
+    "price": "591009",
+    "year": "2016"
+  },
+  {
+    "@id": "33",
+    "coding": "33",
+    "name": "CATERHAM Super Seven 1600",
+    "location": "Cairns",
+    "price": "589447",
+    "year": "2018"
+  },
+  {
+    "@id": "34",
+    "coding": "34",
+    "name": "BUICK Regal",
+    "location": "Adelaide",
+    "price": "830735",
+    "year": "2019"
+  },
+  {
+    "@id": "35",
+    "coding": "35",
+    "name": "BUFORI MK I",
+    "location": "Adelaide",
+    "price": "801932",
+    "year": "2009"
+  },
+  {
+    "@id": "36",
+    "coding": "36",
+    "name": "DR MOTOR dr5",
+    "location": "Caloundra",
+    "price": "215019",
+    "year": "2016"
+  },
+  {
+    "@id": "37",
+    "coding": "37",
+    "name": "SPYKER C8 Preliator",
+    "location": "Perth",
+    "price": "94543",
+    "year": "2013"
+  },
+  {
+    "@id": "38",
+    "coding": "38",
+    "name": "RENAULT Talisman",
+    "location": "Townsville",
+    "price": "507299",
+    "year": "2005"
+  },
+  {
+    "@id": "39",
+    "coding": "39",
+    "name": "CHEVROLET Traverse",
+    "location": "Cocos Keeling Islands",
+    "price": "756860",
+    "year": "2016"
+  },
+  {
+    "@id": "40",
+    "coding": "40",
+    "name": "HINDUSTAN RTV",
+    "location": "Newcastle",
+    "price": "704705",
+    "year": "2003"
+  },
+  {
+    "@id": "41",
+    "coding": "41",
+    "name": "ARO M59",
+    "location": "Caloundra",
+    "price": "937050",
+    "year": "2005"
+  },
+  {
+    "@id": "42",
+    "coding": "42",
+    "name": "MASERATI Ghibli Trofeo",
+    "location": "Cocos Keeling Islands",
+    "price": "812306",
+    "year": "2001"
+  },
+  {
+    "@id": "43",
+    "coding": "43",
+    "name": "MARUSSIA B1",
+    "location": "Melbourne",
+    "price": "958349",
+    "year": "2005"
+  },
+  {
+    "@id": "44",
+    "coding": "44",
+    "name": "LANCIA Ypsilon",
+    "location": "Sydney",
+    "price": "841443",
+    "year": "2004"
+  },
+  {
+    "@id": "45",
+    "coding": "45",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Wollongong",
+    "price": "19821",
+    "year": "2009"
+  },
+  {
+    "@id": "46",
+    "coding": "46",
+    "name": "TVR 350i Convertible",
+    "location": "Caloundra",
+    "price": "264445",
+    "year": "2005"
+  },
+  {
+    "@id": "47",
+    "coding": "47",
+    "name": "CHEVROLET SS",
+    "location": "Geelong",
+    "price": "517491",
+    "year": "2019"
+  },
+  {
+    "@id": "48",
+    "coding": "48",
+    "name": "PERODUA Axia",
+    "location": "Jervis Bay",
+    "price": "435548",
+    "year": "2010"
+  },
+  {
+    "@id": "49",
+    "coding": "49",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Cairns",
+    "price": "839364",
+    "year": "2003"
+  },
+  {
+    "@id": "50",
+    "coding": "50",
+    "name": "OPEL Mokka-e",
+    "location": "Jervis Bay",
+    "price": "855302",
+    "year": "2019"
+  },
+  {
+    "@id": "51",
+    "coding": "51",
+    "name": "DR MOTOR dr2",
+    "location": "Jervis Bay",
+    "price": "305424",
+    "year": "2002"
+  },
+  {
+    "@id": "52",
+    "coding": "52",
+    "name": "MITSUBISHI ASX",
+    "location": "Canberra",
+    "price": "203283",
+    "year": "2020"
+  },
+  {
+    "@id": "53",
+    "coding": "53",
+    "name": "ARO 24",
+    "location": "Townsville",
+    "price": "571146",
+    "year": "2003"
+  },
+  {
+    "@id": "54",
+    "coding": "54",
+    "name": "FORD F-150 Super Crew",
+    "location": "Cairns",
+    "price": "441421",
+    "year": "2012"
+  },
+  {
+    "@id": "55",
+    "coding": "55",
+    "name": "PORSCHE Panamera 4S Sport Turismo",
+    "location": "Melbourne",
+    "price": "930575",
+    "year": "2011"
+  },
+  {
+    "@id": "56",
+    "coding": "56",
+    "name": "Karma Revero GT",
+    "location": "Canberra",
+    "price": "657727",
+    "year": "2019"
+  },
+  {
+    "@id": "57",
+    "coding": "57",
+    "name": "ISUZU MU-7",
+    "location": "Perth",
+    "price": "52536",
+    "year": "2002"
+  },
+  {
+    "@id": "58",
+    "coding": "58",
+    "name": "PEUGEOT 508 SW PSE",
+    "location": "Norfolk Island",
+    "price": "237743",
+    "year": "2015"
+  },
+  {
+    "@id": "59",
+    "coding": "59",
+    "name": "BRISTOL Series 6",
+    "location": "Hobart",
+    "price": "101029",
+    "year": "2019"
+  },
+  {
+    "@id": "60",
+    "coding": "60",
+    "name": "GEELY CK",
+    "location": "Geelong",
+    "price": "508517",
+    "year": "2012"
+  },
+  {
+    "@id": "61",
+    "coding": "61",
+    "name": "DODGE Charger SRT Hellcat Widebody",
+    "location": "Wollongong",
+    "price": "528352",
+    "year": "2001"
+  },
+  {
+    "@id": "62",
+    "coding": "62",
+    "name": "VAUXHALL Astra Sports Tourer",
+    "location": "Brisbane",
+    "price": "187395",
+    "year": "2015"
+  },
+  {
+    "@id": "63",
+    "coding": "63",
+    "name": "PANOZ Roadster",
+    "location": "Adelaide",
+    "price": "757018",
+    "year": "2020"
+  },
+  {
+    "@id": "64",
+    "coding": "64",
+    "name": "BMW 7 Series LCI",
+    "location": "Jervis Bay",
+    "price": "15454",
+    "year": "2012"
+  },
+  {
+    "@id": "65",
+    "coding": "65",
+    "name": "MASERATI Ghibli Trofeo",
+    "location": "Jervis Bay",
+    "price": "524025",
+    "year": "2005"
+  },
+  {
+    "@id": "66",
+    "coding": "66",
+    "name": "KIA Picanto 5 doors",
+    "location": "Cairns",
+    "price": "522862",
+    "year": "2009"
+  },
+  {
+    "@id": "67",
+    "coding": "67",
+    "name": "SSANGYONG Tivoli",
+    "location": "Adelaide",
+    "price": "768513",
+    "year": "2004"
+  },
+  {
+    "@id": "68",
+    "coding": "68",
+    "name": "ARIEL Atom 500 V8",
+    "location": "Toowoomba",
+    "price": "880981",
+    "year": "2009"
+  },
+  {
+    "@id": "69",
+    "coding": "69",
+    "name": "DACIA Logan",
+    "location": "Geelong",
+    "price": "271388",
+    "year": "2017"
+  },
+  {
+    "@id": "70",
+    "coding": "70",
+    "name": "KTM X-Bow R",
+    "location": "Norfolk Island",
+    "price": "113516",
+    "year": "2015"
+  },
+  {
+    "@id": "71",
+    "coding": "71",
+    "name": "LAMBORGHINI Sian",
+    "location": "Gold Coast",
+    "price": "332949",
+    "year": "2018"
+  },
+  {
+    "@id": "72",
+    "coding": "72",
+    "name": "OPEL Insignia Grand Sport",
+    "location": "Cairns",
+    "price": "206516",
+    "year": "2013"
+  },
+  {
+    "@id": "73",
+    "coding": "73",
+    "name": "MASERATI MC20",
+    "location": "Townsville",
+    "price": "322078",
+    "year": "2007"
+  },
+  {
+    "@id": "74",
+    "coding": "74",
+    "name": "MITSUBISHI ASX",
+    "location": "Gold Coast",
+    "price": "14519",
+    "year": "2001"
+  },
+  {
+    "@id": "75",
+    "coding": "75",
+    "name": "SEAT Ateca",
+    "location": "Geelong",
+    "price": "838058",
+    "year": "2001"
+  },
+  {
+    "@id": "76",
+    "coding": "76",
+    "name": "BUFORI V6i",
+    "location": "Canberra",
+    "price": "787670",
+    "year": "2009"
+  },
+  {
+    "@id": "77",
+    "coding": "77",
+    "name": "ALPINE A106",
+    "location": "Melbourne",
+    "price": "783551",
+    "year": "2004"
+  },
+  {
+    "@id": "78",
+    "coding": "78",
+    "name": "CUPRA Leon 5 doors",
+    "location": "Cairns",
+    "price": "832088",
+    "year": "2015"
+  },
+  {
+    "@id": "79",
+    "coding": "79",
+    "name": "QOROS 3 Hatchbach",
+    "location": "Canberra",
+    "price": "634820",
+    "year": "2013"
+  },
+  {
+    "@id": "80",
+    "coding": "80",
+    "name": "CUPRA Formentor",
+    "location": "Jervis Bay",
+    "price": "623314",
+    "year": "2006"
+  },
+  {
+    "@id": "81",
+    "coding": "81",
+    "name": "GEELY Emgrand EC718",
+    "location": "Brisbane",
+    "price": "682720",
+    "year": "2011"
+  },
+  {
+    "@id": "82",
+    "coding": "82",
+    "name": "BRISTOL Fighter T",
+    "location": "Christmas Island",
+    "price": "340125",
+    "year": "2005"
+  },
+  {
+    "@id": "83",
+    "coding": "83",
+    "name": "LADA Kalina Sedan",
+    "location": "Jervis Bay",
+    "price": "95536",
+    "year": "2001"
+  },
+  {
+    "@id": "84",
+    "coding": "84",
+    "name": "DACIA Sandero",
+    "location": "Norfolk Island",
+    "price": "743528",
+    "year": "2015"
+  },
+  {
+    "@id": "85",
+    "coding": "85",
+    "name": "KOENIGSEGG Agera RS",
+    "location": "Wollongong",
+    "price": "922211",
+    "year": "2004"
+  },
+  {
+    "@id": "86",
+    "coding": "86",
+    "name": "ISUZU D-Max Double Cab",
+    "location": "Jervis Bay",
+    "price": "753231",
+    "year": "2014"
+  },
+  {
+    "@id": "87",
+    "coding": "87",
+    "name": "MAZDA BT-50",
+    "location": "Wollongong",
+    "price": "612015",
+    "year": "2018"
+  },
+  {
+    "@id": "88",
+    "coding": "88",
+    "name": "LAND ROVER Defender 90",
+    "location": "Caloundra",
+    "price": "171409",
+    "year": "2006"
+  },
+  {
+    "@id": "89",
+    "coding": "89",
+    "name": "SANTANA 300 - 350",
+    "location": "Townsville",
+    "price": "434229",
+    "year": "2009"
+  },
+  {
+    "@id": "90",
+    "coding": "90",
+    "name": "GMC Sierra Denali",
+    "location": "Norfolk Island",
+    "price": "411059",
+    "year": "2009"
+  },
+  {
+    "@id": "91",
+    "coding": "91",
+    "name": "LANCIA Ypsilon",
+    "location": "Brisbane",
+    "price": "998873",
+    "year": "2009"
+  },
+  {
+    "@id": "92",
+    "coding": "92",
+    "name": "LEXUS LC 500 Convertible",
+    "location": "Perth",
+    "price": "293747",
+    "year": "2016"
+  },
+  {
+    "@id": "93",
+    "coding": "93",
+    "name": "SANTANA 300 - 350",
+    "location": "Geelong",
+    "price": "877051",
+    "year": "2006"
+  },
+  {
+    "@id": "94",
+    "coding": "94",
+    "name": "FORD F-150 Super Crew",
+    "location": "Jervis Bay",
+    "price": "69062",
+    "year": "2013"
+  },
+  {
+    "@id": "95",
+    "coding": "95",
+    "name": "FIAT Freemont Cross",
+    "location": "Perth",
+    "price": "706960",
+    "year": "2009"
+  },
+  {
+    "@id": "96",
+    "coding": "96",
+    "name": "PAGANI Imola",
+    "location": "Wollongong",
+    "price": "325571",
+    "year": "2008"
+  },
+  {
+    "@id": "97",
+    "coding": "97",
+    "name": "KTM X-Bow RR",
+    "location": "Adelaide",
+    "price": "569125",
+    "year": "2015"
+  },
+  {
+    "@id": "98",
+    "coding": "98",
+    "name": "ACURA MDX A-Spec",
+    "location": "Cairns",
+    "price": "530589",
+    "year": "2016"
+  },
+  {
+    "@id": "99",
+    "coding": "99",
+    "name": "DR MOTOR dr2",
+    "location": "Hobart",
+    "price": "441897",
+    "year": "2013"
+  },
+  {
+    "@id": "100",
+    "coding": "100",
+    "name": "BMW X7",
+    "location": "Wollongong",
+    "price": "203559",
+    "year": "2008"
+  },
+  {
+    "@id": "101",
+    "coding": "101",
+    "name": "MERCURY Milan",
+    "location": "Gold Coast",
+    "price": "925796",
+    "year": "2018"
+  },
+  {
+    "@id": "102",
+    "coding": "102",
+    "name": "INFINITI QX70",
+    "location": "Toowoomba",
+    "price": "35357",
+    "year": "2018"
+  },
+  {
+    "@id": "103",
+    "coding": "103",
+    "name": "ALPINE A108",
+    "location": "Newcastle",
+    "price": "682729",
+    "year": "2008"
+  },
+  {
+    "@id": "104",
+    "coding": "104",
+    "name": "LAND ROVER Defender 90",
+    "location": "Melbourne",
+    "price": "513319",
+    "year": "2009"
+  },
+  {
+    "@id": "105",
+    "coding": "105",
+    "name": "JAGUAR F-Pace",
+    "location": "Melbourne",
+    "price": "153646",
+    "year": "2013"
+  },
+  {
+    "@id": "106",
+    "coding": "106",
+    "name": "LADA Kalina Hatchback",
+    "location": "Cairns",
+    "price": "809293",
+    "year": "2017"
+  },
+  {
+    "@id": "107",
+    "coding": "107",
+    "name": "DAEWOO Nubira Estate",
+    "location": "Brisbane",
+    "price": "575701",
+    "year": "2019"
+  },
+  {
+    "@id": "108",
+    "coding": "108",
+    "name": "KIA Picanto 5 doors",
+    "location": "Brisbane",
+    "price": "935533",
+    "year": "2013"
+  },
+  {
+    "@id": "109",
+    "coding": "109",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Adelaide",
+    "price": "437447",
+    "year": "2005"
+  },
+  {
+    "@id": "110",
+    "coding": "110",
+    "name": "DAEWOO Nubira Hatchback",
+    "location": "Gold Coast",
+    "price": "520727",
+    "year": "2011"
+  },
+  {
+    "@id": "111",
+    "coding": "111",
+    "name": "LOTUS Exige 410 Sport",
+    "location": "Perth",
+    "price": "668148",
+    "year": "2008"
+  },
+  {
+    "@id": "112",
+    "coding": "112",
+    "name": "SATURN Outlook",
+    "location": "Toowoomba",
+    "price": "675969",
+    "year": "2005"
+  },
+  {
+    "@id": "113",
+    "coding": "113",
+    "name": "KOENIGSEGG Jesko",
+    "location": "Canberra",
+    "price": "404738",
+    "year": "2017"
+  },
+  {
+    "@id": "114",
+    "coding": "114",
+    "name": "HONDA Jazz",
+    "location": "Geelong",
+    "price": "817977",
+    "year": "2001"
+  },
+  {
+    "@id": "115",
+    "coding": "115",
+    "name": "OLDSMOBILE Intrigue",
+    "location": "Melbourne",
+    "price": "77500",
+    "year": "2007"
+  },
+  {
+    "@id": "116",
+    "coding": "116",
+    "name": "DODGE Durango SRT",
+    "location": "Gold Coast",
+    "price": "384365",
+    "year": "2000"
+  },
+  {
+    "@id": "117",
+    "coding": "117",
+    "name": "LAND ROVER Defender 90",
+    "location": "Gold Coast",
+    "price": "93012",
+    "year": "2009"
+  },
+  {
+    "@id": "118",
+    "coding": "118",
+    "name": "BRISTOL Series 6",
+    "location": "Hobart",
+    "price": "773278",
+    "year": "2008"
+  },
+  {
+    "@id": "119",
+    "coding": "119",
+    "name": "QOROS 3 Hatchbach",
+    "location": "Perth",
+    "price": "470409",
+    "year": "2004"
+  },
+  {
+    "@id": "120",
+    "coding": "120",
+    "name": "TESLA MOTORS Model X",
+    "location": "Christmas Island",
+    "price": "117175",
+    "year": "2003"
+  },
+  {
+    "@id": "121",
+    "coding": "121",
+    "name": "SCION iM",
+    "location": "Caloundra",
+    "price": "104530",
+    "year": "2018"
+  },
+  {
+    "@id": "122",
+    "coding": "122",
+    "name": "RENAULT Talisman",
+    "location": "Newcastle",
+    "price": "478096",
+    "year": "2017"
+  },
+  {
+    "@id": "123",
+    "coding": "123",
+    "name": "ZENDER Straight 8",
+    "location": "Newcastle",
+    "price": "516989",
+    "year": "2006"
+  },
+  {
+    "@id": "124",
+    "coding": "124",
+    "name": "LOTUS Evora GT",
+    "location": "Perth",
+    "price": "769183",
+    "year": "2002"
+  },
+  {
+    "@id": "125",
+    "coding": "125",
+    "name": "KIA K5",
+    "location": "Caloundra",
+    "price": "393739",
+    "year": "2013"
+  },
+  {
+    "@id": "126",
+    "coding": "126",
+    "name": "KIA Rio",
+    "location": "Cocos Keeling Islands",
+    "price": "434793",
+    "year": "2002"
+  },
+  {
+    "@id": "127",
+    "coding": "127",
+    "name": "INFINITI EX37",
+    "location": "Geelong",
+    "price": "125173",
+    "year": "2015"
+  },
+  {
+    "@id": "128",
+    "coding": "128",
+    "name": "KTM X-Bow R",
+    "location": "Gold Coast",
+    "price": "558982",
+    "year": "2013"
+  },
+  {
+    "@id": "129",
+    "coding": "129",
+    "name": "MINI John Cooper Works GP",
+    "location": "Townsville",
+    "price": "172321",
+    "year": "2004"
+  },
+  {
+    "@id": "130",
+    "coding": "130",
+    "name": "KTM X-Bow R",
+    "location": "Canberra",
+    "price": "209675",
+    "year": "2015"
+  },
+  {
+    "@id": "131",
+    "coding": "131",
+    "name": "MORGAN Aero 8",
+    "location": "Canberra",
+    "price": "100195",
+    "year": "2008"
+  },
+  {
+    "@id": "132",
+    "coding": "132",
+    "name": "TOYOTA Highlander",
+    "location": "Brisbane",
+    "price": "923331",
+    "year": "2003"
+  },
+  {
+    "@id": "133",
+    "coding": "133",
+    "name": "ALFA ROMEO Stelvio Quadrifoglio",
+    "location": "Cairns",
+    "price": "416848",
+    "year": "2012"
+  },
+  {
+    "@id": "134",
+    "coding": "134",
+    "name": "TESLA MOTORS Model X",
+    "location": "Gold Coast",
+    "price": "802395",
+    "year": "2003"
+  },
+  {
+    "@id": "135",
+    "coding": "135",
+    "name": "VAUXHALL Zafira Tourer",
+    "location": "Norfolk Island",
+    "price": "694179",
+    "year": "2018"
+  },
+  {
+    "@id": "136",
+    "coding": "136",
+    "name": "TESLA MOTORS Roadster",
+    "location": "Christmas Island",
+    "price": "535361",
+    "year": "2001"
+  },
+  {
+    "@id": "137",
+    "coding": "137",
+    "name": "CATERHAM Superlight",
+    "location": "Townsville",
+    "price": "564062",
+    "year": "2003"
+  },
+  {
+    "@id": "138",
+    "coding": "138",
+    "name": "DS AUTOMOBILES DS 9",
+    "location": "Cairns",
+    "price": "336727",
+    "year": "2016"
+  },
+  {
+    "@id": "139",
+    "coding": "139",
+    "name": "VAUXHALL Mokka X",
+    "location": "Hobart",
+    "price": "530845",
+    "year": "2014"
+  },
+  {
+    "@id": "140",
+    "coding": "140",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Brisbane",
+    "price": "711669",
+    "year": "2006"
+  },
+  {
+    "@id": "141",
+    "coding": "141",
+    "name": "ALPINE A106",
+    "location": "Melbourne",
+    "price": "778765",
+    "year": "2012"
+  },
+  {
+    "@id": "142",
+    "coding": "142",
+    "name": "GMC Acadia",
+    "location": "Gold Coast",
+    "price": "397716",
+    "year": "2017"
+  },
+  {
+    "@id": "143",
+    "coding": "143",
+    "name": "OPEL Insignia Grand Sport",
+    "location": "Adelaide",
+    "price": "360347",
+    "year": "2001"
+  },
+  {
+    "@id": "144",
+    "coding": "144",
+    "name": "LADA Kalina Sedan",
+    "location": "Townsville",
+    "price": "923260",
+    "year": "2000"
+  },
+  {
+    "@id": "145",
+    "coding": "145",
+    "name": "MCLAREN 765LT",
+    "location": "Jervis Bay",
+    "price": "389335",
+    "year": "2011"
+  },
+  {
+    "@id": "146",
+    "coding": "146",
+    "name": "ACURA MDX A-Spec",
+    "location": "Perth",
+    "price": "740175",
+    "year": "2006"
+  },
+  {
+    "@id": "147",
+    "coding": "147",
+    "name": "PROTON Iriz",
+    "location": "Norfolk Island",
+    "price": "259209",
+    "year": "2007"
+  },
+  {
+    "@id": "148",
+    "coding": "148",
+    "name": "MCLAREN Elva",
+    "location": "Jervis Bay",
+    "price": "745370",
+    "year": "2011"
+  },
+  {
+    "@id": "149",
+    "coding": "149",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Geelong",
+    "price": "905851",
+    "year": "2004"
+  },
+  {
+    "@id": "150",
+    "coding": "150",
+    "name": "DS AUTOMOBILES DS 9",
+    "location": "Gold Coast",
+    "price": "683572",
+    "year": "2014"
+  },
+  {
+    "@id": "151",
+    "coding": "151",
+    "name": "HINDUSTAN Pushpak",
+    "location": "Newcastle",
+    "price": "670394",
+    "year": "2016"
+  },
+  {
+    "@id": "152",
+    "coding": "152",
+    "name": "PANOZ Avezzano",
+    "location": "Perth",
+    "price": "821148",
+    "year": "2009"
+  },
+  {
+    "@id": "153",
+    "coding": "153",
+    "name": "CUPRA el-Born",
+    "location": "Norfolk Island",
+    "price": "255840",
+    "year": "2004"
+  },
+  {
+    "@id": "154",
+    "coding": "154",
+    "name": "KOENIGSEGG Jesko",
+    "location": "Wollongong",
+    "price": "758267",
+    "year": "2015"
+  },
+  {
+    "@id": "155",
+    "coding": "155",
+    "name": "LINCOLN Aviator",
+    "location": "Caloundra",
+    "price": "848474",
+    "year": "2003"
+  },
+  {
+    "@id": "156",
+    "coding": "156",
+    "name": "MINI John Cooper Works GP",
+    "location": "Hobart",
+    "price": "364210",
+    "year": "2011"
+  },
+  {
+    "@id": "157",
+    "coding": "157",
+    "name": "PANOZ Avezzano",
+    "location": "Christmas Island",
+    "price": "512639",
+    "year": "2018"
+  },
+  {
+    "@id": "158",
+    "coding": "158",
+    "name": "HUMMER H3",
+    "location": "Geelong",
+    "price": "148127",
+    "year": "2018"
+  },
+  {
+    "@id": "159",
+    "coding": "159",
+    "name": "HYUNDAI i30 N",
+    "location": "Canberra",
+    "price": "154934",
+    "year": "2009"
+  },
+  {
+    "@id": "160",
+    "coding": "160",
+    "name": "ARIEL Atom 3",
+    "location": "Sydney",
+    "price": "605058",
+    "year": "2009"
+  },
+  {
+    "@id": "161",
+    "coding": "161",
+    "name": "FSO Polonez Caro",
+    "location": "Gold Coast",
+    "price": "901376",
+    "year": "2020"
+  },
+  {
+    "@id": "162",
+    "coding": "162",
+    "name": "LAMBORGHINI Huracan Evo RWD",
+    "location": "Jervis Bay",
+    "price": "324503",
+    "year": "2019"
+  },
+  {
+    "@id": "163",
+    "coding": "163",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Adelaide",
+    "price": "718585",
+    "year": "2012"
+  },
+  {
+    "@id": "164",
+    "coding": "164",
+    "name": "SUBARU Outback",
+    "location": "Jervis Bay",
+    "price": "816367",
+    "year": "2000"
+  },
+  {
+    "@id": "165",
+    "coding": "165",
+    "name": "PEUGEOT 508 PSE",
+    "location": "Brisbane",
+    "price": "337563",
+    "year": "2005"
+  },
+  {
+    "@id": "166",
+    "coding": "166",
+    "name": "PEUGEOT 5008",
+    "location": "Melbourne",
+    "price": "516571",
+    "year": "2006"
+  },
+  {
+    "@id": "167",
+    "coding": "167",
+    "name": "KIA Rio",
+    "location": "Jervis Bay",
+    "price": "76090",
+    "year": "2007"
+  },
+  {
+    "@id": "168",
+    "coding": "168",
+    "name": "WIESMANN MF5 Roadster",
+    "location": "Melbourne",
+    "price": "282136",
+    "year": "2002"
+  },
+  {
+    "@id": "169",
+    "coding": "169",
+    "name": "TESLA MOTORS Model X",
+    "location": "Sydney",
+    "price": "93319",
+    "year": "2015"
+  },
+  {
+    "@id": "170",
+    "coding": "170",
+    "name": "PERODUA Myvi",
+    "location": "Townsville",
+    "price": "363050",
+    "year": "2009"
+  },
+  {
+    "@id": "171",
+    "coding": "171",
+    "name": "PANOZ Avezzano",
+    "location": "Cairns",
+    "price": "27615",
+    "year": "2000"
+  },
+  {
+    "@id": "172",
+    "coding": "172",
+    "name": "PANOZ Roadster",
+    "location": "Newcastle",
+    "price": "765714",
+    "year": "2004"
+  },
+  {
+    "@id": "173",
+    "coding": "173",
+    "name": "SEAT Leon Sportstourer",
+    "location": "Brisbane",
+    "price": "156192",
+    "year": "2000"
+  },
+  {
+    "@id": "174",
+    "coding": "174",
+    "name": "KIA Rio",
+    "location": "Wollongong",
+    "price": "340279",
+    "year": "2004"
+  },
+  {
+    "@id": "175",
+    "coding": "175",
+    "name": "SUBARU WRX STI",
+    "location": "Caloundra",
+    "price": "522597",
+    "year": "2005"
+  },
+  {
+    "@id": "176",
+    "coding": "176",
+    "name": "TVR Chimaera",
+    "location": "Toowoomba",
+    "price": "71681",
+    "year": "2013"
+  },
+  {
+    "@id": "177",
+    "coding": "177",
+    "name": "LAND ROVER Discovery Sport",
+    "location": "Geelong",
+    "price": "665614",
+    "year": "2000"
+  },
+  {
+    "@id": "178",
+    "coding": "178",
+    "name": "DONKERVOORT D8",
+    "location": "Caloundra",
+    "price": "461664",
+    "year": "2011"
+  },
+  {
+    "@id": "179",
+    "coding": "179",
+    "name": "TVR 350i Convertible",
+    "location": "Geelong",
+    "price": "850619",
+    "year": "2002"
+  },
+  {
+    "@id": "180",
+    "coding": "180",
+    "name": "FERRARI F8 Spider",
+    "location": "Wollongong",
+    "price": "956614",
+    "year": "2012"
+  },
+  {
+    "@id": "181",
+    "coding": "181",
+    "name": "LANCIA Ypsilon",
+    "location": "Jervis Bay",
+    "price": "11961",
+    "year": "2019"
+  },
+  {
+    "@id": "182",
+    "coding": "182",
+    "name": "LOTUS Evora GT",
+    "location": "Brisbane",
+    "price": "713492",
+    "year": "2000"
+  },
+  {
+    "@id": "183",
+    "coding": "183",
+    "name": "SPYKER C8 Preliator",
+    "location": "Geelong",
+    "price": "712414",
+    "year": "2017"
+  },
+  {
+    "@id": "184",
+    "coding": "184",
+    "name": "CADILLAC XT5",
+    "location": "Cairns",
+    "price": "243694",
+    "year": "2013"
+  },
+  {
+    "@id": "185",
+    "coding": "185",
+    "name": "PERODUA Myvi",
+    "location": "Wollongong",
+    "price": "983247",
+    "year": "2008"
+  },
+  {
+    "@id": "186",
+    "coding": "186",
+    "name": "MAZDA MX-30",
+    "location": "Christmas Island",
+    "price": "752110",
+    "year": "2012"
+  },
+  {
+    "@id": "187",
+    "coding": "187",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Cairns",
+    "price": "675984",
+    "year": "2015"
+  },
+  {
+    "@id": "188",
+    "coding": "188",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Brisbane",
+    "price": "216213",
+    "year": "2018"
+  },
+  {
+    "@id": "189",
+    "coding": "189",
+    "name": "LOTUS Exige 410 Sport",
+    "location": "Caloundra",
+    "price": "704407",
+    "year": "2002"
+  },
+  {
+    "@id": "190",
+    "coding": "190",
+    "name": "BRISTOL Fighter T",
+    "location": "Perth",
+    "price": "347477",
+    "year": "2010"
+  },
+  {
+    "@id": "191",
+    "coding": "191",
+    "name": "HYUNDAI i30 N",
+    "location": "Toowoomba",
+    "price": "532829",
+    "year": "2010"
+  },
+  {
+    "@id": "192",
+    "coding": "192",
+    "name": "RENAULT Talisman",
+    "location": "Sydney",
+    "price": "214918",
+    "year": "2018"
+  },
+  {
+    "@id": "193",
+    "coding": "193",
+    "name": "TVR Chimaera",
+    "location": "Christmas Island",
+    "price": "504232",
+    "year": "2014"
+  },
+  {
+    "@id": "194",
+    "coding": "194",
+    "name": "VOLKSWAGEN ID.3",
+    "location": "Jervis Bay",
+    "price": "78077",
+    "year": "2018"
+  },
+  {
+    "@id": "195",
+    "coding": "195",
+    "name": "GMC Acadia",
+    "location": "Sydney",
+    "price": "999299",
+    "year": "2015"
+  },
+  {
+    "@id": "196",
+    "coding": "196",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Brisbane",
+    "price": "614241",
+    "year": "2008"
+  },
+  {
+    "@id": "197",
+    "coding": "197",
+    "name": "MERCEDES BENZ E-Class",
+    "location": "Perth",
+    "price": "564894",
+    "year": "2012"
+  },
+  {
+    "@id": "198",
+    "coding": "198",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Wollongong",
+    "price": "792205",
+    "year": "2017"
+  },
+  {
+    "@id": "199",
+    "coding": "199",
+    "name": "OPEL Sports Tourer",
+    "location": "Toowoomba",
+    "price": "348065",
+    "year": "2010"
+  },
+  {
+    "@id": "200",
+    "coding": "200",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Newcastle",
+    "price": "862390",
+    "year": "2003"
+  },
+  {
+    "@id": "201",
+    "coding": "201",
+    "name": "MASERATI MC20",
+    "location": "Townsville",
+    "price": "639098",
+    "year": "2016"
+  },
+  {
+    "@id": "202",
+    "coding": "202",
+    "name": "TATA MOTORS Nexon",
+    "location": "Canberra",
+    "price": "350609",
+    "year": "2011"
+  },
+  {
+    "@id": "203",
+    "coding": "203",
+    "name": "DAIHATSU Cuore",
+    "location": "Jervis Bay",
+    "price": "324701",
+    "year": "2002"
+  },
+  {
+    "@id": "204",
+    "coding": "204",
+    "name": "ISUZU D-Max Arctic Trucks AT35",
+    "location": "Hobart",
+    "price": "990302",
+    "year": "2006"
+  },
+  {
+    "@id": "205",
+    "coding": "205",
+    "name": "ROLLS-ROYCE Ghost",
+    "location": "Perth",
+    "price": "399855",
+    "year": "2002"
+  },
+  {
+    "@id": "206",
+    "coding": "206",
+    "name": "SUZUKI Ignis",
+    "location": "Sydney",
+    "price": "25516",
+    "year": "2007"
+  },
+  {
+    "@id": "207",
+    "coding": "207",
+    "name": "ALPINE A108",
+    "location": "Norfolk Island",
+    "price": "64391",
+    "year": "2009"
+  },
+  {
+    "@id": "208",
+    "coding": "208",
+    "name": "FERRARI Portofino M",
+    "location": "Gold Coast",
+    "price": "154477",
+    "year": "2007"
+  },
+  {
+    "@id": "209",
+    "coding": "209",
+    "name": "Pininfarina Battista",
+    "location": "Norfolk Island",
+    "price": "907863",
+    "year": "2009"
+  },
+  {
+    "@id": "210",
+    "coding": "210",
+    "name": "SSANGYONG Korando",
+    "location": "Sydney",
+    "price": "261012",
+    "year": "2012"
+  },
+  {
+    "@id": "211",
+    "coding": "211",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Canberra",
+    "price": "283742",
+    "year": "2017"
+  },
+  {
+    "@id": "212",
+    "coding": "212",
+    "name": "LINCOLN Navigator L",
+    "location": "Newcastle",
+    "price": "628667",
+    "year": "2016"
+  },
+  {
+    "@id": "213",
+    "coding": "213",
+    "name": "HYUNDAI Tucson",
+    "location": "Canberra",
+    "price": "761516",
+    "year": "2020"
+  },
+  {
+    "@id": "214",
+    "coding": "214",
+    "name": "GMC Acadia",
+    "location": "Caloundra",
+    "price": "149793",
+    "year": "2007"
+  },
+  {
+    "@id": "215",
+    "coding": "215",
+    "name": "Mahindra Thar",
+    "location": "Caloundra",
+    "price": "422728",
+    "year": "2013"
+  },
+  {
+    "@id": "216",
+    "coding": "216",
+    "name": "SMART EQ forfour",
+    "location": "Adelaide",
+    "price": "909433",
+    "year": "2015"
+  },
+  {
+    "@id": "217",
+    "coding": "217",
+    "name": "JEEP Gladiator",
+    "location": "Hobart",
+    "price": "294521",
+    "year": "2011"
+  },
+  {
+    "@id": "218",
+    "coding": "218",
+    "name": "GMC Acadia",
+    "location": "Melbourne",
+    "price": "131284",
+    "year": "2012"
+  },
+  {
+    "@id": "219",
+    "coding": "219",
+    "name": "HINDUSTAN RTV",
+    "location": "Norfolk Island",
+    "price": "121738",
+    "year": "2003"
+  },
+  {
+    "@id": "220",
+    "coding": "220",
+    "name": "MCLAREN 620R",
+    "location": "Newcastle",
+    "price": "210574",
+    "year": "2011"
+  },
+  {
+    "@id": "221",
+    "coding": "221",
+    "name": "ZENDER Escape 6",
+    "location": "Cocos Keeling Islands",
+    "price": "456135",
+    "year": "2013"
+  },
+  {
+    "@id": "222",
+    "coding": "222",
+    "name": "MINI John Cooper Works GP",
+    "location": "Christmas Island",
+    "price": "486126",
+    "year": "2004"
+  },
+  {
+    "@id": "223",
+    "coding": "223",
+    "name": "GTA Motor GTA Spano",
+    "location": "Cocos Keeling Islands",
+    "price": "578754",
+    "year": "2001"
+  },
+  {
+    "@id": "224",
+    "coding": "224",
+    "name": "MAYBACH 57 Zeppelin",
+    "location": "Jervis Bay",
+    "price": "981429",
+    "year": "2017"
+  },
+  {
+    "@id": "225",
+    "coding": "225",
+    "name": "LOTUS Evija",
+    "location": "Brisbane",
+    "price": "829024",
+    "year": "2007"
+  },
+  {
+    "@id": "226",
+    "coding": "226",
+    "name": "ZENDER Thirty 7",
+    "location": "Wollongong",
+    "price": "82027",
+    "year": "2002"
+  },
+  {
+    "@id": "227",
+    "coding": "227",
+    "name": "DS AUTOMOBILES DS 3 Crossback",
+    "location": "Canberra",
+    "price": "341632",
+    "year": "2016"
+  },
+  {
+    "@id": "228",
+    "coding": "228",
+    "name": "SSANGYONG Korando",
+    "location": "Hobart",
+    "price": "44022",
+    "year": "2010"
+  },
+  {
+    "@id": "229",
+    "coding": "229",
+    "name": "ZENDER Thirty 7",
+    "location": "Brisbane",
+    "price": "249730",
+    "year": "2019"
+  },
+  {
+    "@id": "230",
+    "coding": "230",
+    "name": "ZENDER Straight 8",
+    "location": "Brisbane",
+    "price": "815987",
+    "year": "2007"
+  },
+  {
+    "@id": "231",
+    "coding": "231",
+    "name": "ALPINE A106",
+    "location": "Toowoomba",
+    "price": "880516",
+    "year": "2011"
+  },
+  {
+    "@id": "232",
+    "coding": "232",
+    "name": "GEELY MK2 (Hatch)",
+    "location": "Caloundra",
+    "price": "524111",
+    "year": "2000"
+  },
+  {
+    "@id": "233",
+    "coding": "233",
+    "name": "LADA Kalina Sedan",
+    "location": "Caloundra",
+    "price": "526764",
+    "year": "2006"
+  },
+  {
+    "@id": "234",
+    "coding": "234",
+    "name": "HONDA CR-V",
+    "location": "Cairns",
+    "price": "427876",
+    "year": "2018"
+  },
+  {
+    "@id": "235",
+    "coding": "235",
+    "name": "INFINITI Q60",
+    "location": "Cocos Keeling Islands",
+    "price": "655350",
+    "year": "2001"
+  },
+  {
+    "@id": "236",
+    "coding": "236",
+    "name": "DATSUN Mi-Do",
+    "location": "Cairns",
+    "price": "521064",
+    "year": "2017"
+  },
+  {
+    "@id": "237",
+    "coding": "237",
+    "name": "Zenvo TS1",
+    "location": "Brisbane",
+    "price": "881313",
+    "year": "2002"
+  },
+  {
+    "@id": "238",
+    "coding": "238",
+    "name": "MITSUBISHI Mirage",
+    "location": "Melbourne",
+    "price": "910399",
+    "year": "2007"
+  },
+  {
+    "@id": "239",
+    "coding": "239",
+    "name": "HINDUSTAN RTV",
+    "location": "Cairns",
+    "price": "943531",
+    "year": "2017"
+  },
+  {
+    "@id": "240",
+    "coding": "240",
+    "name": "LAND ROVER Defender 110",
+    "location": "Melbourne",
+    "price": "591637",
+    "year": "2018"
+  },
+  {
+    "@id": "241",
+    "coding": "241",
+    "name": "SATURN Astra",
+    "location": "Geelong",
+    "price": "435557",
+    "year": "2019"
+  },
+  {
+    "@id": "242",
+    "coding": "242",
+    "name": "KOENIGSEGG Agera RS",
+    "location": "Newcastle",
+    "price": "340408",
+    "year": "2016"
+  },
+  {
+    "@id": "243",
+    "coding": "243",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Cairns",
+    "price": "162656",
+    "year": "2011"
+  },
+  {
+    "@id": "244",
+    "coding": "244",
+    "name": "SAMSUNG SM 5",
+    "location": "Melbourne",
+    "price": "842600",
+    "year": "2007"
+  },
+  {
+    "@id": "245",
+    "coding": "245",
+    "name": "SCION iQ",
+    "location": "Newcastle",
+    "price": "333621",
+    "year": "2015"
+  },
+  {
+    "@id": "246",
+    "coding": "246",
+    "name": "SSANGYONG Tivoli",
+    "location": "Newcastle",
+    "price": "306602",
+    "year": "2006"
+  },
+  {
+    "@id": "247",
+    "coding": "247",
+    "name": "ACURA ILX",
+    "location": "Melbourne",
+    "price": "943403",
+    "year": "2011"
+  },
+  {
+    "@id": "248",
+    "coding": "248",
+    "name": "SUZUKI Ignis",
+    "location": "Newcastle",
+    "price": "997228",
+    "year": "2010"
+  },
+  {
+    "@id": "249",
+    "coding": "249",
+    "name": "INFINITI QX70",
+    "location": "Canberra",
+    "price": "50122",
+    "year": "2018"
+  },
+  {
+    "@id": "250",
+    "coding": "250",
+    "name": "RENAULT Talisman Estate",
+    "location": "Norfolk Island",
+    "price": "718573",
+    "year": "2010"
+  },
+  {
+    "@id": "251",
+    "coding": "251",
+    "name": "SAMSUNG SM 5",
+    "location": "Wollongong",
+    "price": "747515",
+    "year": "2010"
+  },
+  {
+    "@id": "252",
+    "coding": "252",
+    "name": "FORD F-150 Raptor SVT",
+    "location": "Christmas Island",
+    "price": "960676",
+    "year": "2015"
+  },
+  {
+    "@id": "253",
+    "coding": "253",
+    "name": "LOTUS Evora GT",
+    "location": "Hobart",
+    "price": "261352",
+    "year": "2019"
+  },
+  {
+    "@id": "254",
+    "coding": "254",
+    "name": "BMW X7",
+    "location": "Norfolk Island",
+    "price": "312232",
+    "year": "2001"
+  },
+  {
+    "@id": "255",
+    "coding": "255",
+    "name": "ZENDER Thirty 7",
+    "location": "Melbourne",
+    "price": "185918",
+    "year": "2016"
+  },
+  {
+    "@id": "256",
+    "coding": "256",
+    "name": "SSANGYONG Korando",
+    "location": "Norfolk Island",
+    "price": "399204",
+    "year": "2019"
+  },
+  {
+    "@id": "257",
+    "coding": "257",
+    "name": "GENESIS GV80",
+    "location": "Norfolk Island",
+    "price": "894067",
+    "year": "2007"
+  },
+  {
+    "@id": "258",
+    "coding": "258",
+    "name": "Pininfarina Battista",
+    "location": "Norfolk Island",
+    "price": "376604",
+    "year": "2019"
+  },
+  {
+    "@id": "259",
+    "coding": "259",
+    "name": "MCLAREN 620R",
+    "location": "Sydney",
+    "price": "821942",
+    "year": "2001"
+  },
+  {
+    "@id": "260",
+    "coding": "260",
+    "name": "BENTLEY Bentayga",
+    "location": "Gold Coast",
+    "price": "798279",
+    "year": "2012"
+  },
+  {
+    "@id": "261",
+    "coding": "261",
+    "name": "PONTIAC Bonneville",
+    "location": "Sydney",
+    "price": "786895",
+    "year": "2020"
+  },
+  {
+    "@id": "262",
+    "coding": "262",
+    "name": "CHEVROLET SS",
+    "location": "Jervis Bay",
+    "price": "316980",
+    "year": "2012"
+  },
+  {
+    "@id": "263",
+    "coding": "263",
+    "name": "SATURN Outlook",
+    "location": "Geelong",
+    "price": "874664",
+    "year": "2004"
+  },
+  {
+    "@id": "264",
+    "coding": "264",
+    "name": "SAMSUNG SM 7",
+    "location": "Norfolk Island",
+    "price": "594540",
+    "year": "2009"
+  },
+  {
+    "@id": "265",
+    "coding": "265",
+    "name": "NISSAN Sentra",
+    "location": "Sydney",
+    "price": "449368",
+    "year": "2020"
+  },
+  {
+    "@id": "266",
+    "coding": "266",
+    "name": "TESLA MOTORS Model X",
+    "location": "Newcastle",
+    "price": "399445",
+    "year": "2009"
+  },
+  {
+    "@id": "267",
+    "coding": "267",
+    "name": "ISUZU MU-7",
+    "location": "Adelaide",
+    "price": "207369",
+    "year": "2009"
+  },
+  {
+    "@id": "268",
+    "coding": "268",
+    "name": "TVR Griffith",
+    "location": "Christmas Island",
+    "price": "706630",
+    "year": "2003"
+  },
+  {
+    "@id": "269",
+    "coding": "269",
+    "name": "HUMMER H2 SUT",
+    "location": "Norfolk Island",
+    "price": "493561",
+    "year": "2002"
+  },
+  {
+    "@id": "270",
+    "coding": "270",
+    "name": "CHRYSLER Pacifica",
+    "location": "Canberra",
+    "price": "291769",
+    "year": "2011"
+  },
+  {
+    "@id": "271",
+    "coding": "271",
+    "name": "HONDA Jazz",
+    "location": "Cairns",
+    "price": "246130",
+    "year": "2010"
+  },
+  {
+    "@id": "272",
+    "coding": "272",
+    "name": "ROLLS-ROYCE Silver Dawn",
+    "location": "Christmas Island",
+    "price": "169900",
+    "year": "2004"
+  },
+  {
+    "@id": "273",
+    "coding": "273",
+    "name": "BUFORI MK I",
+    "location": "Geelong",
+    "price": "193355",
+    "year": "2008"
+  },
+  {
+    "@id": "274",
+    "coding": "274",
+    "name": "AUDI S5 Cabriolet",
+    "location": "Gold Coast",
+    "price": "825666",
+    "year": "2015"
+  },
+  {
+    "@id": "275",
+    "coding": "275",
+    "name": "MARUSSIA B1",
+    "location": "Cairns",
+    "price": "313497",
+    "year": "2003"
+  },
+  {
+    "@id": "276",
+    "coding": "276",
+    "name": "SATURN Astra",
+    "location": "Canberra",
+    "price": "189977",
+    "year": "2016"
+  },
+  {
+    "@id": "277",
+    "coding": "277",
+    "name": "GMC Acadia",
+    "location": "Gold Coast",
+    "price": "626318",
+    "year": "2012"
+  },
+  {
+    "@id": "278",
+    "coding": "278",
+    "name": "DAEWOO Nubira Hatchback",
+    "location": "Christmas Island",
+    "price": "565421",
+    "year": "2016"
+  },
+  {
+    "@id": "279",
+    "coding": "279",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Cocos Keeling Islands",
+    "price": "772315",
+    "year": "2000"
+  },
+  {
+    "@id": "280",
+    "coding": "280",
+    "name": "MCLAREN Elva",
+    "location": "Brisbane",
+    "price": "280193",
+    "year": "2001"
+  },
+  {
+    "@id": "281",
+    "coding": "281",
+    "name": "SMART EQ fortwo Cabrio",
+    "location": "Norfolk Island",
+    "price": "23193",
+    "year": "2013"
+  },
+  {
+    "@id": "282",
+    "coding": "282",
+    "name": "TATA MOTORS Nexon",
+    "location": "Newcastle",
+    "price": "547883",
+    "year": "2015"
+  },
+  {
+    "@id": "283",
+    "coding": "283",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Newcastle",
+    "price": "604651",
+    "year": "2004"
+  },
+  {
+    "@id": "284",
+    "coding": "284",
+    "name": "SEAT Ateca",
+    "location": "Canberra",
+    "price": "837895",
+    "year": "2007"
+  },
+  {
+    "@id": "285",
+    "coding": "285",
+    "name": "Pininfarina Battista",
+    "location": "Gold Coast",
+    "price": "630022",
+    "year": "2017"
+  },
+  {
+    "@id": "286",
+    "coding": "286",
+    "name": "LINCOLN Navigator L",
+    "location": "Wollongong",
+    "price": "858828",
+    "year": "2019"
+  },
+  {
+    "@id": "287",
+    "coding": "287",
+    "name": "TOYOTA Highlander",
+    "location": "Cairns",
+    "price": "810839",
+    "year": "2008"
+  },
+  {
+    "@id": "288",
+    "coding": "288",
+    "name": "SATURN Aura",
+    "location": "Melbourne",
+    "price": "774608",
+    "year": "2017"
+  },
+  {
+    "@id": "289",
+    "coding": "289",
+    "name": "Zenvo TS1",
+    "location": "Perth",
+    "price": "847864",
+    "year": "2009"
+  },
+  {
+    "@id": "290",
+    "coding": "290",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Melbourne",
+    "price": "430682",
+    "year": "2012"
+  },
+  {
+    "@id": "291",
+    "coding": "291",
+    "name": "LEXUS LS",
+    "location": "Townsville",
+    "price": "263644",
+    "year": "2010"
+  },
+  {
+    "@id": "292",
+    "coding": "292",
+    "name": "PONTIAC Bonneville",
+    "location": "Hobart",
+    "price": "595076",
+    "year": "2019"
+  },
+  {
+    "@id": "293",
+    "coding": "293",
+    "name": "DAIHATSU Sirion",
+    "location": "Hobart",
+    "price": "865150",
+    "year": "2020"
+  },
+  {
+    "@id": "294",
+    "coding": "294",
+    "name": "TESLA MOTORS Model S",
+    "location": "Canberra",
+    "price": "556623",
+    "year": "2005"
+  },
+  {
+    "@id": "295",
+    "coding": "295",
+    "name": "LOTUS Evija",
+    "location": "Newcastle",
+    "price": "352544",
+    "year": "2016"
+  },
+  {
+    "@id": "296",
+    "coding": "296",
+    "name": "KTM X-Bow RR",
+    "location": "Sydney",
+    "price": "530164",
+    "year": "2007"
+  },
+  {
+    "@id": "297",
+    "coding": "297",
+    "name": "SMART EQ forfour",
+    "location": "Cocos Keeling Islands",
+    "price": "497646",
+    "year": "2000"
+  },
+  {
+    "@id": "298",
+    "coding": "298",
+    "name": "TVR Chimaera",
+    "location": "Gold Coast",
+    "price": "736035",
+    "year": "2007"
+  },
+  {
+    "@id": "299",
+    "coding": "299",
+    "name": "MARUTI SUZUKI Ciaz",
+    "location": "Gold Coast",
+    "price": "103129",
+    "year": "2011"
+  },
+  {
+    "@id": "300",
+    "coding": "300",
+    "name": "HONDA Jazz",
+    "location": "Melbourne",
+    "price": "158627",
+    "year": "2019"
+  },
+  {
+    "@id": "301",
+    "coding": "301",
+    "name": "LINCOLN Aviator",
+    "location": "Townsville",
+    "price": "621032",
+    "year": "2018"
+  },
+  {
+    "@id": "302",
+    "coding": "302",
+    "name": "JAGUAR F-Pace",
+    "location": "Norfolk Island",
+    "price": "216346",
+    "year": "2010"
+  },
+  {
+    "@id": "303",
+    "coding": "303",
+    "name": "TOYOTA Highlander",
+    "location": "Canberra",
+    "price": "86610",
+    "year": "2006"
+  },
+  {
+    "@id": "304",
+    "coding": "304",
+    "name": "JAGUAR F-Pace",
+    "location": "Christmas Island",
+    "price": "12754",
+    "year": "2014"
+  },
+  {
+    "@id": "305",
+    "coding": "305",
+    "name": "SANTANA 300 - 350",
+    "location": "Cocos Keeling Islands",
+    "price": "771104",
+    "year": "2014"
+  },
+  {
+    "@id": "306",
+    "coding": "306",
+    "name": "MCLAREN 620R",
+    "location": "Melbourne",
+    "price": "776220",
+    "year": "2013"
+  },
+  {
+    "@id": "307",
+    "coding": "307",
+    "name": "PAGANI Huayra Roadster",
+    "location": "Wollongong",
+    "price": "764461",
+    "year": "2014"
+  },
+  {
+    "@id": "308",
+    "coding": "308",
+    "name": "LADA Priora",
+    "location": "Townsville",
+    "price": "712866",
+    "year": "2005"
+  },
+  {
+    "@id": "309",
+    "coding": "309",
+    "name": "HINDUSTAN RTV",
+    "location": "Norfolk Island",
+    "price": "336585",
+    "year": "2019"
+  },
+  {
+    "@id": "310",
+    "coding": "310",
+    "name": "ALPINE A110S",
+    "location": "Adelaide",
+    "price": "355120",
+    "year": "2010"
+  },
+  {
+    "@id": "311",
+    "coding": "311",
+    "name": "BUICK Regal Sportback",
+    "location": "Townsville",
+    "price": "713156",
+    "year": "2009"
+  },
+  {
+    "@id": "312",
+    "coding": "312",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Gold Coast",
+    "price": "125691",
+    "year": "2006"
+  },
+  {
+    "@id": "313",
+    "coding": "313",
+    "name": "DATSUN GO+",
+    "location": "Canberra",
+    "price": "869565",
+    "year": "2007"
+  },
+  {
+    "@id": "314",
+    "coding": "314",
+    "name": "MERCEDES BENZ E-Class",
+    "location": "Geelong",
+    "price": "794244",
+    "year": "2007"
+  },
+  {
+    "@id": "315",
+    "coding": "315",
+    "name": "SKODA Octavia Scout",
+    "location": "Jervis Bay",
+    "price": "174047",
+    "year": "2015"
+  },
+  {
+    "@id": "316",
+    "coding": "316",
+    "name": "SSANGYONG Korando",
+    "location": "Jervis Bay",
+    "price": "921610",
+    "year": "2019"
+  },
+  {
+    "@id": "317",
+    "coding": "317",
+    "name": "LINCOLN Navigator L",
+    "location": "Gold Coast",
+    "price": "108542",
+    "year": "2006"
+  },
+  {
+    "@id": "318",
+    "coding": "318",
+    "name": "ASTON MARTIN Vantage Roadster",
+    "location": "Cocos Keeling Islands",
+    "price": "483816",
+    "year": "2008"
+  },
+  {
+    "@id": "319",
+    "coding": "319",
+    "name": "MASERATI Quattroporte Trofeo",
+    "location": "Toowoomba",
+    "price": "523345",
+    "year": "2000"
+  },
+  {
+    "@id": "320",
+    "coding": "320",
+    "name": "AUDI S4",
+    "location": "Toowoomba",
+    "price": "315751",
+    "year": "2016"
+  },
+  {
+    "@id": "321",
+    "coding": "321",
+    "name": "MG GS",
+    "location": "Cairns",
+    "price": "979102",
+    "year": "2017"
+  },
+  {
+    "@id": "322",
+    "coding": "322",
+    "name": "ZENDER Straight 8",
+    "location": "Adelaide",
+    "price": "131759",
+    "year": "2005"
+  },
+  {
+    "@id": "323",
+    "coding": "323",
+    "name": "BUICK Regal",
+    "location": "Wollongong",
+    "price": "157214",
+    "year": "2005"
+  },
+  {
+    "@id": "324",
+    "coding": "324",
+    "name": "PROTON Perdana",
+    "location": "Cocos Keeling Islands",
+    "price": "107977",
+    "year": "2013"
+  },
+  {
+    "@id": "325",
+    "coding": "325",
+    "name": "DS AUTOMOBILES DS 5",
+    "location": "Toowoomba",
+    "price": "427189",
+    "year": "2014"
+  },
+  {
+    "@id": "326",
+    "coding": "326",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Sydney",
+    "price": "368723",
+    "year": "2000"
+  },
+  {
+    "@id": "327",
+    "coding": "327",
+    "name": "MERCEDES BENZ B-Class",
+    "location": "Wollongong",
+    "price": "157000",
+    "year": "2004"
+  },
+  {
+    "@id": "328",
+    "coding": "328",
+    "name": "LADA Priora",
+    "location": "Sydney",
+    "price": "886719",
+    "year": "2016"
+  },
+  {
+    "@id": "329",
+    "coding": "329",
+    "name": "HOLDEN Trax",
+    "location": "Perth",
+    "price": "160019",
+    "year": "2005"
+  },
+  {
+    "@id": "330",
+    "coding": "330",
+    "name": "BUGATTI Chiron Super Sport 300+",
+    "location": "Brisbane",
+    "price": "594486",
+    "year": "2019"
+  },
+  {
+    "@id": "331",
+    "coding": "331",
+    "name": "HONDA Odyssey",
+    "location": "Caloundra",
+    "price": "429558",
+    "year": "2009"
+  },
+  {
+    "@id": "332",
+    "coding": "332",
+    "name": "CHEVROLET Traverse",
+    "location": "Cairns",
+    "price": "691683",
+    "year": "2019"
+  },
+  {
+    "@id": "333",
+    "coding": "333",
+    "name": "SANTANA PS 10 Shortline",
+    "location": "Melbourne",
+    "price": "189593",
+    "year": "2019"
+  },
+  {
+    "@id": "334",
+    "coding": "334",
+    "name": "TATA MOTORS Nexon",
+    "location": "Melbourne",
+    "price": "550721",
+    "year": "2001"
+  },
+  {
+    "@id": "335",
+    "coding": "335",
+    "name": "DS AUTOMOBILES DS 5",
+    "location": "Cocos Keeling Islands",
+    "price": "677708",
+    "year": "2019"
+  },
+  {
+    "@id": "336",
+    "coding": "336",
+    "name": "PERODUA Myvi",
+    "location": "Christmas Island",
+    "price": "610433",
+    "year": "2020"
+  },
+  {
+    "@id": "337",
+    "coding": "337",
+    "name": "AUDI SQ5",
+    "location": "Brisbane",
+    "price": "423832",
+    "year": "2009"
+  },
+  {
+    "@id": "338",
+    "coding": "338",
+    "name": "LADA Kalina Sedan",
+    "location": "Norfolk Island",
+    "price": "165130",
+    "year": "2017"
+  },
+  {
+    "@id": "339",
+    "coding": "339",
+    "name": "TATA MOTORS Harrier",
+    "location": "Caloundra",
+    "price": "755804",
+    "year": "2017"
+  },
+  {
+    "@id": "340",
+    "coding": "340",
+    "name": "SMART EQ fortwo",
+    "location": "Canberra",
+    "price": "973827",
+    "year": "2006"
+  },
+  {
+    "@id": "341",
+    "coding": "341",
+    "name": "HOLDEN Trax",
+    "location": "Melbourne",
+    "price": "900337",
+    "year": "2001"
+  },
+  {
+    "@id": "342",
+    "coding": "342",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Caloundra",
+    "price": "141948",
+    "year": "2009"
+  },
+  {
+    "@id": "343",
+    "coding": "343",
+    "name": "Zenvo TS1",
+    "location": "Cairns",
+    "price": "905423",
+    "year": "2009"
+  },
+  {
+    "@id": "344",
+    "coding": "344",
+    "name": "ZENDER Thirty 7",
+    "location": "Hobart",
+    "price": "525330",
+    "year": "2013"
+  },
+  {
+    "@id": "345",
+    "coding": "345",
+    "name": "TESLA MOTORS Roadster",
+    "location": "Sydney",
+    "price": "167749",
+    "year": "2011"
+  },
+  {
+    "@id": "346",
+    "coding": "346",
+    "name": "MINI Countryman",
+    "location": "Toowoomba",
+    "price": "823807",
+    "year": "2003"
+  },
+  {
+    "@id": "347",
+    "coding": "347",
+    "name": "PANOZ Esperante GTLM",
+    "location": "Norfolk Island",
+    "price": "386163",
+    "year": "2019"
+  },
+  {
+    "@id": "348",
+    "coding": "348",
+    "name": "LANCIA Ypsilon",
+    "location": "Christmas Island",
+    "price": "49193",
+    "year": "2017"
+  },
+  {
+    "@id": "349",
+    "coding": "349",
+    "name": "ZENDER Escape 6",
+    "location": "Hobart",
+    "price": "229750",
+    "year": "2014"
+  },
+  {
+    "@id": "350",
+    "coding": "350",
+    "name": "SUBARU Outback",
+    "location": "Jervis Bay",
+    "price": "809974",
+    "year": "2018"
+  },
+  {
+    "@id": "351",
+    "coding": "351",
+    "name": "ARIEL Atom 3",
+    "location": "Perth",
+    "price": "936576",
+    "year": "2003"
+  },
+  {
+    "@id": "352",
+    "coding": "352",
+    "name": "SUZUKI Swift",
+    "location": "Canberra",
+    "price": "62492",
+    "year": "2002"
+  },
+  {
+    "@id": "353",
+    "coding": "353",
+    "name": "MERCURY Grand Marquis",
+    "location": "Melbourne",
+    "price": "726656",
+    "year": "2018"
+  },
+  {
+    "@id": "354",
+    "coding": "354",
+    "name": "PANOZ Esperante GTLM",
+    "location": "Cocos Keeling Islands",
+    "price": "775955",
+    "year": "2020"
+  },
+  {
+    "@id": "355",
+    "coding": "355",
+    "name": "LOTUS Evora GT",
+    "location": "Jervis Bay",
+    "price": "710192",
+    "year": "2000"
+  },
+  {
+    "@id": "356",
+    "coding": "356",
+    "name": "PEUGEOT 508 PSE",
+    "location": "Wollongong",
+    "price": "986046",
+    "year": "2019"
+  },
+  {
+    "@id": "357",
+    "coding": "357",
+    "name": "DAIHATSU Sirion",
+    "location": "Caloundra",
+    "price": "669645",
+    "year": "2007"
+  },
+  {
+    "@id": "358",
+    "coding": "358",
+    "name": "PEUGEOT 508 SW PSE",
+    "location": "Norfolk Island",
+    "price": "119464",
+    "year": "2012"
+  },
+  {
+    "@id": "359",
+    "coding": "359",
+    "name": "MERCURY Milan",
+    "location": "Perth",
+    "price": "961687",
+    "year": "2017"
+  },
+  {
+    "@id": "360",
+    "coding": "360",
+    "name": "TESLA MOTORS Model Y",
+    "location": "Townsville",
+    "price": "349188",
+    "year": "2015"
+  },
+  {
+    "@id": "361",
+    "coding": "361",
+    "name": "ARIEL Atom 500 V8",
+    "location": "Wollongong",
+    "price": "302596",
+    "year": "2005"
+  },
+  {
+    "@id": "362",
+    "coding": "362",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Perth",
+    "price": "787761",
+    "year": "2011"
+  },
+  {
+    "@id": "363",
+    "coding": "363",
+    "name": "Mahindra Verito",
+    "location": "Brisbane",
+    "price": "238147",
+    "year": "2017"
+  },
+  {
+    "@id": "364",
+    "coding": "364",
+    "name": "ARIEL Atom 500 V8",
+    "location": "Adelaide",
+    "price": "393420",
+    "year": "2004"
+  },
+  {
+    "@id": "365",
+    "coding": "365",
+    "name": "Karma Revero GT",
+    "location": "Sydney",
+    "price": "616546",
+    "year": "2010"
+  },
+  {
+    "@id": "366",
+    "coding": "366",
+    "name": "Pininfarina Battista",
+    "location": "Wollongong",
+    "price": "961356",
+    "year": "2009"
+  },
+  {
+    "@id": "367",
+    "coding": "367",
+    "name": "QOROS 5",
+    "location": "Perth",
+    "price": "330466",
+    "year": "2016"
+  },
+  {
+    "@id": "368",
+    "coding": "368",
+    "name": "CATERHAM Seven 620 R",
+    "location": "Melbourne",
+    "price": "829920",
+    "year": "2001"
+  },
+  {
+    "@id": "369",
+    "coding": "369",
+    "name": "SMART EQ fortwo Cabrio",
+    "location": "Townsville",
+    "price": "21757",
+    "year": "2004"
+  },
+  {
+    "@id": "370",
+    "coding": "370",
+    "name": "SANTANA 300 - 350",
+    "location": "Townsville",
+    "price": "869079",
+    "year": "2006"
+  },
+  {
+    "@id": "371",
+    "coding": "371",
+    "name": "BMW 7 Series LCI",
+    "location": "Toowoomba",
+    "price": "719846",
+    "year": "2010"
+  },
+  {
+    "@id": "372",
+    "coding": "372",
+    "name": "HOLDEN Captiva",
+    "location": "Christmas Island",
+    "price": "15921",
+    "year": "2018"
+  },
+  {
+    "@id": "373",
+    "coding": "373",
+    "name": "SCION iM",
+    "location": "Toowoomba",
+    "price": "552420",
+    "year": "2008"
+  },
+  {
+    "@id": "374",
+    "coding": "374",
+    "name": "GTA Motor GTA Spano",
+    "location": "Toowoomba",
+    "price": "439523",
+    "year": "2006"
+  },
+  {
+    "@id": "375",
+    "coding": "375",
+    "name": "DACIA Sandero",
+    "location": "Caloundra",
+    "price": "824426",
+    "year": "2010"
+  },
+  {
+    "@id": "376",
+    "coding": "376",
+    "name": "BUICK Regal Sportback",
+    "location": "Sydney",
+    "price": "94968",
+    "year": "2001"
+  },
+  {
+    "@id": "377",
+    "coding": "377",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Sydney",
+    "price": "338948",
+    "year": "2018"
+  },
+  {
+    "@id": "378",
+    "coding": "378",
+    "name": "Polestar Polestar 1",
+    "location": "Gold Coast",
+    "price": "173847",
+    "year": "2011"
+  },
+  {
+    "@id": "379",
+    "coding": "379",
+    "name": "RENAULT Talisman",
+    "location": "Perth",
+    "price": "641020",
+    "year": "2011"
+  },
+  {
+    "@id": "380",
+    "coding": "380",
+    "name": "CUPRA el-Born",
+    "location": "Jervis Bay",
+    "price": "756020",
+    "year": "2001"
+  },
+  {
+    "@id": "381",
+    "coding": "381",
+    "name": "MAYBACH 57 Zeppelin",
+    "location": "Newcastle",
+    "price": "562914",
+    "year": "2009"
+  },
+  {
+    "@id": "382",
+    "coding": "382",
+    "name": "DAIHATSU Ayla",
+    "location": "Jervis Bay",
+    "price": "784951",
+    "year": "2011"
+  },
+  {
+    "@id": "383",
+    "coding": "383",
+    "name": "JAGUAR F-Pace",
+    "location": "Sydney",
+    "price": "276981",
+    "year": "2011"
+  },
+  {
+    "@id": "384",
+    "coding": "384",
+    "name": "CUPRA el-Born",
+    "location": "Canberra",
+    "price": "916439",
+    "year": "2017"
+  },
+  {
+    "@id": "385",
+    "coding": "385",
+    "name": "RENAULT Talisman Estate",
+    "location": "Wollongong",
+    "price": "659584",
+    "year": "2010"
+  },
+  {
+    "@id": "386",
+    "coding": "386",
+    "name": "LOTUS Evora GT",
+    "location": "Townsville",
+    "price": "118013",
+    "year": "2014"
+  },
+  {
+    "@id": "387",
+    "coding": "387",
+    "name": "OLDSMOBILE Intrigue",
+    "location": "Newcastle",
+    "price": "847175",
+    "year": "2019"
+  },
+  {
+    "@id": "388",
+    "coding": "388",
+    "name": "WIESMANN GT MF5",
+    "location": "Toowoomba",
+    "price": "903839",
+    "year": "2018"
+  },
+  {
+    "@id": "389",
+    "coding": "389",
+    "name": "TVR Griffith",
+    "location": "Jervis Bay",
+    "price": "83083",
+    "year": "2014"
+  },
+  {
+    "@id": "390",
+    "coding": "390",
+    "name": "PANOZ Esperante GTLM",
+    "location": "Adelaide",
+    "price": "717402",
+    "year": "2015"
+  },
+  {
+    "@id": "391",
+    "coding": "391",
+    "name": "DAIHATSU Sirion",
+    "location": "Geelong",
+    "price": "301068",
+    "year": "2014"
+  },
+  {
+    "@id": "392",
+    "coding": "392",
+    "name": "RENAULT Talisman Estate",
+    "location": "Geelong",
+    "price": "681802",
+    "year": "2010"
+  },
+  {
+    "@id": "393",
+    "coding": "393",
+    "name": "LAND ROVER Defender 110",
+    "location": "Gold Coast",
+    "price": "199170",
+    "year": "2002"
+  },
+  {
+    "@id": "394",
+    "coding": "394",
+    "name": "SANTANA PS 10 Pickup",
+    "location": "Norfolk Island",
+    "price": "814948",
+    "year": "2017"
+  },
+  {
+    "@id": "395",
+    "coding": "395",
+    "name": "TVR Griffith",
+    "location": "Adelaide",
+    "price": "514947",
+    "year": "2000"
+  },
+  {
+    "@id": "396",
+    "coding": "396",
+    "name": "OLDSMOBILE Intrigue",
+    "location": "Cairns",
+    "price": "554460",
+    "year": "2001"
+  },
+  {
+    "@id": "397",
+    "coding": "397",
+    "name": "DATSUN Mi-Do",
+    "location": "Brisbane",
+    "price": "860628",
+    "year": "2013"
+  },
+  {
+    "@id": "398",
+    "coding": "398",
+    "name": "KTM X-Bow RR",
+    "location": "Canberra",
+    "price": "914588",
+    "year": "2001"
+  },
+  {
+    "@id": "399",
+    "coding": "399",
+    "name": "GEELY CK",
+    "location": "Caloundra",
+    "price": "404241",
+    "year": "2003"
+  },
+  {
+    "@id": "400",
+    "coding": "400",
+    "name": "DS AUTOMOBILES DS 3 Crossback",
+    "location": "Sydney",
+    "price": "884946",
+    "year": "2007"
+  },
+  {
+    "@id": "401",
+    "coding": "401",
+    "name": "ARIEL Nomad",
+    "location": "Sydney",
+    "price": "80281",
+    "year": "2010"
+  },
+  {
+    "@id": "402",
+    "coding": "402",
+    "name": "KTM X-Bow RR",
+    "location": "Geelong",
+    "price": "728371",
+    "year": "2005"
+  },
+  {
+    "@id": "403",
+    "coding": "403",
+    "name": "MAZDA MX-30",
+    "location": "Hobart",
+    "price": "300964",
+    "year": "2005"
+  },
+  {
+    "@id": "404",
+    "coding": "404",
+    "name": "LAND ROVER Defender 110",
+    "location": "Cairns",
+    "price": "332710",
+    "year": "2008"
+  },
+  {
+    "@id": "405",
+    "coding": "405",
+    "name": "FISKER Karma",
+    "location": "Newcastle",
+    "price": "266620",
+    "year": "2005"
+  },
+  {
+    "@id": "406",
+    "coding": "406",
+    "name": "DS AUTOMOBILES DS 3 Crossback",
+    "location": "Perth",
+    "price": "818838",
+    "year": "2004"
+  },
+  {
+    "@id": "407",
+    "coding": "407",
+    "name": "DATSUN on-Do",
+    "location": "Newcastle",
+    "price": "271284",
+    "year": "2005"
+  },
+  {
+    "@id": "408",
+    "coding": "408",
+    "name": "Polestar Polestar 2",
+    "location": "Cairns",
+    "price": "34710",
+    "year": "2002"
+  },
+  {
+    "@id": "409",
+    "coding": "409",
+    "name": "VOLVO XC90",
+    "location": "Norfolk Island",
+    "price": "727047",
+    "year": "2003"
+  },
+  {
+    "@id": "410",
+    "coding": "410",
+    "name": "LAND ROVER Discovery Sport",
+    "location": "Hobart",
+    "price": "532765",
+    "year": "2009"
+  },
+  {
+    "@id": "411",
+    "coding": "411",
+    "name": "Karma Revero GT",
+    "location": "Melbourne",
+    "price": "788197",
+    "year": "2016"
+  },
+  {
+    "@id": "412",
+    "coding": "412",
+    "name": "ALFA ROMEO Giulia GTA",
+    "location": "Newcastle",
+    "price": "365459",
+    "year": "2007"
+  },
+  {
+    "@id": "413",
+    "coding": "413",
+    "name": "SKODA Octavia Scout",
+    "location": "Perth",
+    "price": "693740",
+    "year": "2007"
+  },
+  {
+    "@id": "414",
+    "coding": "414",
+    "name": "DeLorean DMC-12",
+    "location": "Christmas Island",
+    "price": "641272",
+    "year": "2005"
+  },
+  {
+    "@id": "415",
+    "coding": "415",
+    "name": "LAND ROVER Discovery Sport",
+    "location": "Gold Coast",
+    "price": "314322",
+    "year": "2004"
+  },
+  {
+    "@id": "416",
+    "coding": "416",
+    "name": "INFINITI Q60",
+    "location": "Canberra",
+    "price": "670945",
+    "year": "2016"
+  },
+  {
+    "@id": "417",
+    "coding": "417",
+    "name": "FORD F-150 Super Crew",
+    "location": "Adelaide",
+    "price": "497131",
+    "year": "2020"
+  },
+  {
+    "@id": "418",
+    "coding": "418",
+    "name": "KOENIGSEGG Agera RS",
+    "location": "Christmas Island",
+    "price": "291301",
+    "year": "2006"
+  },
+  {
+    "@id": "419",
+    "coding": "419",
+    "name": "MARUTI SUZUKI Wagon R",
+    "location": "Melbourne",
+    "price": "189820",
+    "year": "2009"
+  },
+  {
+    "@id": "420",
+    "coding": "420",
+    "name": "MAZDA BT-50",
+    "location": "Perth",
+    "price": "491417",
+    "year": "2011"
+  },
+  {
+    "@id": "421",
+    "coding": "421",
+    "name": "SATURN Outlook",
+    "location": "Norfolk Island",
+    "price": "392007",
+    "year": "2019"
+  },
+  {
+    "@id": "422",
+    "coding": "422",
+    "name": "CHEVROLET Sonic",
+    "location": "Cairns",
+    "price": "643466",
+    "year": "2005"
+  },
+  {
+    "@id": "423",
+    "coding": "423",
+    "name": "ARO 24",
+    "location": "Hobart",
+    "price": "490420",
+    "year": "2006"
+  },
+  {
+    "@id": "424",
+    "coding": "424",
+    "name": "RENAULT Talisman Estate",
+    "location": "Norfolk Island",
+    "price": "788042",
+    "year": "2004"
+  },
+  {
+    "@id": "425",
+    "coding": "425",
+    "name": "SSANGYONG Korando",
+    "location": "Toowoomba",
+    "price": "501218",
+    "year": "2011"
+  },
+  {
+    "@id": "426",
+    "coding": "426",
+    "name": "SALEEN S7",
+    "location": "Norfolk Island",
+    "price": "841257",
+    "year": "2011"
+  },
+  {
+    "@id": "427",
+    "coding": "427",
+    "name": "OPEL Mokka-e",
+    "location": "Cairns",
+    "price": "220569",
+    "year": "2001"
+  },
+  {
+    "@id": "428",
+    "coding": "428",
+    "name": "PANOZ Roadster",
+    "location": "Cocos Keeling Islands",
+    "price": "718424",
+    "year": "2018"
+  },
+  {
+    "@id": "429",
+    "coding": "429",
+    "name": "SEAT Leon 5 doors",
+    "location": "Gold Coast",
+    "price": "392014",
+    "year": "2001"
+  },
+  {
+    "@id": "430",
+    "coding": "430",
+    "name": "DACIA Logan",
+    "location": "Hobart",
+    "price": "666627",
+    "year": "2012"
+  },
+  {
+    "@id": "431",
+    "coding": "431",
+    "name": "TVR 350i Convertible",
+    "location": "Caloundra",
+    "price": "356697",
+    "year": "2003"
+  },
+  {
+    "@id": "432",
+    "coding": "432",
+    "name": "NISSAN Rogue",
+    "location": "Jervis Bay",
+    "price": "355989",
+    "year": "2009"
+  },
+  {
+    "@id": "433",
+    "coding": "433",
+    "name": "HONDA Odyssey",
+    "location": "Caloundra",
+    "price": "759991",
+    "year": "2010"
+  },
+  {
+    "@id": "434",
+    "coding": "434",
+    "name": "ROLLS-ROYCE Phantom",
+    "location": "Newcastle",
+    "price": "476934",
+    "year": "2008"
+  },
+  {
+    "@id": "435",
+    "coding": "435",
+    "name": "CADILLAC Escalade",
+    "location": "Sydney",
+    "price": "335598",
+    "year": "2016"
+  },
+  {
+    "@id": "436",
+    "coding": "436",
+    "name": "BENTLEY Bentayga",
+    "location": "Brisbane",
+    "price": "938248",
+    "year": "2019"
+  },
+  {
+    "@id": "437",
+    "coding": "437",
+    "name": "CHRYSLER 300",
+    "location": "Norfolk Island",
+    "price": "785658",
+    "year": "2000"
+  },
+  {
+    "@id": "438",
+    "coding": "438",
+    "name": "MINI Countryman",
+    "location": "Townsville",
+    "price": "898258",
+    "year": "2017"
+  },
+  {
+    "@id": "439",
+    "coding": "439",
+    "name": "CUPRA Formentor",
+    "location": "Adelaide",
+    "price": "362931",
+    "year": "2008"
+  },
+  {
+    "@id": "440",
+    "coding": "440",
+    "name": "SUBARU Legacy",
+    "location": "Christmas Island",
+    "price": "168911",
+    "year": "2001"
+  },
+  {
+    "@id": "441",
+    "coding": "441",
+    "name": "TESLA MOTORS Model Y",
+    "location": "Townsville",
+    "price": "568617",
+    "year": "2006"
+  },
+  {
+    "@id": "442",
+    "coding": "442",
+    "name": "JAGUAR XFR",
+    "location": "Geelong",
+    "price": "790080",
+    "year": "2012"
+  },
+  {
+    "@id": "443",
+    "coding": "443",
+    "name": "OPEL Sports Tourer",
+    "location": "Hobart",
+    "price": "136836",
+    "year": "2017"
+  },
+  {
+    "@id": "444",
+    "coding": "444",
+    "name": "LEXUS LS",
+    "location": "Brisbane",
+    "price": "888882",
+    "year": "2003"
+  },
+  {
+    "@id": "445",
+    "coding": "445",
+    "name": "PROTON Ertiga",
+    "location": "Jervis Bay",
+    "price": "224369",
+    "year": "2008"
+  },
+  {
+    "@id": "446",
+    "coding": "446",
+    "name": "DAIHATSU Cuore",
+    "location": "Newcastle",
+    "price": "906332",
+    "year": "2016"
+  },
+  {
+    "@id": "447",
+    "coding": "447",
+    "name": "TATA MOTORS Nexon",
+    "location": "Cocos Keeling Islands",
+    "price": "421669",
+    "year": "2010"
+  },
+  {
+    "@id": "448",
+    "coding": "448",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Norfolk Island",
+    "price": "941115",
+    "year": "2016"
+  },
+  {
+    "@id": "449",
+    "coding": "449",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Cairns",
+    "price": "98728",
+    "year": "2017"
+  },
+  {
+    "@id": "450",
+    "coding": "450",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Brisbane",
+    "price": "877809",
+    "year": "2010"
+  },
+  {
+    "@id": "451",
+    "coding": "451",
+    "name": "VOLVO XC90",
+    "location": "Norfolk Island",
+    "price": "46847",
+    "year": "2013"
+  },
+  {
+    "@id": "452",
+    "coding": "452",
+    "name": "FIAT 500e",
+    "location": "Geelong",
+    "price": "364335",
+    "year": "2019"
+  },
+  {
+    "@id": "453",
+    "coding": "453",
+    "name": "PAGANI Huayra Roadster",
+    "location": "Toowoomba",
+    "price": "614853",
+    "year": "2015"
+  },
+  {
+    "@id": "454",
+    "coding": "454",
+    "name": "FERRARI Portofino M",
+    "location": "Wollongong",
+    "price": "900958",
+    "year": "2020"
+  },
+  {
+    "@id": "455",
+    "coding": "455",
+    "name": "SUZUKI Swace",
+    "location": "Brisbane",
+    "price": "705828",
+    "year": "2015"
+  },
+  {
+    "@id": "456",
+    "coding": "456",
+    "name": "MARUTI SUZUKI Ciaz",
+    "location": "Sydney",
+    "price": "670635",
+    "year": "2005"
+  },
+  {
+    "@id": "457",
+    "coding": "457",
+    "name": "ACURA MDX A-Spec",
+    "location": "Caloundra",
+    "price": "267905",
+    "year": "2019"
+  },
+  {
+    "@id": "458",
+    "coding": "458",
+    "name": "SMART EQ fortwo Cabrio",
+    "location": "Caloundra",
+    "price": "708021",
+    "year": "2010"
+  },
+  {
+    "@id": "459",
+    "coding": "459",
+    "name": "ALFA ROMEO MiTo",
+    "location": "Newcastle",
+    "price": "250184",
+    "year": "2015"
+  },
+  {
+    "@id": "460",
+    "coding": "460",
+    "name": "PEUGEOT 508 PSE",
+    "location": "Townsville",
+    "price": "661928",
+    "year": "2008"
+  },
+  {
+    "@id": "461",
+    "coding": "461",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Toowoomba",
+    "price": "182313",
+    "year": "2005"
+  },
+  {
+    "@id": "462",
+    "coding": "462",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Geelong",
+    "price": "273555",
+    "year": "2020"
+  },
+  {
+    "@id": "463",
+    "coding": "463",
+    "name": "CADILLAC CT5-V",
+    "location": "Perth",
+    "price": "713811",
+    "year": "2014"
+  },
+  {
+    "@id": "464",
+    "coding": "464",
+    "name": "CADILLAC XT5",
+    "location": "Sydney",
+    "price": "170278",
+    "year": "2009"
+  },
+  {
+    "@id": "465",
+    "coding": "465",
+    "name": "Karma Revero GT",
+    "location": "Hobart",
+    "price": "876660",
+    "year": "2009"
+  },
+  {
+    "@id": "466",
+    "coding": "466",
+    "name": "VAUXHALL Mokka X",
+    "location": "Toowoomba",
+    "price": "772320",
+    "year": "2017"
+  },
+  {
+    "@id": "467",
+    "coding": "467",
+    "name": "Zenvo TSR-S",
+    "location": "Cocos Keeling Islands",
+    "price": "872247",
+    "year": "2013"
+  },
+  {
+    "@id": "468",
+    "coding": "468",
+    "name": "BUFORI V6i",
+    "location": "Christmas Island",
+    "price": "337090",
+    "year": "2014"
+  },
+  {
+    "@id": "469",
+    "coding": "469",
+    "name": "VOLKSWAGEN Passat GTE",
+    "location": "Hobart",
+    "price": "641187",
+    "year": "2020"
+  },
+  {
+    "@id": "470",
+    "coding": "470",
+    "name": "DACIA Sandero",
+    "location": "Adelaide",
+    "price": "343521",
+    "year": "2007"
+  },
+  {
+    "@id": "471",
+    "coding": "471",
+    "name": "PEUGEOT 508 SW PSE",
+    "location": "Perth",
+    "price": "562107",
+    "year": "2015"
+  },
+  {
+    "@id": "472",
+    "coding": "472",
+    "name": "ZENDER Straight 8",
+    "location": "Perth",
+    "price": "926171",
+    "year": "2012"
+  },
+  {
+    "@id": "473",
+    "coding": "473",
+    "name": "KTM X-Bow R",
+    "location": "Christmas Island",
+    "price": "972915",
+    "year": "2007"
+  },
+  {
+    "@id": "474",
+    "coding": "474",
+    "name": "TATA MOTORS Nexon",
+    "location": "Adelaide",
+    "price": "996437",
+    "year": "2007"
+  },
+  {
+    "@id": "475",
+    "coding": "475",
+    "name": "GEELY Emgrand EC718",
+    "location": "Cairns",
+    "price": "425641",
+    "year": "2004"
+  },
+  {
+    "@id": "476",
+    "coding": "476",
+    "name": "MAZDA MX-30",
+    "location": "Gold Coast",
+    "price": "115654",
+    "year": "2012"
+  },
+  {
+    "@id": "477",
+    "coding": "477",
+    "name": "Karma Revero GT",
+    "location": "Norfolk Island",
+    "price": "753380",
+    "year": "2017"
+  },
+  {
+    "@id": "478",
+    "coding": "478",
+    "name": "KOENIGSEGG Jesko",
+    "location": "Gold Coast",
+    "price": "422399",
+    "year": "2012"
+  },
+  {
+    "@id": "479",
+    "coding": "479",
+    "name": "CATERHAM Seven 620 R",
+    "location": "Christmas Island",
+    "price": "545403",
+    "year": "2002"
+  },
+  {
+    "@id": "480",
+    "coding": "480",
+    "name": "HYUNDAI Tucson",
+    "location": "Gold Coast",
+    "price": "233798",
+    "year": "2006"
+  },
+  {
+    "@id": "481",
+    "coding": "481",
+    "name": "SUBARU WRX STI",
+    "location": "Adelaide",
+    "price": "453990",
+    "year": "2000"
+  },
+  {
+    "@id": "482",
+    "coding": "482",
+    "name": "GEELY Emgrand EC718",
+    "location": "Cairns",
+    "price": "888148",
+    "year": "2020"
+  },
+  {
+    "@id": "483",
+    "coding": "483",
+    "name": "SALEEN S7",
+    "location": "Melbourne",
+    "price": "444037",
+    "year": "2016"
+  },
+  {
+    "@id": "484",
+    "coding": "484",
+    "name": "MARUTI SUZUKI Ciaz",
+    "location": "Wollongong",
+    "price": "133646",
+    "year": "2001"
+  },
+  {
+    "@id": "485",
+    "coding": "485",
+    "name": "TATA MOTORS Harrier",
+    "location": "Melbourne",
+    "price": "33995",
+    "year": "2008"
+  },
+  {
+    "@id": "486",
+    "coding": "486",
+    "name": "LANCIA Ypsilon",
+    "location": "Caloundra",
+    "price": "65551",
+    "year": "2015"
+  },
+  {
+    "@id": "487",
+    "coding": "487",
+    "name": "MAZDA MX-30",
+    "location": "Geelong",
+    "price": "944190",
+    "year": "2013"
+  },
+  {
+    "@id": "488",
+    "coding": "488",
+    "name": "MARUTI SUZUKI Wagon R",
+    "location": "Townsville",
+    "price": "441555",
+    "year": "2002"
+  },
+  {
+    "@id": "489",
+    "coding": "489",
+    "name": "GEELY CK",
+    "location": "Toowoomba",
+    "price": "926082",
+    "year": "2002"
+  },
+  {
+    "@id": "490",
+    "coding": "490",
+    "name": "PROTON Perdana",
+    "location": "Jervis Bay",
+    "price": "922695",
+    "year": "2015"
+  },
+  {
+    "@id": "491",
+    "coding": "491",
+    "name": "ISUZU D-Max Arctic Trucks AT35",
+    "location": "Gold Coast",
+    "price": "463525",
+    "year": "2009"
+  },
+  {
+    "@id": "492",
+    "coding": "492",
+    "name": "GENESIS G80",
+    "location": "Cocos Keeling Islands",
+    "price": "394590",
+    "year": "2009"
+  },
+  {
+    "@id": "493",
+    "coding": "493",
+    "name": "SPYKER C8 Double 12 S",
+    "location": "Geelong",
+    "price": "724570",
+    "year": "2010"
+  },
+  {
+    "@id": "494",
+    "coding": "494",
+    "name": "SKODA Octavia Scout",
+    "location": "Perth",
+    "price": "581329",
+    "year": "2010"
+  },
+  {
+    "@id": "495",
+    "coding": "495",
+    "name": "MCLAREN 765LT",
+    "location": "Sydney",
+    "price": "99869",
+    "year": "2007"
+  },
+  {
+    "@id": "496",
+    "coding": "496",
+    "name": "LAMBORGHINI Huracan Evo RWD",
+    "location": "Wollongong",
+    "price": "621788",
+    "year": "2013"
+  },
+  {
+    "@id": "497",
+    "coding": "497",
+    "name": "PEUGEOT 5008",
+    "location": "Jervis Bay",
+    "price": "871246",
+    "year": "2006"
+  },
+  {
+    "@id": "498",
+    "coding": "498",
+    "name": "OPEL Mokka-e",
+    "location": "Norfolk Island",
+    "price": "215702",
+    "year": "2019"
+  },
+  {
+    "@id": "499",
+    "coding": "499",
+    "name": "SCION iA",
+    "location": "Norfolk Island",
+    "price": "181469",
+    "year": "2006"
+  },
+  {
+    "@id": "500",
+    "coding": "500",
+    "name": "SALEEN S7",
+    "location": "Christmas Island",
+    "price": "484291",
+    "year": "2013"
+  },
+  {
+    "@id": "501",
+    "coding": "501",
+    "name": "CITROEN C3",
+    "location": "Geelong",
+    "price": "113800",
+    "year": "2009"
+  },
+  {
+    "@id": "502",
+    "coding": "502",
+    "name": "HUMMER H3 Alpha",
+    "location": "Geelong",
+    "price": "847740",
+    "year": "2010"
+  },
+  {
+    "@id": "503",
+    "coding": "503",
+    "name": "BMW 8-Series Convertible",
+    "location": "Geelong",
+    "price": "657363",
+    "year": "2000"
+  },
+  {
+    "@id": "504",
+    "coding": "504",
+    "name": "SANTANA PS 10 Shortline",
+    "location": "Toowoomba",
+    "price": "369340",
+    "year": "2002"
+  },
+  {
+    "@id": "505",
+    "coding": "505",
+    "name": "MINI John Cooper Works GP",
+    "location": "Christmas Island",
+    "price": "961884",
+    "year": "2008"
+  },
+  {
+    "@id": "506",
+    "coding": "506",
+    "name": "HOLDEN Commodore",
+    "location": "Cocos Keeling Islands",
+    "price": "383604",
+    "year": "2014"
+  },
+  {
+    "@id": "507",
+    "coding": "507",
+    "name": "PANOZ Esperante GTLM",
+    "location": "Perth",
+    "price": "872873",
+    "year": "2010"
+  },
+  {
+    "@id": "508",
+    "coding": "508",
+    "name": "NISSAN Sentra",
+    "location": "Gold Coast",
+    "price": "523141",
+    "year": "2011"
+  },
+  {
+    "@id": "509",
+    "coding": "509",
+    "name": "DeLorean DMC-12",
+    "location": "Gold Coast",
+    "price": "925784",
+    "year": "2002"
+  },
+  {
+    "@id": "510",
+    "coding": "510",
+    "name": "FERRARI F8 Spider",
+    "location": "Cocos Keeling Islands",
+    "price": "306617",
+    "year": "2020"
+  },
+  {
+    "@id": "511",
+    "coding": "511",
+    "name": "KTM X-Bow R",
+    "location": "Hobart",
+    "price": "215216",
+    "year": "2020"
+  },
+  {
+    "@id": "512",
+    "coding": "512",
+    "name": "AUDI SQ5",
+    "location": "Christmas Island",
+    "price": "877596",
+    "year": "2017"
+  },
+  {
+    "@id": "513",
+    "coding": "513",
+    "name": "DODGE Charger SRT Hellcat Widebody",
+    "location": "Townsville",
+    "price": "712718",
+    "year": "2020"
+  },
+  {
+    "@id": "514",
+    "coding": "514",
+    "name": "ALFA ROMEO Giulia GTA",
+    "location": "Christmas Island",
+    "price": "741555",
+    "year": "2004"
+  },
+  {
+    "@id": "515",
+    "coding": "515",
+    "name": "QOROS 3 Hatchbach",
+    "location": "Adelaide",
+    "price": "124229",
+    "year": "2017"
+  },
+  {
+    "@id": "516",
+    "coding": "516",
+    "name": "MERCURY Mariner",
+    "location": "Jervis Bay",
+    "price": "385905",
+    "year": "2018"
+  },
+  {
+    "@id": "517",
+    "coding": "517",
+    "name": "HINDUSTAN Pushpak",
+    "location": "Adelaide",
+    "price": "175743",
+    "year": "2011"
+  },
+  {
+    "@id": "518",
+    "coding": "518",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Jervis Bay",
+    "price": "225297",
+    "year": "2007"
+  },
+  {
+    "@id": "519",
+    "coding": "519",
+    "name": "TESLA MOTORS Model Y",
+    "location": "Sydney",
+    "price": "43211",
+    "year": "2004"
+  },
+  {
+    "@id": "520",
+    "coding": "520",
+    "name": "AUDI S5 Cabriolet",
+    "location": "Townsville",
+    "price": "322028",
+    "year": "2005"
+  },
+  {
+    "@id": "521",
+    "coding": "521",
+    "name": "SANTANA 300 - 350",
+    "location": "Christmas Island",
+    "price": "330281",
+    "year": "2017"
+  },
+  {
+    "@id": "522",
+    "coding": "522",
+    "name": "MINI Clubman",
+    "location": "Melbourne",
+    "price": "678858",
+    "year": "2010"
+  },
+  {
+    "@id": "523",
+    "coding": "523",
+    "name": "LADA Kalina Sedan",
+    "location": "Geelong",
+    "price": "674884",
+    "year": "2005"
+  },
+  {
+    "@id": "524",
+    "coding": "524",
+    "name": "ACURA ILX",
+    "location": "Canberra",
+    "price": "159023",
+    "year": "2003"
+  },
+  {
+    "@id": "525",
+    "coding": "525",
+    "name": "GEELY CK",
+    "location": "Christmas Island",
+    "price": "53263",
+    "year": "2016"
+  },
+  {
+    "@id": "526",
+    "coding": "526",
+    "name": "OLDSMOBILE Intrigue",
+    "location": "Canberra",
+    "price": "255777",
+    "year": "2014"
+  },
+  {
+    "@id": "527",
+    "coding": "527",
+    "name": "HUMMER H2 SUT",
+    "location": "Wollongong",
+    "price": "187469",
+    "year": "2015"
+  },
+  {
+    "@id": "528",
+    "coding": "528",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Norfolk Island",
+    "price": "381242",
+    "year": "2016"
+  },
+  {
+    "@id": "529",
+    "coding": "529",
+    "name": "MG ZS",
+    "location": "Melbourne",
+    "price": "829894",
+    "year": "2020"
+  },
+  {
+    "@id": "530",
+    "coding": "530",
+    "name": "JAGUAR F-Pace",
+    "location": "Brisbane",
+    "price": "301879",
+    "year": "2014"
+  },
+  {
+    "@id": "531",
+    "coding": "531",
+    "name": "PERODUA Alza",
+    "location": "Christmas Island",
+    "price": "695887",
+    "year": "2005"
+  },
+  {
+    "@id": "532",
+    "coding": "532",
+    "name": "MERCEDES BENZ E-Class",
+    "location": "Cocos Keeling Islands",
+    "price": "845401",
+    "year": "2000"
+  },
+  {
+    "@id": "533",
+    "coding": "533",
+    "name": "FERRARI Roma",
+    "location": "Townsville",
+    "price": "243023",
+    "year": "2017"
+  },
+  {
+    "@id": "534",
+    "coding": "534",
+    "name": "KIA Rio",
+    "location": "Gold Coast",
+    "price": "191397",
+    "year": "2010"
+  },
+  {
+    "@id": "535",
+    "coding": "535",
+    "name": "ARIEL Atom 3",
+    "location": "Sydney",
+    "price": "763061",
+    "year": "2002"
+  },
+  {
+    "@id": "536",
+    "coding": "536",
+    "name": "KOENIGSEGG Gemera",
+    "location": "Geelong",
+    "price": "135516",
+    "year": "2010"
+  },
+  {
+    "@id": "537",
+    "coding": "537",
+    "name": "PROTON Iriz",
+    "location": "Gold Coast",
+    "price": "440150",
+    "year": "2016"
+  },
+  {
+    "@id": "538",
+    "coding": "538",
+    "name": "TESLA MOTORS Cybertruck",
+    "location": "Melbourne",
+    "price": "334471",
+    "year": "2003"
+  },
+  {
+    "@id": "539",
+    "coding": "539",
+    "name": "ZENDER Escape 6",
+    "location": "Cocos Keeling Islands",
+    "price": "156354",
+    "year": "2010"
+  },
+  {
+    "@id": "540",
+    "coding": "540",
+    "name": "PAGANI Huayra Roadster BC",
+    "location": "Wollongong",
+    "price": "366705",
+    "year": "2012"
+  },
+  {
+    "@id": "541",
+    "coding": "541",
+    "name": "SANTANA PS 10 Pickup",
+    "location": "Cocos Keeling Islands",
+    "price": "393028",
+    "year": "2020"
+  },
+  {
+    "@id": "542",
+    "coding": "542",
+    "name": "ACURA TLX",
+    "location": "Christmas Island",
+    "price": "981003",
+    "year": "2018"
+  },
+  {
+    "@id": "543",
+    "coding": "543",
+    "name": "SUZUKI Ignis",
+    "location": "Cairns",
+    "price": "524112",
+    "year": "2009"
+  },
+  {
+    "@id": "544",
+    "coding": "544",
+    "name": "LEXUS IS",
+    "location": "Cocos Keeling Islands",
+    "price": "112854",
+    "year": "2012"
+  },
+  {
+    "@id": "545",
+    "coding": "545",
+    "name": "HYUNDAI Elantra N Line",
+    "location": "Adelaide",
+    "price": "164899",
+    "year": "2006"
+  },
+  {
+    "@id": "546",
+    "coding": "546",
+    "name": "HYUNDAI Elantra N Line",
+    "location": "Caloundra",
+    "price": "285888",
+    "year": "2015"
+  },
+  {
+    "@id": "547",
+    "coding": "547",
+    "name": "MASERATI MC20",
+    "location": "Townsville",
+    "price": "507325",
+    "year": "2019"
+  },
+  {
+    "@id": "548",
+    "coding": "548",
+    "name": "Karma Revero GTS",
+    "location": "Christmas Island",
+    "price": "703160",
+    "year": "2005"
+  },
+  {
+    "@id": "549",
+    "coding": "549",
+    "name": "GTA Motor GTA Spano",
+    "location": "Townsville",
+    "price": "850340",
+    "year": "2008"
+  },
+  {
+    "@id": "550",
+    "coding": "550",
+    "name": "LAMBORGHINI Sian Roadster",
+    "location": "Melbourne",
+    "price": "50613",
+    "year": "2014"
+  },
+  {
+    "@id": "551",
+    "coding": "551",
+    "name": "TESLA MOTORS Model S",
+    "location": "Perth",
+    "price": "631412",
+    "year": "2005"
+  },
+  {
+    "@id": "552",
+    "coding": "552",
+    "name": "FIAT Freemont Cross",
+    "location": "Perth",
+    "price": "642526",
+    "year": "2005"
+  },
+  {
+    "@id": "553",
+    "coding": "553",
+    "name": "DONKERVOORT D8",
+    "location": "Sydney",
+    "price": "682725",
+    "year": "2004"
+  },
+  {
+    "@id": "554",
+    "coding": "554",
+    "name": "AUDI S5 Cabriolet",
+    "location": "Norfolk Island",
+    "price": "826214",
+    "year": "2001"
+  },
+  {
+    "@id": "555",
+    "coding": "555",
+    "name": "ALPINE A110S",
+    "location": "Hobart",
+    "price": "653116",
+    "year": "2019"
+  },
+  {
+    "@id": "556",
+    "coding": "556",
+    "name": "GMC Acadia",
+    "location": "Jervis Bay",
+    "price": "430840",
+    "year": "2018"
+  },
+  {
+    "@id": "557",
+    "coding": "557",
+    "name": "MERCURY Grand Marquis",
+    "location": "Perth",
+    "price": "674311",
+    "year": "2015"
+  },
+  {
+    "@id": "558",
+    "coding": "558",
+    "name": "GMC Sierra Denali",
+    "location": "Brisbane",
+    "price": "732602",
+    "year": "2005"
+  },
+  {
+    "@id": "559",
+    "coding": "559",
+    "name": "SATURN Astra",
+    "location": "Brisbane",
+    "price": "747520",
+    "year": "2002"
+  },
+  {
+    "@id": "560",
+    "coding": "560",
+    "name": "MARUTI SUZUKI Wagon R",
+    "location": "Norfolk Island",
+    "price": "456110",
+    "year": "2017"
+  },
+  {
+    "@id": "561",
+    "coding": "561",
+    "name": "INFINITI EX37",
+    "location": "Canberra",
+    "price": "483933",
+    "year": "2005"
+  },
+  {
+    "@id": "562",
+    "coding": "562",
+    "name": "CUPRA el-Born",
+    "location": "Melbourne",
+    "price": "469271",
+    "year": "2006"
+  },
+  {
+    "@id": "563",
+    "coding": "563",
+    "name": "DACIA Logan",
+    "location": "Canberra",
+    "price": "100181",
+    "year": "2015"
+  },
+  {
+    "@id": "564",
+    "coding": "564",
+    "name": "CITROEN AMI",
+    "location": "Townsville",
+    "price": "376468",
+    "year": "2013"
+  },
+  {
+    "@id": "565",
+    "coding": "565",
+    "name": "Pininfarina Battista",
+    "location": "Brisbane",
+    "price": "847320",
+    "year": "2007"
+  },
+  {
+    "@id": "566",
+    "coding": "566",
+    "name": "JEEP Renegade",
+    "location": "Sydney",
+    "price": "162353",
+    "year": "2003"
+  },
+  {
+    "@id": "567",
+    "coding": "567",
+    "name": "TOYOTA Avensis Wagon",
+    "location": "Newcastle",
+    "price": "329376",
+    "year": "2019"
+  },
+  {
+    "@id": "568",
+    "coding": "568",
+    "name": "HINDUSTAN Ambassador",
+    "location": "Townsville",
+    "price": "486045",
+    "year": "2006"
+  },
+  {
+    "@id": "569",
+    "coding": "569",
+    "name": "CHRYSLER 300",
+    "location": "Geelong",
+    "price": "195029",
+    "year": "2017"
+  },
+  {
+    "@id": "570",
+    "coding": "570",
+    "name": "SALEEN S7",
+    "location": "Geelong",
+    "price": "423052",
+    "year": "2002"
+  },
+  {
+    "@id": "571",
+    "coding": "571",
+    "name": "VOLVO V90",
+    "location": "Townsville",
+    "price": "373470",
+    "year": "2004"
+  },
+  {
+    "@id": "572",
+    "coding": "572",
+    "name": "ALPINE A106",
+    "location": "Cairns",
+    "price": "609708",
+    "year": "2000"
+  },
+  {
+    "@id": "573",
+    "coding": "573",
+    "name": "AUDI S4",
+    "location": "Newcastle",
+    "price": "802998",
+    "year": "2008"
+  },
+  {
+    "@id": "574",
+    "coding": "574",
+    "name": "BRISTOL Series 6",
+    "location": "Adelaide",
+    "price": "192441",
+    "year": "2003"
+  },
+  {
+    "@id": "575",
+    "coding": "575",
+    "name": "ISUZU MU-7",
+    "location": "Perth",
+    "price": "168402",
+    "year": "2000"
+  },
+  {
+    "@id": "576",
+    "coding": "576",
+    "name": "BRISTOL Fighter T",
+    "location": "Caloundra",
+    "price": "981670",
+    "year": "2012"
+  },
+  {
+    "@id": "577",
+    "coding": "577",
+    "name": "INFINITI QX70",
+    "location": "Adelaide",
+    "price": "220705",
+    "year": "2003"
+  },
+  {
+    "@id": "578",
+    "coding": "578",
+    "name": "BUICK Encore GX",
+    "location": "Canberra",
+    "price": "777631",
+    "year": "2018"
+  },
+  {
+    "@id": "579",
+    "coding": "579",
+    "name": "SANTANA PS 10 Pickup",
+    "location": "Christmas Island",
+    "price": "740285",
+    "year": "2018"
+  },
+  {
+    "@id": "580",
+    "coding": "580",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Townsville",
+    "price": "652959",
+    "year": "2003"
+  },
+  {
+    "@id": "581",
+    "coding": "581",
+    "name": "PROTON Iriz",
+    "location": "Hobart",
+    "price": "151965",
+    "year": "2013"
+  },
+  {
+    "@id": "582",
+    "coding": "582",
+    "name": "MAZDA 2",
+    "location": "Canberra",
+    "price": "734297",
+    "year": "2015"
+  },
+  {
+    "@id": "583",
+    "coding": "583",
+    "name": "MASERATI Quattroporte Trofeo",
+    "location": "Brisbane",
+    "price": "218118",
+    "year": "2001"
+  },
+  {
+    "@id": "584",
+    "coding": "584",
+    "name": "CHEVROLET Traverse",
+    "location": "Gold Coast",
+    "price": "852767",
+    "year": "2017"
+  },
+  {
+    "@id": "585",
+    "coding": "585",
+    "name": "SMART EQ fortwo",
+    "location": "Newcastle",
+    "price": "613320",
+    "year": "2000"
+  },
+  {
+    "@id": "586",
+    "coding": "586",
+    "name": "ACURA TLX",
+    "location": "Brisbane",
+    "price": "900586",
+    "year": "2019"
+  },
+  {
+    "@id": "587",
+    "coding": "587",
+    "name": "CATERHAM Super Seven 1600",
+    "location": "Townsville",
+    "price": "121633",
+    "year": "2020"
+  },
+  {
+    "@id": "588",
+    "coding": "588",
+    "name": "PONTIAC Bonneville",
+    "location": "Hobart",
+    "price": "928651",
+    "year": "2000"
+  },
+  {
+    "@id": "589",
+    "coding": "589",
+    "name": "DATSUN Mi-Do",
+    "location": "Perth",
+    "price": "655063",
+    "year": "2019"
+  },
+  {
+    "@id": "590",
+    "coding": "590",
+    "name": "MASERATI MC20",
+    "location": "Canberra",
+    "price": "277377",
+    "year": "2008"
+  },
+  {
+    "@id": "591",
+    "coding": "591",
+    "name": "MINI Clubman",
+    "location": "Wollongong",
+    "price": "639239",
+    "year": "2012"
+  },
+  {
+    "@id": "592",
+    "coding": "592",
+    "name": "JAGUAR XFR",
+    "location": "Canberra",
+    "price": "230613",
+    "year": "2005"
+  },
+  {
+    "@id": "593",
+    "coding": "593",
+    "name": "BUGATTI Chiron Super Sport 300+",
+    "location": "Perth",
+    "price": "199877",
+    "year": "2015"
+  },
+  {
+    "@id": "594",
+    "coding": "594",
+    "name": "PORSCHE Panamera 4S Sport Turismo",
+    "location": "Cocos Keeling Islands",
+    "price": "79920",
+    "year": "2010"
+  },
+  {
+    "@id": "595",
+    "coding": "595",
+    "name": "DeLorean DMC-12",
+    "location": "Hobart",
+    "price": "241093",
+    "year": "2001"
+  },
+  {
+    "@id": "596",
+    "coding": "596",
+    "name": "INFINITI EX37",
+    "location": "Wollongong",
+    "price": "494041",
+    "year": "2015"
+  },
+  {
+    "@id": "597",
+    "coding": "597",
+    "name": "ASTON MARTIN DB11",
+    "location": "Hobart",
+    "price": "524085",
+    "year": "2007"
+  },
+  {
+    "@id": "598",
+    "coding": "598",
+    "name": "CADILLAC Escalade",
+    "location": "Melbourne",
+    "price": "615837",
+    "year": "2015"
+  },
+  {
+    "@id": "599",
+    "coding": "599",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Norfolk Island",
+    "price": "122289",
+    "year": "2008"
+  },
+  {
+    "@id": "600",
+    "coding": "600",
+    "name": "FIAT Doblo",
+    "location": "Toowoomba",
+    "price": "306521",
+    "year": "2012"
+  },
+  {
+    "@id": "601",
+    "coding": "601",
+    "name": "HOLDEN Trax",
+    "location": "Melbourne",
+    "price": "906519",
+    "year": "2001"
+  },
+  {
+    "@id": "602",
+    "coding": "602",
+    "name": "ALFA ROMEO Giulia GTA",
+    "location": "Brisbane",
+    "price": "394484",
+    "year": "2010"
+  },
+  {
+    "@id": "603",
+    "coding": "603",
+    "name": "BUICK Regal Sportback",
+    "location": "Jervis Bay",
+    "price": "111164",
+    "year": "2016"
+  },
+  {
+    "@id": "604",
+    "coding": "604",
+    "name": "LINCOLN Corsair",
+    "location": "Perth",
+    "price": "963510",
+    "year": "2018"
+  },
+  {
+    "@id": "605",
+    "coding": "605",
+    "name": "CATERHAM Super Seven 1600",
+    "location": "Melbourne",
+    "price": "850011",
+    "year": "2013"
+  },
+  {
+    "@id": "606",
+    "coding": "606",
+    "name": "TESLA MOTORS Cybertruck",
+    "location": "Newcastle",
+    "price": "932697",
+    "year": "2008"
+  },
+  {
+    "@id": "607",
+    "coding": "607",
+    "name": "MINI John Cooper Works GP",
+    "location": "Norfolk Island",
+    "price": "397712",
+    "year": "2012"
+  },
+  {
+    "@id": "608",
+    "coding": "608",
+    "name": "SUBARU WRX STI",
+    "location": "Norfolk Island",
+    "price": "447883",
+    "year": "2016"
+  },
+  {
+    "@id": "609",
+    "coding": "609",
+    "name": "OPEL Sports Tourer",
+    "location": "Norfolk Island",
+    "price": "450496",
+    "year": "2018"
+  },
+  {
+    "@id": "610",
+    "coding": "610",
+    "name": "DAIHATSU Ayla",
+    "location": "Jervis Bay",
+    "price": "921886",
+    "year": "2017"
+  },
+  {
+    "@id": "611",
+    "coding": "611",
+    "name": "BMW 7 Series LCI",
+    "location": "Wollongong",
+    "price": "667130",
+    "year": "2014"
+  },
+  {
+    "@id": "612",
+    "coding": "612",
+    "name": "LEXUS LC 500 Convertible",
+    "location": "Brisbane",
+    "price": "778348",
+    "year": "2007"
+  },
+  {
+    "@id": "613",
+    "coding": "613",
+    "name": "VOLKSWAGEN ID.3",
+    "location": "Hobart",
+    "price": "398735",
+    "year": "2009"
+  },
+  {
+    "@id": "614",
+    "coding": "614",
+    "name": "KIA Rio",
+    "location": "Hobart",
+    "price": "51513",
+    "year": "2006"
+  },
+  {
+    "@id": "615",
+    "coding": "615",
+    "name": "SUBARU WRX STI",
+    "location": "Wollongong",
+    "price": "103469",
+    "year": "2009"
+  },
+  {
+    "@id": "616",
+    "coding": "616",
+    "name": "MARUTI SUZUKI Ciaz",
+    "location": "Sydney",
+    "price": "511719",
+    "year": "2016"
+  },
+  {
+    "@id": "617",
+    "coding": "617",
+    "name": "MERCURY Mariner",
+    "location": "Cocos Keeling Islands",
+    "price": "129656",
+    "year": "2017"
+  },
+  {
+    "@id": "618",
+    "coding": "618",
+    "name": "SMART EQ fortwo",
+    "location": "Cairns",
+    "price": "113923",
+    "year": "2014"
+  },
+  {
+    "@id": "619",
+    "coding": "619",
+    "name": "Zenvo TS1",
+    "location": "Norfolk Island",
+    "price": "738411",
+    "year": "2009"
+  },
+  {
+    "@id": "620",
+    "coding": "620",
+    "name": "PEUGEOT 5008",
+    "location": "Perth",
+    "price": "614063",
+    "year": "2009"
+  },
+  {
+    "@id": "621",
+    "coding": "621",
+    "name": "DR MOTOR dr2",
+    "location": "Gold Coast",
+    "price": "554307",
+    "year": "2010"
+  },
+  {
+    "@id": "622",
+    "coding": "622",
+    "name": "PAGANI Imola",
+    "location": "Geelong",
+    "price": "915552",
+    "year": "2007"
+  },
+  {
+    "@id": "623",
+    "coding": "623",
+    "name": "SAMSUNG SM 7",
+    "location": "Canberra",
+    "price": "780154",
+    "year": "2001"
+  },
+  {
+    "@id": "624",
+    "coding": "624",
+    "name": "JAGUAR F-Type Convertible",
+    "location": "Christmas Island",
+    "price": "435717",
+    "year": "2014"
+  },
+  {
+    "@id": "625",
+    "coding": "625",
+    "name": "SAMSUNG SM 5",
+    "location": "Cairns",
+    "price": "979430",
+    "year": "2019"
+  },
+  {
+    "@id": "626",
+    "coding": "626",
+    "name": "LAND ROVER Defender 90",
+    "location": "Hobart",
+    "price": "399495",
+    "year": "2005"
+  },
+  {
+    "@id": "627",
+    "coding": "627",
+    "name": "DODGE Durango",
+    "location": "Sydney",
+    "price": "197424",
+    "year": "2010"
+  },
+  {
+    "@id": "628",
+    "coding": "628",
+    "name": "HONDA Odyssey",
+    "location": "Melbourne",
+    "price": "125165",
+    "year": "2020"
+  },
+  {
+    "@id": "629",
+    "coding": "629",
+    "name": "Polestar Polestar 2",
+    "location": "Townsville",
+    "price": "609655",
+    "year": "2002"
+  },
+  {
+    "@id": "630",
+    "coding": "630",
+    "name": "DAEWOO Matiz",
+    "location": "Newcastle",
+    "price": "464452",
+    "year": "2002"
+  },
+  {
+    "@id": "631",
+    "coding": "631",
+    "name": "PONTIAC Bonneville",
+    "location": "Norfolk Island",
+    "price": "243597",
+    "year": "2012"
+  },
+  {
+    "@id": "632",
+    "coding": "632",
+    "name": "JAGUAR XFR",
+    "location": "Toowoomba",
+    "price": "76785",
+    "year": "2002"
+  },
+  {
+    "@id": "633",
+    "coding": "633",
+    "name": "TVR Chimaera",
+    "location": "Gold Coast",
+    "price": "177304",
+    "year": "2002"
+  },
+  {
+    "@id": "634",
+    "coding": "634",
+    "name": "MARUTI SUZUKI Ciaz",
+    "location": "Wollongong",
+    "price": "165025",
+    "year": "2018"
+  },
+  {
+    "@id": "635",
+    "coding": "635",
+    "name": "MINI John Cooper Works GP",
+    "location": "Newcastle",
+    "price": "385941",
+    "year": "2013"
+  },
+  {
+    "@id": "636",
+    "coding": "636",
+    "name": "KTM X-Bow R",
+    "location": "Caloundra",
+    "price": "877466",
+    "year": "2016"
+  },
+  {
+    "@id": "637",
+    "coding": "637",
+    "name": "KOENIGSEGG Jesko",
+    "location": "Cocos Keeling Islands",
+    "price": "234822",
+    "year": "2000"
+  },
+  {
+    "@id": "638",
+    "coding": "638",
+    "name": "VAUXHALL Astra Sports Tourer",
+    "location": "Cocos Keeling Islands",
+    "price": "548401",
+    "year": "2020"
+  },
+  {
+    "@id": "639",
+    "coding": "639",
+    "name": "CHRYSLER 300",
+    "location": "Cocos Keeling Islands",
+    "price": "64975",
+    "year": "2007"
+  },
+  {
+    "@id": "640",
+    "coding": "640",
+    "name": "LOTUS Evija",
+    "location": "Adelaide",
+    "price": "287088",
+    "year": "2019"
+  },
+  {
+    "@id": "641",
+    "coding": "641",
+    "name": "BMW 7 Series LCI",
+    "location": "Brisbane",
+    "price": "564813",
+    "year": "2007"
+  },
+  {
+    "@id": "642",
+    "coding": "642",
+    "name": "PERODUA Alza",
+    "location": "Jervis Bay",
+    "price": "832383",
+    "year": "2017"
+  },
+  {
+    "@id": "643",
+    "coding": "643",
+    "name": "SUZUKI Ignis",
+    "location": "Geelong",
+    "price": "828945",
+    "year": "2020"
+  },
+  {
+    "@id": "644",
+    "coding": "644",
+    "name": "DATSUN Mi-Do",
+    "location": "Geelong",
+    "price": "617873",
+    "year": "2013"
+  },
+  {
+    "@id": "645",
+    "coding": "645",
+    "name": "SEAT Leon Sportstourer",
+    "location": "Christmas Island",
+    "price": "212701",
+    "year": "2011"
+  },
+  {
+    "@id": "646",
+    "coding": "646",
+    "name": "TATA MOTORS Altroz",
+    "location": "Caloundra",
+    "price": "279802",
+    "year": "2009"
+  },
+  {
+    "@id": "647",
+    "coding": "647",
+    "name": "ASTON MARTIN DBX",
+    "location": "Gold Coast",
+    "price": "428415",
+    "year": "2019"
+  },
+  {
+    "@id": "648",
+    "coding": "648",
+    "name": "CATERHAM Superlight",
+    "location": "Gold Coast",
+    "price": "277598",
+    "year": "2020"
+  },
+  {
+    "@id": "649",
+    "coding": "649",
+    "name": "BRISTOL Fighter T",
+    "location": "Townsville",
+    "price": "617014",
+    "year": "2011"
+  },
+  {
+    "@id": "650",
+    "coding": "650",
+    "name": "INFINITI EX37",
+    "location": "Hobart",
+    "price": "324297",
+    "year": "2003"
+  },
+  {
+    "@id": "651",
+    "coding": "651",
+    "name": "Zenvo ST1",
+    "location": "Newcastle",
+    "price": "155984",
+    "year": "2004"
+  },
+  {
+    "@id": "652",
+    "coding": "652",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Toowoomba",
+    "price": "661684",
+    "year": "2000"
+  },
+  {
+    "@id": "653",
+    "coding": "653",
+    "name": "MAZDA 2",
+    "location": "Geelong",
+    "price": "452265",
+    "year": "2008"
+  },
+  {
+    "@id": "654",
+    "coding": "654",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Adelaide",
+    "price": "512445",
+    "year": "2016"
+  },
+  {
+    "@id": "655",
+    "coding": "655",
+    "name": "MERCURY Grand Marquis",
+    "location": "Jervis Bay",
+    "price": "186106",
+    "year": "2005"
+  },
+  {
+    "@id": "656",
+    "coding": "656",
+    "name": "SATURN Aura",
+    "location": "Christmas Island",
+    "price": "179138",
+    "year": "2003"
+  },
+  {
+    "@id": "657",
+    "coding": "657",
+    "name": "GTA Motor GTA Spano",
+    "location": "Brisbane",
+    "price": "499475",
+    "year": "2004"
+  },
+  {
+    "@id": "658",
+    "coding": "658",
+    "name": "KOENIGSEGG Gemera",
+    "location": "Wollongong",
+    "price": "637283",
+    "year": "2003"
+  },
+  {
+    "@id": "659",
+    "coding": "659",
+    "name": "ASTON MARTIN DB11",
+    "location": "Adelaide",
+    "price": "240038",
+    "year": "2002"
+  },
+  {
+    "@id": "660",
+    "coding": "660",
+    "name": "JAGUAR F-Type Convertible",
+    "location": "Sydney",
+    "price": "657383",
+    "year": "2010"
+  },
+  {
+    "@id": "661",
+    "coding": "661",
+    "name": "DS AUTOMOBILES DS 3 Crossback",
+    "location": "Sydney",
+    "price": "229295",
+    "year": "2000"
+  },
+  {
+    "@id": "662",
+    "coding": "662",
+    "name": "ZENDER Thirty 7",
+    "location": "Toowoomba",
+    "price": "648176",
+    "year": "2011"
+  },
+  {
+    "@id": "663",
+    "coding": "663",
+    "name": "CITROEN AMI",
+    "location": "Toowoomba",
+    "price": "130903",
+    "year": "2011"
+  },
+  {
+    "@id": "664",
+    "coding": "664",
+    "name": "DAIHATSU Cuore",
+    "location": "Hobart",
+    "price": "880928",
+    "year": "2003"
+  },
+  {
+    "@id": "665",
+    "coding": "665",
+    "name": "OPEL Insignia Grand Sport",
+    "location": "Toowoomba",
+    "price": "452755",
+    "year": "2014"
+  },
+  {
+    "@id": "666",
+    "coding": "666",
+    "name": "DR MOTOR dr2",
+    "location": "Jervis Bay",
+    "price": "812061",
+    "year": "2008"
+  },
+  {
+    "@id": "667",
+    "coding": "667",
+    "name": "HYUNDAI Tucson",
+    "location": "Norfolk Island",
+    "price": "683867",
+    "year": "2004"
+  },
+  {
+    "@id": "668",
+    "coding": "668",
+    "name": "MERCURY Mariner",
+    "location": "Gold Coast",
+    "price": "528933",
+    "year": "2005"
+  },
+  {
+    "@id": "669",
+    "coding": "669",
+    "name": "MCLAREN 765LT",
+    "location": "Norfolk Island",
+    "price": "654622",
+    "year": "2008"
+  },
+  {
+    "@id": "670",
+    "coding": "670",
+    "name": "MORGAN Plus Four",
+    "location": "Brisbane",
+    "price": "641064",
+    "year": "2020"
+  },
+  {
+    "@id": "671",
+    "coding": "671",
+    "name": "FORD C-Max",
+    "location": "Gold Coast",
+    "price": "576436",
+    "year": "2018"
+  },
+  {
+    "@id": "672",
+    "coding": "672",
+    "name": "DAEWOO Nubira Hatchback",
+    "location": "Cocos Keeling Islands",
+    "price": "156623",
+    "year": "2013"
+  },
+  {
+    "@id": "673",
+    "coding": "673",
+    "name": "RENAULT Talisman Estate",
+    "location": "Norfolk Island",
+    "price": "414385",
+    "year": "2015"
+  },
+  {
+    "@id": "674",
+    "coding": "674",
+    "name": "SUZUKI Swift",
+    "location": "Gold Coast",
+    "price": "51471",
+    "year": "2017"
+  },
+  {
+    "@id": "675",
+    "coding": "675",
+    "name": "OPEL Sports Tourer",
+    "location": "Geelong",
+    "price": "483871",
+    "year": "2014"
+  },
+  {
+    "@id": "676",
+    "coding": "676",
+    "name": "MAZDA 2",
+    "location": "Cocos Keeling Islands",
+    "price": "685575",
+    "year": "2016"
+  },
+  {
+    "@id": "677",
+    "coding": "677",
+    "name": "PEUGEOT 508 PSE",
+    "location": "Cairns",
+    "price": "459850",
+    "year": "2000"
+  },
+  {
+    "@id": "678",
+    "coding": "678",
+    "name": "CHEVROLET Sonic",
+    "location": "Adelaide",
+    "price": "279079",
+    "year": "2002"
+  },
+  {
+    "@id": "679",
+    "coding": "679",
+    "name": "DS AUTOMOBILES DS 9",
+    "location": "Geelong",
+    "price": "174716",
+    "year": "2008"
+  },
+  {
+    "@id": "680",
+    "coding": "680",
+    "name": "LADA Priora",
+    "location": "Toowoomba",
+    "price": "917870",
+    "year": "2006"
+  },
+  {
+    "@id": "681",
+    "coding": "681",
+    "name": "KOENIGSEGG Jesko",
+    "location": "Adelaide",
+    "price": "878354",
+    "year": "2019"
+  },
+  {
+    "@id": "682",
+    "coding": "682",
+    "name": "ROLLS-ROYCE Phantom",
+    "location": "Cocos Keeling Islands",
+    "price": "95901",
+    "year": "2005"
+  },
+  {
+    "@id": "683",
+    "coding": "683",
+    "name": "PERODUA Alza",
+    "location": "Toowoomba",
+    "price": "931450",
+    "year": "2015"
+  },
+  {
+    "@id": "684",
+    "coding": "684",
+    "name": "Zenvo TS1",
+    "location": "Brisbane",
+    "price": "499117",
+    "year": "2018"
+  },
+  {
+    "@id": "685",
+    "coding": "685",
+    "name": "SPYKER C8 Double 12 S",
+    "location": "Norfolk Island",
+    "price": "940595",
+    "year": "2008"
+  },
+  {
+    "@id": "686",
+    "coding": "686",
+    "name": "MERCEDES BENZ EQC",
+    "location": "Wollongong",
+    "price": "693254",
+    "year": "2011"
+  },
+  {
+    "@id": "687",
+    "coding": "687",
+    "name": "PANOZ Avezzano",
+    "location": "Brisbane",
+    "price": "921246",
+    "year": "2015"
+  },
+  {
+    "@id": "688",
+    "coding": "688",
+    "name": "BENTLEY Mulliner Bacalar",
+    "location": "Sydney",
+    "price": "905341",
+    "year": "2002"
+  },
+  {
+    "@id": "689",
+    "coding": "689",
+    "name": "KOENIGSEGG Agera RS",
+    "location": "Jervis Bay",
+    "price": "42085",
+    "year": "2016"
+  },
+  {
+    "@id": "690",
+    "coding": "690",
+    "name": "GENESIS GV80",
+    "location": "Cocos Keeling Islands",
+    "price": "916199",
+    "year": "2000"
+  },
+  {
+    "@id": "691",
+    "coding": "691",
+    "name": "Zenvo TS1",
+    "location": "Perth",
+    "price": "841859",
+    "year": "2000"
+  },
+  {
+    "@id": "692",
+    "coding": "692",
+    "name": "ARO 24",
+    "location": "Cocos Keeling Islands",
+    "price": "988735",
+    "year": "2019"
+  },
+  {
+    "@id": "693",
+    "coding": "693",
+    "name": "BRISTOL Fighter T",
+    "location": "Geelong",
+    "price": "257213",
+    "year": "2005"
+  },
+  {
+    "@id": "694",
+    "coding": "694",
+    "name": "NISSAN Sentra",
+    "location": "Cocos Keeling Islands",
+    "price": "174357",
+    "year": "2019"
+  },
+  {
+    "@id": "695",
+    "coding": "695",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Hobart",
+    "price": "537622",
+    "year": "2009"
+  },
+  {
+    "@id": "696",
+    "coding": "696",
+    "name": "LEXUS IS",
+    "location": "Geelong",
+    "price": "447286",
+    "year": "2011"
+  },
+  {
+    "@id": "697",
+    "coding": "697",
+    "name": "KTM X-Bow RR",
+    "location": "Jervis Bay",
+    "price": "110927",
+    "year": "2014"
+  },
+  {
+    "@id": "698",
+    "coding": "698",
+    "name": "SPYKER C8 Double 12 S",
+    "location": "Jervis Bay",
+    "price": "614095",
+    "year": "2000"
+  },
+  {
+    "@id": "699",
+    "coding": "699",
+    "name": "SSANGYONG Tivoli",
+    "location": "Cairns",
+    "price": "940567",
+    "year": "2005"
+  },
+  {
+    "@id": "700",
+    "coding": "700",
+    "name": "FSO Prima",
+    "location": "Melbourne",
+    "price": "823264",
+    "year": "2008"
+  },
+  {
+    "@id": "701",
+    "coding": "701",
+    "name": "LAND ROVER Defender 90",
+    "location": "Perth",
+    "price": "853037",
+    "year": "2012"
+  },
+  {
+    "@id": "702",
+    "coding": "702",
+    "name": "MCLAREN Elva",
+    "location": "Canberra",
+    "price": "137065",
+    "year": "2006"
+  },
+  {
+    "@id": "703",
+    "coding": "703",
+    "name": "CITROEN AMI",
+    "location": "Hobart",
+    "price": "941650",
+    "year": "2018"
+  },
+  {
+    "@id": "704",
+    "coding": "704",
+    "name": "PORSCHE 911",
+    "location": "Wollongong",
+    "price": "565576",
+    "year": "2005"
+  },
+  {
+    "@id": "705",
+    "coding": "705",
+    "name": "GENESIS G80",
+    "location": "Townsville",
+    "price": "980129",
+    "year": "2011"
+  },
+  {
+    "@id": "706",
+    "coding": "706",
+    "name": "CHRYSLER 300",
+    "location": "Toowoomba",
+    "price": "520127",
+    "year": "2017"
+  },
+  {
+    "@id": "707",
+    "coding": "707",
+    "name": "SATURN Aura",
+    "location": "Cocos Keeling Islands",
+    "price": "577112",
+    "year": "2005"
+  },
+  {
+    "@id": "708",
+    "coding": "708",
+    "name": "BENTLEY Mulliner Bacalar",
+    "location": "Cairns",
+    "price": "490994",
+    "year": "2011"
+  },
+  {
+    "@id": "709",
+    "coding": "709",
+    "name": "LEXUS LS",
+    "location": "Geelong",
+    "price": "290103",
+    "year": "2011"
+  },
+  {
+    "@id": "710",
+    "coding": "710",
+    "name": "MERCEDES BENZ EQC",
+    "location": "Jervis Bay",
+    "price": "441628",
+    "year": "2006"
+  },
+  {
+    "@id": "711",
+    "coding": "711",
+    "name": "Polestar Polestar 2",
+    "location": "Hobart",
+    "price": "134941",
+    "year": "2009"
+  },
+  {
+    "@id": "712",
+    "coding": "712",
+    "name": "SSANGYONG Korando",
+    "location": "Brisbane",
+    "price": "339244",
+    "year": "2017"
+  },
+  {
+    "@id": "713",
+    "coding": "713",
+    "name": "LANCIA Ypsilon",
+    "location": "Perth",
+    "price": "104324",
+    "year": "2005"
+  },
+  {
+    "@id": "714",
+    "coding": "714",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Caloundra",
+    "price": "639054",
+    "year": "2000"
+  },
+  {
+    "@id": "715",
+    "coding": "715",
+    "name": "TOYOTA Avensis Wagon",
+    "location": "Toowoomba",
+    "price": "626462",
+    "year": "2005"
+  },
+  {
+    "@id": "716",
+    "coding": "716",
+    "name": "ASTON MARTIN DB11",
+    "location": "Hobart",
+    "price": "776965",
+    "year": "2009"
+  },
+  {
+    "@id": "717",
+    "coding": "717",
+    "name": "LOTUS Evora GT",
+    "location": "Wollongong",
+    "price": "152390",
+    "year": "2018"
+  },
+  {
+    "@id": "718",
+    "coding": "718",
+    "name": "NISSAN Rogue",
+    "location": "Norfolk Island",
+    "price": "903043",
+    "year": "2017"
+  },
+  {
+    "@id": "719",
+    "coding": "719",
+    "name": "ZENDER Thirty 7",
+    "location": "Gold Coast",
+    "price": "178031",
+    "year": "2016"
+  },
+  {
+    "@id": "720",
+    "coding": "720",
+    "name": "MINI Countryman",
+    "location": "Jervis Bay",
+    "price": "455535",
+    "year": "2004"
+  },
+  {
+    "@id": "721",
+    "coding": "721",
+    "name": "PONTIAC Bonneville",
+    "location": "Perth",
+    "price": "534518",
+    "year": "2016"
+  },
+  {
+    "@id": "722",
+    "coding": "722",
+    "name": "LADA Priora",
+    "location": "Christmas Island",
+    "price": "292775",
+    "year": "2002"
+  },
+  {
+    "@id": "723",
+    "coding": "723",
+    "name": "RENAULT Talisman Estate",
+    "location": "Wollongong",
+    "price": "697868",
+    "year": "2004"
+  },
+  {
+    "@id": "724",
+    "coding": "724",
+    "name": "BENTLEY Bentayga",
+    "location": "Canberra",
+    "price": "497762",
+    "year": "2008"
+  },
+  {
+    "@id": "725",
+    "coding": "725",
+    "name": "PORSCHE Panamera 4S Sport Turismo",
+    "location": "Sydney",
+    "price": "346547",
+    "year": "2002"
+  },
+  {
+    "@id": "726",
+    "coding": "726",
+    "name": "CUPRA el-Born",
+    "location": "Canberra",
+    "price": "77720",
+    "year": "2013"
+  },
+  {
+    "@id": "727",
+    "coding": "727",
+    "name": "BENTLEY Bentayga",
+    "location": "Perth",
+    "price": "562981",
+    "year": "2008"
+  },
+  {
+    "@id": "728",
+    "coding": "728",
+    "name": "LADA Kalina Sedan",
+    "location": "Toowoomba",
+    "price": "78447",
+    "year": "2016"
+  },
+  {
+    "@id": "729",
+    "coding": "729",
+    "name": "DR MOTOR dr2",
+    "location": "Canberra",
+    "price": "392562",
+    "year": "2001"
+  },
+  {
+    "@id": "730",
+    "coding": "730",
+    "name": "BUGATTI Chiron Super Sport 300+",
+    "location": "Wollongong",
+    "price": "990757",
+    "year": "2005"
+  },
+  {
+    "@id": "731",
+    "coding": "731",
+    "name": "JEEP Gladiator",
+    "location": "Norfolk Island",
+    "price": "551227",
+    "year": "2013"
+  },
+  {
+    "@id": "732",
+    "coding": "732",
+    "name": "CUPRA el-Born",
+    "location": "Wollongong",
+    "price": "423810",
+    "year": "2001"
+  },
+  {
+    "@id": "733",
+    "coding": "733",
+    "name": "FSO Polonez Caro",
+    "location": "Perth",
+    "price": "580127",
+    "year": "2018"
+  },
+  {
+    "@id": "734",
+    "coding": "734",
+    "name": "DR MOTOR dr CityCross",
+    "location": "Melbourne",
+    "price": "237658",
+    "year": "2013"
+  },
+  {
+    "@id": "735",
+    "coding": "735",
+    "name": "QOROS 5",
+    "location": "Cocos Keeling Islands",
+    "price": "743483",
+    "year": "2010"
+  },
+  {
+    "@id": "736",
+    "coding": "736",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Adelaide",
+    "price": "894782",
+    "year": "2001"
+  },
+  {
+    "@id": "737",
+    "coding": "737",
+    "name": "MG HS",
+    "location": "Wollongong",
+    "price": "413143",
+    "year": "2014"
+  },
+  {
+    "@id": "738",
+    "coding": "738",
+    "name": "ASTON MARTIN DB11",
+    "location": "Cocos Keeling Islands",
+    "price": "637947",
+    "year": "2013"
+  },
+  {
+    "@id": "739",
+    "coding": "739",
+    "name": "MINI John Cooper Works GP",
+    "location": "Melbourne",
+    "price": "770932",
+    "year": "2011"
+  },
+  {
+    "@id": "740",
+    "coding": "740",
+    "name": "WIESMANN GT MF4-CS",
+    "location": "Cairns",
+    "price": "519169",
+    "year": "2011"
+  },
+  {
+    "@id": "741",
+    "coding": "741",
+    "name": "LOTUS Evora GT",
+    "location": "Geelong",
+    "price": "107318",
+    "year": "2006"
+  },
+  {
+    "@id": "742",
+    "coding": "742",
+    "name": "WIESMANN MF5 Roadster",
+    "location": "Cocos Keeling Islands",
+    "price": "712110",
+    "year": "2001"
+  },
+  {
+    "@id": "743",
+    "coding": "743",
+    "name": "SCION iQ",
+    "location": "Newcastle",
+    "price": "932473",
+    "year": "2003"
+  },
+  {
+    "@id": "744",
+    "coding": "744",
+    "name": "MERCURY Milan",
+    "location": "Townsville",
+    "price": "517682",
+    "year": "2015"
+  },
+  {
+    "@id": "745",
+    "coding": "745",
+    "name": "MITSUBISHI Mirage",
+    "location": "Melbourne",
+    "price": "843261",
+    "year": "2009"
+  },
+  {
+    "@id": "746",
+    "coding": "746",
+    "name": "ARIEL Atom 500 V8",
+    "location": "Caloundra",
+    "price": "860194",
+    "year": "2015"
+  },
+  {
+    "@id": "747",
+    "coding": "747",
+    "name": "MERCEDES BENZ EQC",
+    "location": "Wollongong",
+    "price": "717238",
+    "year": "2011"
+  },
+  {
+    "@id": "748",
+    "coding": "748",
+    "name": "CUPRA el-Born",
+    "location": "Perth",
+    "price": "398828",
+    "year": "2006"
+  },
+  {
+    "@id": "749",
+    "coding": "749",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Norfolk Island",
+    "price": "692181",
+    "year": "2000"
+  },
+  {
+    "@id": "750",
+    "coding": "750",
+    "name": "DAIHATSU Cuore",
+    "location": "Toowoomba",
+    "price": "386753",
+    "year": "2002"
+  },
+  {
+    "@id": "751",
+    "coding": "751",
+    "name": "PANOZ Roadster",
+    "location": "Canberra",
+    "price": "177236",
+    "year": "2012"
+  },
+  {
+    "@id": "752",
+    "coding": "752",
+    "name": "BUGATTI Chiron Super Sport 300+",
+    "location": "Gold Coast",
+    "price": "987681",
+    "year": "2011"
+  },
+  {
+    "@id": "753",
+    "coding": "753",
+    "name": "PROTON Ertiga",
+    "location": "Geelong",
+    "price": "569216",
+    "year": "2003"
+  },
+  {
+    "@id": "754",
+    "coding": "754",
+    "name": "SUZUKI Ignis",
+    "location": "Townsville",
+    "price": "717173",
+    "year": "2002"
+  },
+  {
+    "@id": "755",
+    "coding": "755",
+    "name": "MAYBACH 62 Zeppelin",
+    "location": "Adelaide",
+    "price": "685112",
+    "year": "2013"
+  },
+  {
+    "@id": "756",
+    "coding": "756",
+    "name": "LADA Kalina Hatchback",
+    "location": "Wollongong",
+    "price": "33501",
+    "year": "2007"
+  },
+  {
+    "@id": "757",
+    "coding": "757",
+    "name": "PANOZ Roadster",
+    "location": "Cairns",
+    "price": "909374",
+    "year": "2019"
+  },
+  {
+    "@id": "758",
+    "coding": "758",
+    "name": "FIAT 500e",
+    "location": "Adelaide",
+    "price": "450360",
+    "year": "2013"
+  },
+  {
+    "@id": "759",
+    "coding": "759",
+    "name": "KTM X-Bow RR",
+    "location": "Townsville",
+    "price": "622014",
+    "year": "2015"
+  },
+  {
+    "@id": "760",
+    "coding": "760",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Gold Coast",
+    "price": "691246",
+    "year": "2018"
+  },
+  {
+    "@id": "761",
+    "coding": "761",
+    "name": "CITROEN AMI",
+    "location": "Caloundra",
+    "price": "451086",
+    "year": "2019"
+  },
+  {
+    "@id": "762",
+    "coding": "762",
+    "name": "MAYBACH 57 Zeppelin",
+    "location": "Melbourne",
+    "price": "562798",
+    "year": "2006"
+  },
+  {
+    "@id": "763",
+    "coding": "763",
+    "name": "SSANGYONG Tivoli",
+    "location": "Brisbane",
+    "price": "350594",
+    "year": "2009"
+  },
+  {
+    "@id": "764",
+    "coding": "764",
+    "name": "LANCIA Ypsilon",
+    "location": "Caloundra",
+    "price": "701922",
+    "year": "2016"
+  },
+  {
+    "@id": "765",
+    "coding": "765",
+    "name": "INFINITI EX37",
+    "location": "Cocos Keeling Islands",
+    "price": "592390",
+    "year": "2013"
+  },
+  {
+    "@id": "766",
+    "coding": "766",
+    "name": "DR MOTOR dr CityCross",
+    "location": "Adelaide",
+    "price": "458970",
+    "year": "2009"
+  },
+  {
+    "@id": "767",
+    "coding": "767",
+    "name": "SMART EQ fortwo",
+    "location": "Townsville",
+    "price": "138110",
+    "year": "2003"
+  },
+  {
+    "@id": "768",
+    "coding": "768",
+    "name": "PEUGEOT 508 SW PSE",
+    "location": "Jervis Bay",
+    "price": "386825",
+    "year": "2004"
+  },
+  {
+    "@id": "769",
+    "coding": "769",
+    "name": "ARO M 461",
+    "location": "Adelaide",
+    "price": "964713",
+    "year": "2010"
+  },
+  {
+    "@id": "770",
+    "coding": "770",
+    "name": "GENESIS GV80",
+    "location": "Gold Coast",
+    "price": "213149",
+    "year": "2001"
+  },
+  {
+    "@id": "771",
+    "coding": "771",
+    "name": "ISUZU D-Max Arctic Trucks AT35",
+    "location": "Melbourne",
+    "price": "434656",
+    "year": "2016"
+  },
+  {
+    "@id": "772",
+    "coding": "772",
+    "name": "DR MOTOR dr CityCross",
+    "location": "Cairns",
+    "price": "250637",
+    "year": "2010"
+  },
+  {
+    "@id": "773",
+    "coding": "773",
+    "name": "MORGAN Plus Six",
+    "location": "Townsville",
+    "price": "579289",
+    "year": "2020"
+  },
+  {
+    "@id": "774",
+    "coding": "774",
+    "name": "FIAT 500e",
+    "location": "Norfolk Island",
+    "price": "587557",
+    "year": "2008"
+  },
+  {
+    "@id": "775",
+    "coding": "775",
+    "name": "TATA MOTORS Harrier",
+    "location": "Cocos Keeling Islands",
+    "price": "51501",
+    "year": "2003"
+  },
+  {
+    "@id": "776",
+    "coding": "776",
+    "name": "Polestar Polestar 2",
+    "location": "Christmas Island",
+    "price": "568391",
+    "year": "2003"
+  },
+  {
+    "@id": "777",
+    "coding": "777",
+    "name": "ALFA ROMEO Stelvio Quadrifoglio",
+    "location": "Cocos Keeling Islands",
+    "price": "91182",
+    "year": "2000"
+  },
+  {
+    "@id": "778",
+    "coding": "778",
+    "name": "GEELY MK2 (Hatch)",
+    "location": "Newcastle",
+    "price": "331886",
+    "year": "2016"
+  },
+  {
+    "@id": "779",
+    "coding": "779",
+    "name": "SUZUKI Ignis",
+    "location": "Adelaide",
+    "price": "654555",
+    "year": "2004"
+  },
+  {
+    "@id": "780",
+    "coding": "780",
+    "name": "NISSAN Rogue",
+    "location": "Sydney",
+    "price": "481305",
+    "year": "2005"
+  },
+  {
+    "@id": "781",
+    "coding": "781",
+    "name": "DR MOTOR dr2",
+    "location": "Wollongong",
+    "price": "725931",
+    "year": "2016"
+  },
+  {
+    "@id": "782",
+    "coding": "782",
+    "name": "CUPRA el-Born",
+    "location": "Sydney",
+    "price": "169197",
+    "year": "2000"
+  },
+  {
+    "@id": "783",
+    "coding": "783",
+    "name": "Karma Revero GTS",
+    "location": "Norfolk Island",
+    "price": "247941",
+    "year": "2000"
+  },
+  {
+    "@id": "784",
+    "coding": "784",
+    "name": "CITROEN AMI",
+    "location": "Christmas Island",
+    "price": "66484",
+    "year": "2010"
+  },
+  {
+    "@id": "785",
+    "coding": "785",
+    "name": "SKODA Enyaq iV",
+    "location": "Christmas Island",
+    "price": "363807",
+    "year": "2015"
+  },
+  {
+    "@id": "786",
+    "coding": "786",
+    "name": "GEELY CK",
+    "location": "Sydney",
+    "price": "103172",
+    "year": "2001"
+  },
+  {
+    "@id": "787",
+    "coding": "787",
+    "name": "VAUXHALL Astra Sports Tourer",
+    "location": "Townsville",
+    "price": "892694",
+    "year": "2002"
+  },
+  {
+    "@id": "788",
+    "coding": "788",
+    "name": "ISUZU MU-7",
+    "location": "Caloundra",
+    "price": "925488",
+    "year": "2018"
+  },
+  {
+    "@id": "789",
+    "coding": "789",
+    "name": "LAMBORGHINI Sian Roadster",
+    "location": "Geelong",
+    "price": "146702",
+    "year": "2019"
+  },
+  {
+    "@id": "790",
+    "coding": "790",
+    "name": "KIA K5",
+    "location": "Hobart",
+    "price": "441746",
+    "year": "2007"
+  },
+  {
+    "@id": "791",
+    "coding": "791",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Caloundra",
+    "price": "465570",
+    "year": "2014"
+  },
+  {
+    "@id": "792",
+    "coding": "792",
+    "name": "RENAULT Talisman Estate",
+    "location": "Christmas Island",
+    "price": "836762",
+    "year": "2009"
+  },
+  {
+    "@id": "793",
+    "coding": "793",
+    "name": "LEXUS LC 500 Convertible",
+    "location": "Gold Coast",
+    "price": "322612",
+    "year": "2009"
+  },
+  {
+    "@id": "794",
+    "coding": "794",
+    "name": "PANOZ Esperante GTLM",
+    "location": "Norfolk Island",
+    "price": "102094",
+    "year": "2019"
+  },
+  {
+    "@id": "795",
+    "coding": "795",
+    "name": "TESLA MOTORS Model X",
+    "location": "Wollongong",
+    "price": "632977",
+    "year": "2020"
+  },
+  {
+    "@id": "796",
+    "coding": "796",
+    "name": "SCION iM",
+    "location": "Melbourne",
+    "price": "786945",
+    "year": "2018"
+  },
+  {
+    "@id": "797",
+    "coding": "797",
+    "name": "KIA K5",
+    "location": "Adelaide",
+    "price": "672757",
+    "year": "2010"
+  },
+  {
+    "@id": "798",
+    "coding": "798",
+    "name": "DAEWOO Nubira Estate",
+    "location": "Sydney",
+    "price": "612001",
+    "year": "2020"
+  },
+  {
+    "@id": "799",
+    "coding": "799",
+    "name": "ALPINE A106",
+    "location": "Townsville",
+    "price": "845021",
+    "year": "2012"
+  },
+  {
+    "@id": "800",
+    "coding": "800",
+    "name": "PROTON Iriz",
+    "location": "Perth",
+    "price": "126036",
+    "year": "2012"
+  },
+  {
+    "@id": "801",
+    "coding": "801",
+    "name": "DR MOTOR dr CityCross",
+    "location": "Cocos Keeling Islands",
+    "price": "76310",
+    "year": "2012"
+  },
+  {
+    "@id": "802",
+    "coding": "802",
+    "name": "SAMSUNG SM 5",
+    "location": "Geelong",
+    "price": "462579",
+    "year": "2014"
+  },
+  {
+    "@id": "803",
+    "coding": "803",
+    "name": "FORD C-Max",
+    "location": "Sydney",
+    "price": "624669",
+    "year": "2014"
+  },
+  {
+    "@id": "804",
+    "coding": "804",
+    "name": "MASERATI MC20",
+    "location": "Norfolk Island",
+    "price": "141432",
+    "year": "2019"
+  },
+  {
+    "@id": "805",
+    "coding": "805",
+    "name": "FORD F-150 Super Crew",
+    "location": "Canberra",
+    "price": "657744",
+    "year": "2012"
+  },
+  {
+    "@id": "806",
+    "coding": "806",
+    "name": "PONTIAC Bonneville",
+    "location": "Hobart",
+    "price": "107373",
+    "year": "2009"
+  },
+  {
+    "@id": "807",
+    "coding": "807",
+    "name": "KIA K5",
+    "location": "Perth",
+    "price": "747030",
+    "year": "2014"
+  },
+  {
+    "@id": "808",
+    "coding": "808",
+    "name": "CATERHAM Seven 620 R",
+    "location": "Newcastle",
+    "price": "705828",
+    "year": "2009"
+  },
+  {
+    "@id": "809",
+    "coding": "809",
+    "name": "FERRARI Roma",
+    "location": "Norfolk Island",
+    "price": "181793",
+    "year": "2001"
+  },
+  {
+    "@id": "810",
+    "coding": "810",
+    "name": "FORD F-150 Raptor SVT",
+    "location": "Brisbane",
+    "price": "282817",
+    "year": "2012"
+  },
+  {
+    "@id": "811",
+    "coding": "811",
+    "name": "CADILLAC XT5",
+    "location": "Gold Coast",
+    "price": "833752",
+    "year": "2008"
+  },
+  {
+    "@id": "812",
+    "coding": "812",
+    "name": "ROLLS-ROYCE Phantom",
+    "location": "Brisbane",
+    "price": "393993",
+    "year": "2004"
+  },
+  {
+    "@id": "813",
+    "coding": "813",
+    "name": "SKODA Octavia Scout",
+    "location": "Wollongong",
+    "price": "911040",
+    "year": "2016"
+  },
+  {
+    "@id": "814",
+    "coding": "814",
+    "name": "BUGATTI Chiron Pur Sport",
+    "location": "Christmas Island",
+    "price": "85062",
+    "year": "2013"
+  },
+  {
+    "@id": "815",
+    "coding": "815",
+    "name": "ACURA MDX A-Spec",
+    "location": "Brisbane",
+    "price": "787538",
+    "year": "2018"
+  },
+  {
+    "@id": "816",
+    "coding": "816",
+    "name": "MCLAREN 620R",
+    "location": "Geelong",
+    "price": "563404",
+    "year": "2015"
+  },
+  {
+    "@id": "817",
+    "coding": "817",
+    "name": "FISKER Karma",
+    "location": "Brisbane",
+    "price": "771107",
+    "year": "2005"
+  },
+  {
+    "@id": "818",
+    "coding": "818",
+    "name": "ZENDER Escape 6",
+    "location": "Townsville",
+    "price": "248180",
+    "year": "2010"
+  },
+  {
+    "@id": "819",
+    "coding": "819",
+    "name": "ZENDER Thirty 7",
+    "location": "Melbourne",
+    "price": "621780",
+    "year": "2009"
+  },
+  {
+    "@id": "820",
+    "coding": "820",
+    "name": "FSO Polonez Kombi",
+    "location": "Toowoomba",
+    "price": "33755",
+    "year": "2008"
+  },
+  {
+    "@id": "821",
+    "coding": "821",
+    "name": "Mahindra Thar",
+    "location": "Caloundra",
+    "price": "978481",
+    "year": "2007"
+  },
+  {
+    "@id": "822",
+    "coding": "822",
+    "name": "VOLVO XC90",
+    "location": "Christmas Island",
+    "price": "238720",
+    "year": "2014"
+  },
+  {
+    "@id": "823",
+    "coding": "823",
+    "name": "LANCIA Ypsilon",
+    "location": "Gold Coast",
+    "price": "170304",
+    "year": "2013"
+  },
+  {
+    "@id": "824",
+    "coding": "824",
+    "name": "DAIHATSU Sirion",
+    "location": "Caloundra",
+    "price": "660327",
+    "year": "2016"
+  },
+  {
+    "@id": "825",
+    "coding": "825",
+    "name": "MERCEDES BENZ B-Class",
+    "location": "Newcastle",
+    "price": "925938",
+    "year": "2020"
+  },
+  {
+    "@id": "826",
+    "coding": "826",
+    "name": "TOYOTA Land Cruiser 200",
+    "location": "Townsville",
+    "price": "551643",
+    "year": "2013"
+  },
+  {
+    "@id": "827",
+    "coding": "827",
+    "name": "SEAT Ateca",
+    "location": "Wollongong",
+    "price": "162242",
+    "year": "2012"
+  },
+  {
+    "@id": "828",
+    "coding": "828",
+    "name": "ISUZU MU-7",
+    "location": "Caloundra",
+    "price": "536226",
+    "year": "2006"
+  },
+  {
+    "@id": "829",
+    "coding": "829",
+    "name": "GMC Sierra 2500HD",
+    "location": "Wollongong",
+    "price": "620598",
+    "year": "2010"
+  },
+  {
+    "@id": "830",
+    "coding": "830",
+    "name": "Polestar Polestar 2",
+    "location": "Jervis Bay",
+    "price": "802622",
+    "year": "2004"
+  },
+  {
+    "@id": "831",
+    "coding": "831",
+    "name": "OLDSMOBILE Intrigue",
+    "location": "Canberra",
+    "price": "207011",
+    "year": "2015"
+  },
+  {
+    "@id": "832",
+    "coding": "832",
+    "name": "SPYKER C8 Preliator",
+    "location": "Perth",
+    "price": "68496",
+    "year": "2020"
+  },
+  {
+    "@id": "833",
+    "coding": "833",
+    "name": "FORD C-Max",
+    "location": "Christmas Island",
+    "price": "279592",
+    "year": "2019"
+  },
+  {
+    "@id": "834",
+    "coding": "834",
+    "name": "MASERATI MC20",
+    "location": "Canberra",
+    "price": "51702",
+    "year": "2001"
+  },
+  {
+    "@id": "835",
+    "coding": "835",
+    "name": "KTM X-Bow RR",
+    "location": "Sydney",
+    "price": "124416",
+    "year": "2008"
+  },
+  {
+    "@id": "836",
+    "coding": "836",
+    "name": "GMC Sierra Denali",
+    "location": "Toowoomba",
+    "price": "633087",
+    "year": "2010"
+  },
+  {
+    "@id": "837",
+    "coding": "837",
+    "name": "DS AUTOMOBILES DS 3 Crossback",
+    "location": "Brisbane",
+    "price": "548347",
+    "year": "2018"
+  },
+  {
+    "@id": "838",
+    "coding": "838",
+    "name": "VOLVO XC90",
+    "location": "Gold Coast",
+    "price": "843340",
+    "year": "2005"
+  },
+  {
+    "@id": "839",
+    "coding": "839",
+    "name": "TATA MOTORS Altroz",
+    "location": "Newcastle",
+    "price": "164870",
+    "year": "2009"
+  },
+  {
+    "@id": "840",
+    "coding": "840",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Adelaide",
+    "price": "263697",
+    "year": "2020"
+  },
+  {
+    "@id": "841",
+    "coding": "841",
+    "name": "PAGANI Imola",
+    "location": "Hobart",
+    "price": "866485",
+    "year": "2009"
+  },
+  {
+    "@id": "842",
+    "coding": "842",
+    "name": "DATSUN GO+",
+    "location": "Wollongong",
+    "price": "627796",
+    "year": "2020"
+  },
+  {
+    "@id": "843",
+    "coding": "843",
+    "name": "SEAT Leon Sportstourer",
+    "location": "Sydney",
+    "price": "614725",
+    "year": "2002"
+  },
+  {
+    "@id": "844",
+    "coding": "844",
+    "name": "ROLLS-ROYCE Ghost",
+    "location": "Brisbane",
+    "price": "729485",
+    "year": "2010"
+  },
+  {
+    "@id": "845",
+    "coding": "845",
+    "name": "TESLA MOTORS Roadster",
+    "location": "Cairns",
+    "price": "436343",
+    "year": "2010"
+  },
+  {
+    "@id": "846",
+    "coding": "846",
+    "name": "ARO M59",
+    "location": "Newcastle",
+    "price": "758908",
+    "year": "2002"
+  },
+  {
+    "@id": "847",
+    "coding": "847",
+    "name": "MINI Clubman",
+    "location": "Canberra",
+    "price": "291730",
+    "year": "2014"
+  },
+  {
+    "@id": "848",
+    "coding": "848",
+    "name": "DeLorean DMC-12",
+    "location": "Christmas Island",
+    "price": "756642",
+    "year": "2008"
+  },
+  {
+    "@id": "849",
+    "coding": "849",
+    "name": "CHEVROLET Sonic",
+    "location": "Jervis Bay",
+    "price": "309113",
+    "year": "2006"
+  },
+  {
+    "@id": "850",
+    "coding": "850",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Wollongong",
+    "price": "893223",
+    "year": "2004"
+  },
+  {
+    "@id": "851",
+    "coding": "851",
+    "name": "CHEVROLET SS",
+    "location": "Norfolk Island",
+    "price": "365596",
+    "year": "2008"
+  },
+  {
+    "@id": "852",
+    "coding": "852",
+    "name": "SAMSUNG SM 7",
+    "location": "Christmas Island",
+    "price": "638836",
+    "year": "2018"
+  },
+  {
+    "@id": "853",
+    "coding": "853",
+    "name": "HUMMER H3 Alpha",
+    "location": "Adelaide",
+    "price": "153590",
+    "year": "2010"
+  },
+  {
+    "@id": "854",
+    "coding": "854",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Brisbane",
+    "price": "75496",
+    "year": "2004"
+  },
+  {
+    "@id": "855",
+    "coding": "855",
+    "name": "JEEP Compass",
+    "location": "Cairns",
+    "price": "138687",
+    "year": "2000"
+  },
+  {
+    "@id": "856",
+    "coding": "856",
+    "name": "KIA K5",
+    "location": "Perth",
+    "price": "911519",
+    "year": "2012"
+  },
+  {
+    "@id": "857",
+    "coding": "857",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Gold Coast",
+    "price": "102545",
+    "year": "2020"
+  },
+  {
+    "@id": "858",
+    "coding": "858",
+    "name": "MAZDA BT-50",
+    "location": "Newcastle",
+    "price": "55565",
+    "year": "2012"
+  },
+  {
+    "@id": "859",
+    "coding": "859",
+    "name": "MG HS",
+    "location": "Toowoomba",
+    "price": "131820",
+    "year": "2020"
+  },
+  {
+    "@id": "860",
+    "coding": "860",
+    "name": "PONTIAC Bonneville",
+    "location": "Cairns",
+    "price": "535109",
+    "year": "2016"
+  },
+  {
+    "@id": "861",
+    "coding": "861",
+    "name": "DAIHATSU Sirion",
+    "location": "Cairns",
+    "price": "251714",
+    "year": "2014"
+  },
+  {
+    "@id": "862",
+    "coding": "862",
+    "name": "MASERATI Quattroporte Trofeo",
+    "location": "Gold Coast",
+    "price": "441580",
+    "year": "2018"
+  },
+  {
+    "@id": "863",
+    "coding": "863",
+    "name": "ALPINE A106",
+    "location": "Wollongong",
+    "price": "100189",
+    "year": "2001"
+  },
+  {
+    "@id": "864",
+    "coding": "864",
+    "name": "SSANGYONG Korando",
+    "location": "Brisbane",
+    "price": "32031",
+    "year": "2020"
+  },
+  {
+    "@id": "865",
+    "coding": "865",
+    "name": "Mercedes-Benz AMG GT C",
+    "location": "Melbourne",
+    "price": "286401",
+    "year": "2020"
+  },
+  {
+    "@id": "866",
+    "coding": "866",
+    "name": "QOROS 3 City SUV",
+    "location": "Cocos Keeling Islands",
+    "price": "44607",
+    "year": "2014"
+  },
+  {
+    "@id": "867",
+    "coding": "867",
+    "name": "VAUXHALL Mokka X",
+    "location": "Canberra",
+    "price": "394405",
+    "year": "2009"
+  },
+  {
+    "@id": "868",
+    "coding": "868",
+    "name": "MORGAN Plus Six",
+    "location": "Jervis Bay",
+    "price": "172631",
+    "year": "2014"
+  },
+  {
+    "@id": "869",
+    "coding": "869",
+    "name": "TVR 350i Convertible",
+    "location": "Jervis Bay",
+    "price": "720699",
+    "year": "2019"
+  },
+  {
+    "@id": "870",
+    "coding": "870",
+    "name": "SAMSUNG SM 5",
+    "location": "Newcastle",
+    "price": "949606",
+    "year": "2020"
+  },
+  {
+    "@id": "871",
+    "coding": "871",
+    "name": "TATA MOTORS Altroz",
+    "location": "Caloundra",
+    "price": "231645",
+    "year": "2016"
+  },
+  {
+    "@id": "872",
+    "coding": "872",
+    "name": "OLDSMOBILE Aurora",
+    "location": "Hobart",
+    "price": "664950",
+    "year": "2003"
+  },
+  {
+    "@id": "873",
+    "coding": "873",
+    "name": "FIAT Freemont Cross",
+    "location": "Adelaide",
+    "price": "304333",
+    "year": "2009"
+  },
+  {
+    "@id": "874",
+    "coding": "874",
+    "name": "PEUGEOT 5008",
+    "location": "Perth",
+    "price": "957755",
+    "year": "2013"
+  },
+  {
+    "@id": "875",
+    "coding": "875",
+    "name": "PONTIAC Bonneville",
+    "location": "Sydney",
+    "price": "301935",
+    "year": "2017"
+  },
+  {
+    "@id": "876",
+    "coding": "876",
+    "name": "SPYKER C8 Preliator",
+    "location": "Townsville",
+    "price": "333375",
+    "year": "2010"
+  },
+  {
+    "@id": "877",
+    "coding": "877",
+    "name": "MCLAREN 765LT",
+    "location": "Wollongong",
+    "price": "982114",
+    "year": "2000"
+  },
+  {
+    "@id": "878",
+    "coding": "878",
+    "name": "MARUSSIA B2",
+    "location": "Jervis Bay",
+    "price": "635165",
+    "year": "2002"
+  },
+  {
+    "@id": "879",
+    "coding": "879",
+    "name": "SANTANA 300 - 350",
+    "location": "Sydney",
+    "price": "304530",
+    "year": "2018"
+  },
+  {
+    "@id": "880",
+    "coding": "880",
+    "name": "ARO 24",
+    "location": "Adelaide",
+    "price": "271150",
+    "year": "2017"
+  },
+  {
+    "@id": "881",
+    "coding": "881",
+    "name": "LEXUS IS",
+    "location": "Cairns",
+    "price": "111011",
+    "year": "2006"
+  },
+  {
+    "@id": "882",
+    "coding": "882",
+    "name": "SMART EQ fortwo Cabrio",
+    "location": "Melbourne",
+    "price": "712951",
+    "year": "2010"
+  },
+  {
+    "@id": "883",
+    "coding": "883",
+    "name": "HUMMER H3 Alpha",
+    "location": "Wollongong",
+    "price": "819430",
+    "year": "2012"
+  },
+  {
+    "@id": "884",
+    "coding": "884",
+    "name": "ROLLS-ROYCE Phantom",
+    "location": "Norfolk Island",
+    "price": "561758",
+    "year": "2013"
+  },
+  {
+    "@id": "885",
+    "coding": "885",
+    "name": "LAND ROVER Defender 110",
+    "location": "Christmas Island",
+    "price": "129848",
+    "year": "2011"
+  },
+  {
+    "@id": "886",
+    "coding": "886",
+    "name": "FIAT Freemont Cross",
+    "location": "Hobart",
+    "price": "233664",
+    "year": "2019"
+  },
+  {
+    "@id": "887",
+    "coding": "887",
+    "name": "PORSCHE 911",
+    "location": "Canberra",
+    "price": "108995",
+    "year": "2005"
+  },
+  {
+    "@id": "888",
+    "coding": "888",
+    "name": "HOLDEN Captiva",
+    "location": "Townsville",
+    "price": "964164",
+    "year": "2006"
+  },
+  {
+    "@id": "889",
+    "coding": "889",
+    "name": "DR MOTOR dr5",
+    "location": "Adelaide",
+    "price": "536605",
+    "year": "2000"
+  },
+  {
+    "@id": "890",
+    "coding": "890",
+    "name": "SCION iA",
+    "location": "Wollongong",
+    "price": "889106",
+    "year": "2009"
+  },
+  {
+    "@id": "891",
+    "coding": "891",
+    "name": "WIESMANN MF5 Roadster",
+    "location": "Townsville",
+    "price": "204698",
+    "year": "2017"
+  },
+  {
+    "@id": "892",
+    "coding": "892",
+    "name": "VOLKSWAGEN T-Roc Cabriolet",
+    "location": "Jervis Bay",
+    "price": "116934",
+    "year": "2014"
+  },
+  {
+    "@id": "893",
+    "coding": "893",
+    "name": "LEXUS LC 500 Convertible",
+    "location": "Cocos Keeling Islands",
+    "price": "388346",
+    "year": "2010"
+  },
+  {
+    "@id": "894",
+    "coding": "894",
+    "name": "HONDA CR-V",
+    "location": "Melbourne",
+    "price": "224494",
+    "year": "2012"
+  },
+  {
+    "@id": "895",
+    "coding": "895",
+    "name": "BRISTOL Bullet",
+    "location": "Christmas Island",
+    "price": "993975",
+    "year": "2001"
+  },
+  {
+    "@id": "896",
+    "coding": "896",
+    "name": "CHRYSLER 300",
+    "location": "Geelong",
+    "price": "686219",
+    "year": "2001"
+  },
+  {
+    "@id": "897",
+    "coding": "897",
+    "name": "ARO M59",
+    "location": "Cairns",
+    "price": "928764",
+    "year": "2009"
+  },
+  {
+    "@id": "898",
+    "coding": "898",
+    "name": "ROLLS-ROYCE Cullinan",
+    "location": "Jervis Bay",
+    "price": "934009",
+    "year": "2017"
+  },
+  {
+    "@id": "899",
+    "coding": "899",
+    "name": "SATURN Aura",
+    "location": "Cairns",
+    "price": "622201",
+    "year": "2019"
+  },
+  {
+    "@id": "900",
+    "coding": "900",
+    "name": "Karma Revero GT",
+    "location": "Perth",
+    "price": "162594",
+    "year": "2020"
+  },
+  {
+    "@id": "901",
+    "coding": "901",
+    "name": "DODGE Durango SRT",
+    "location": "Wollongong",
+    "price": "918335",
+    "year": "2007"
+  },
+  {
+    "@id": "902",
+    "coding": "902",
+    "name": "HONDA CR-V",
+    "location": "Perth",
+    "price": "112696",
+    "year": "2015"
+  },
+  {
+    "@id": "903",
+    "coding": "903",
+    "name": "AUDI S4",
+    "location": "Gold Coast",
+    "price": "724790",
+    "year": "2011"
+  },
+  {
+    "@id": "904",
+    "coding": "904",
+    "name": "SEAT Leon 5 doors",
+    "location": "Newcastle",
+    "price": "471787",
+    "year": "2013"
+  },
+  {
+    "@id": "905",
+    "coding": "905",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Adelaide",
+    "price": "12099",
+    "year": "2003"
+  },
+  {
+    "@id": "906",
+    "coding": "906",
+    "name": "SMART EQ fortwo Cabrio",
+    "location": "Newcastle",
+    "price": "539749",
+    "year": "2012"
+  },
+  {
+    "@id": "907",
+    "coding": "907",
+    "name": "Polestar Polestar 2",
+    "location": "Adelaide",
+    "price": "154400",
+    "year": "2017"
+  },
+  {
+    "@id": "908",
+    "coding": "908",
+    "name": "DODGE Charger SRT Hellcat Widebody",
+    "location": "Cairns",
+    "price": "264252",
+    "year": "2017"
+  },
+  {
+    "@id": "909",
+    "coding": "909",
+    "name": "PROTON Perdana",
+    "location": "Cairns",
+    "price": "780058",
+    "year": "2005"
+  },
+  {
+    "@id": "910",
+    "coding": "910",
+    "name": "OPEL Mokka-e",
+    "location": "Melbourne",
+    "price": "928140",
+    "year": "2008"
+  },
+  {
+    "@id": "911",
+    "coding": "911",
+    "name": "HONDA CR-V",
+    "location": "Canberra",
+    "price": "468263",
+    "year": "2010"
+  },
+  {
+    "@id": "912",
+    "coding": "912",
+    "name": "CADILLAC XT5",
+    "location": "Perth",
+    "price": "78628",
+    "year": "2017"
+  },
+  {
+    "@id": "913",
+    "coding": "913",
+    "name": "CUPRA Formentor",
+    "location": "Brisbane",
+    "price": "955174",
+    "year": "2011"
+  },
+  {
+    "@id": "914",
+    "coding": "914",
+    "name": "WIESMANN MF5 Roadster",
+    "location": "Norfolk Island",
+    "price": "285639",
+    "year": "2001"
+  },
+  {
+    "@id": "915",
+    "coding": "915",
+    "name": "WIESMANN GT MF5",
+    "location": "Christmas Island",
+    "price": "900627",
+    "year": "2013"
+  },
+  {
+    "@id": "916",
+    "coding": "916",
+    "name": "GMC Acadia",
+    "location": "Norfolk Island",
+    "price": "84049",
+    "year": "2012"
+  },
+  {
+    "@id": "917",
+    "coding": "917",
+    "name": "ISUZU D-Max Double Cab",
+    "location": "Norfolk Island",
+    "price": "164009",
+    "year": "2017"
+  },
+  {
+    "@id": "918",
+    "coding": "918",
+    "name": "Mahindra Bolero",
+    "location": "Cocos Keeling Islands",
+    "price": "52184",
+    "year": "2006"
+  },
+  {
+    "@id": "919",
+    "coding": "919",
+    "name": "ALPINE A106",
+    "location": "Norfolk Island",
+    "price": "145319",
+    "year": "2019"
+  },
+  {
+    "@id": "920",
+    "coding": "920",
+    "name": "DACIA Sandero",
+    "location": "Norfolk Island",
+    "price": "796336",
+    "year": "2019"
+  },
+  {
+    "@id": "921",
+    "coding": "921",
+    "name": "CITROEN AMI",
+    "location": "Geelong",
+    "price": "844972",
+    "year": "2016"
+  },
+  {
+    "@id": "922",
+    "coding": "922",
+    "name": "SATURN Outlook",
+    "location": "Norfolk Island",
+    "price": "548631",
+    "year": "2016"
+  },
+  {
+    "@id": "923",
+    "coding": "923",
+    "name": "FERRARI Roma",
+    "location": "Melbourne",
+    "price": "493428",
+    "year": "2004"
+  },
+  {
+    "@id": "924",
+    "coding": "924",
+    "name": "MERCEDES BENZ A-Class",
+    "location": "Gold Coast",
+    "price": "333043",
+    "year": "2003"
+  },
+  {
+    "@id": "925",
+    "coding": "925",
+    "name": "SCION iA",
+    "location": "Newcastle",
+    "price": "879169",
+    "year": "2011"
+  },
+  {
+    "@id": "926",
+    "coding": "926",
+    "name": "SSANGYONG Korando",
+    "location": "Wollongong",
+    "price": "151855",
+    "year": "2014"
+  },
+  {
+    "@id": "927",
+    "coding": "927",
+    "name": "Polestar Polestar 2",
+    "location": "Geelong",
+    "price": "961095",
+    "year": "2017"
+  },
+  {
+    "@id": "928",
+    "coding": "928",
+    "name": "PAGANI Huayra Roadster",
+    "location": "Adelaide",
+    "price": "582381",
+    "year": "2009"
+  },
+  {
+    "@id": "929",
+    "coding": "929",
+    "name": "QOROS 3 City SUV",
+    "location": "Hobart",
+    "price": "208894",
+    "year": "2009"
+  },
+  {
+    "@id": "930",
+    "coding": "930",
+    "name": "BUFORI V6i",
+    "location": "Jervis Bay",
+    "price": "661239",
+    "year": "2016"
+  },
+  {
+    "@id": "931",
+    "coding": "931",
+    "name": "Zenvo TS1",
+    "location": "Brisbane",
+    "price": "692432",
+    "year": "2003"
+  },
+  {
+    "@id": "932",
+    "coding": "932",
+    "name": "CHRYSLER 300",
+    "location": "Christmas Island",
+    "price": "11002",
+    "year": "2018"
+  },
+  {
+    "@id": "933",
+    "coding": "933",
+    "name": "LAND ROVER Discovery Sport",
+    "location": "Adelaide",
+    "price": "158724",
+    "year": "2005"
+  },
+  {
+    "@id": "934",
+    "coding": "934",
+    "name": "ALPINE A106",
+    "location": "Hobart",
+    "price": "541511",
+    "year": "2015"
+  },
+  {
+    "@id": "935",
+    "coding": "935",
+    "name": "BRISTOL Bullet",
+    "location": "Townsville",
+    "price": "262548",
+    "year": "2004"
+  },
+  {
+    "@id": "936",
+    "coding": "936",
+    "name": "HUMMER H3",
+    "location": "Gold Coast",
+    "price": "335656",
+    "year": "2000"
+  },
+  {
+    "@id": "937",
+    "coding": "937",
+    "name": "PANOZ Roadster",
+    "location": "Toowoomba",
+    "price": "904233",
+    "year": "2003"
+  },
+  {
+    "@id": "938",
+    "coding": "938",
+    "name": "BENTLEY Mulliner Bacalar",
+    "location": "Norfolk Island",
+    "price": "296958",
+    "year": "2020"
+  },
+  {
+    "@id": "939",
+    "coding": "939",
+    "name": "TESLA MOTORS Cybertruck",
+    "location": "Brisbane",
+    "price": "385702",
+    "year": "2001"
+  },
+  {
+    "@id": "940",
+    "coding": "940",
+    "name": "ZENDER Straight 8",
+    "location": "Townsville",
+    "price": "823708",
+    "year": "2008"
+  },
+  {
+    "@id": "941",
+    "coding": "941",
+    "name": "BRISTOL Fighter T",
+    "location": "Cocos Keeling Islands",
+    "price": "553317",
+    "year": "2018"
+  },
+  {
+    "@id": "942",
+    "coding": "942",
+    "name": "CATERHAM Superlight",
+    "location": "Hobart",
+    "price": "672011",
+    "year": "2000"
+  },
+  {
+    "@id": "943",
+    "coding": "943",
+    "name": "HUMMER H3 Alpha",
+    "location": "Townsville",
+    "price": "503563",
+    "year": "2012"
+  },
+  {
+    "@id": "944",
+    "coding": "944",
+    "name": "MERCURY Grand Marquis",
+    "location": "Gold Coast",
+    "price": "517524",
+    "year": "2008"
+  },
+  {
+    "@id": "945",
+    "coding": "945",
+    "name": "TVR 350i Convertible",
+    "location": "Jervis Bay",
+    "price": "295154",
+    "year": "2004"
+  },
+  {
+    "@id": "946",
+    "coding": "946",
+    "name": "FORD C-Max",
+    "location": "Newcastle",
+    "price": "113183",
+    "year": "2019"
+  },
+  {
+    "@id": "947",
+    "coding": "947",
+    "name": "SAMSUNG SM 5",
+    "location": "Toowoomba",
+    "price": "718595",
+    "year": "2000"
+  },
+  {
+    "@id": "948",
+    "coding": "948",
+    "name": "PANOZ Avezzano",
+    "location": "Gold Coast",
+    "price": "957738",
+    "year": "2000"
+  },
+  {
+    "@id": "949",
+    "coding": "949",
+    "name": "MAZDA 2",
+    "location": "Townsville",
+    "price": "271762",
+    "year": "2011"
+  },
+  {
+    "@id": "950",
+    "coding": "950",
+    "name": "CHEVROLET SS",
+    "location": "Christmas Island",
+    "price": "897392",
+    "year": "2009"
+  },
+  {
+    "@id": "951",
+    "coding": "951",
+    "name": "HONDA Odyssey",
+    "location": "Wollongong",
+    "price": "637557",
+    "year": "2011"
+  },
+  {
+    "@id": "952",
+    "coding": "952",
+    "name": "MARUTI SUZUKI Zen Estilo",
+    "location": "Norfolk Island",
+    "price": "990359",
+    "year": "2020"
+  },
+  {
+    "@id": "953",
+    "coding": "953",
+    "name": "MG HS",
+    "location": "Brisbane",
+    "price": "527185",
+    "year": "2000"
+  },
+  {
+    "@id": "954",
+    "coding": "954",
+    "name": "MCLAREN 765LT",
+    "location": "Christmas Island",
+    "price": "661631",
+    "year": "2011"
+  },
+  {
+    "@id": "955",
+    "coding": "955",
+    "name": "Mahindra Verito",
+    "location": "Christmas Island",
+    "price": "570118",
+    "year": "2004"
+  },
+  {
+    "@id": "956",
+    "coding": "956",
+    "name": "MINI Clubman",
+    "location": "Brisbane",
+    "price": "982772",
+    "year": "2000"
+  },
+  {
+    "@id": "957",
+    "coding": "957",
+    "name": "BUICK Encore GX",
+    "location": "Brisbane",
+    "price": "599291",
+    "year": "2016"
+  },
+  {
+    "@id": "958",
+    "coding": "958",
+    "name": "TATA MOTORS Altroz",
+    "location": "Canberra",
+    "price": "519030",
+    "year": "2003"
+  },
+  {
+    "@id": "959",
+    "coding": "959",
+    "name": "MERCEDES BENZ C-Class",
+    "location": "Geelong",
+    "price": "627591",
+    "year": "2009"
+  },
+  {
+    "@id": "960",
+    "coding": "960",
+    "name": "ASTON MARTIN DBX",
+    "location": "Cocos Keeling Islands",
+    "price": "113590",
+    "year": "2006"
+  },
+  {
+    "@id": "961",
+    "coding": "961",
+    "name": "HONDA Jazz",
+    "location": "Cairns",
+    "price": "229191",
+    "year": "2011"
+  },
+  {
+    "@id": "962",
+    "coding": "962",
+    "name": "JAGUAR XFR",
+    "location": "Townsville",
+    "price": "556259",
+    "year": "2013"
+  },
+  {
+    "@id": "963",
+    "coding": "963",
+    "name": "INFINITI QX70",
+    "location": "Cairns",
+    "price": "196785",
+    "year": "2000"
+  },
+  {
+    "@id": "964",
+    "coding": "964",
+    "name": "CITROEN AMI",
+    "location": "Cairns",
+    "price": "101381",
+    "year": "2015"
+  },
+  {
+    "@id": "965",
+    "coding": "965",
+    "name": "MAZDA 2",
+    "location": "Melbourne",
+    "price": "693276",
+    "year": "2005"
+  },
+  {
+    "@id": "966",
+    "coding": "966",
+    "name": "Mahindra Bolero",
+    "location": "Townsville",
+    "price": "37317",
+    "year": "2002"
+  },
+  {
+    "@id": "967",
+    "coding": "967",
+    "name": "PROTON Ertiga",
+    "location": "Wollongong",
+    "price": "263974",
+    "year": "2014"
+  },
+  {
+    "@id": "968",
+    "coding": "968",
+    "name": "INFINITI EX37",
+    "location": "Newcastle",
+    "price": "27255",
+    "year": "2000"
+  },
+  {
+    "@id": "969",
+    "coding": "969",
+    "name": "MCLAREN 765LT",
+    "location": "Hobart",
+    "price": "322863",
+    "year": "2013"
+  },
+  {
+    "@id": "970",
+    "coding": "970",
+    "name": "DODGE Durango",
+    "location": "Adelaide",
+    "price": "828684",
+    "year": "2001"
+  },
+  {
+    "@id": "971",
+    "coding": "971",
+    "name": "MAZDA BT-50",
+    "location": "Cocos Keeling Islands",
+    "price": "173979",
+    "year": "2003"
+  },
+  {
+    "@id": "972",
+    "coding": "972",
+    "name": "FSO Prima",
+    "location": "Townsville",
+    "price": "566325",
+    "year": "2004"
+  },
+  {
+    "@id": "973",
+    "coding": "973",
+    "name": "ZENDER Thirty 7",
+    "location": "Cocos Keeling Islands",
+    "price": "546469",
+    "year": "2005"
+  },
+  {
+    "@id": "974",
+    "coding": "974",
+    "name": "ASTON MARTIN DB11",
+    "location": "Cocos Keeling Islands",
+    "price": "680829",
+    "year": "2007"
+  },
+  {
+    "@id": "975",
+    "coding": "975",
+    "name": "GEELY MK2 (Hatch)",
+    "location": "Caloundra",
+    "price": "209373",
+    "year": "2020"
+  },
+  {
+    "@id": "976",
+    "coding": "976",
+    "name": "PROTON Ertiga",
+    "location": "Gold Coast",
+    "price": "303034",
+    "year": "2000"
+  },
+  {
+    "@id": "977",
+    "coding": "977",
+    "name": "KOENIGSEGG Gemera",
+    "location": "Toowoomba",
+    "price": "179695",
+    "year": "2007"
+  },
+  {
+    "@id": "978",
+    "coding": "978",
+    "name": "INFINITI EX37",
+    "location": "Townsville",
+    "price": "621105",
+    "year": "2011"
+  },
+  {
+    "@id": "979",
+    "coding": "979",
+    "name": "ASTON MARTIN DB11",
+    "location": "Cairns",
+    "price": "584802",
+    "year": "2004"
+  },
+  {
+    "@id": "980",
+    "coding": "980",
+    "name": "KTM X-Bow GT",
+    "location": "Perth",
+    "price": "465344",
+    "year": "2014"
+  },
+  {
+    "@id": "981",
+    "coding": "981",
+    "name": "Mahindra Bolero",
+    "location": "Canberra",
+    "price": "237729",
+    "year": "2018"
+  },
+  {
+    "@id": "982",
+    "coding": "982",
+    "name": "HUMMER H3",
+    "location": "Adelaide",
+    "price": "222991",
+    "year": "2019"
+  },
+  {
+    "@id": "983",
+    "coding": "983",
+    "name": "JEEP Renegade",
+    "location": "Gold Coast",
+    "price": "321419",
+    "year": "2017"
+  },
+  {
+    "@id": "984",
+    "coding": "984",
+    "name": "HINDUSTAN RTV",
+    "location": "Adelaide",
+    "price": "752801",
+    "year": "2013"
+  },
+  {
+    "@id": "985",
+    "coding": "985",
+    "name": "MINI Countryman",
+    "location": "Brisbane",
+    "price": "955470",
+    "year": "2015"
+  },
+  {
+    "@id": "986",
+    "coding": "986",
+    "name": "ARO 24",
+    "location": "Cairns",
+    "price": "56719",
+    "year": "2010"
+  },
+  {
+    "@id": "987",
+    "coding": "987",
+    "name": "MARUTI SUZUKI Wagon R",
+    "location": "Canberra",
+    "price": "456439",
+    "year": "2004"
+  },
+  {
+    "@id": "988",
+    "coding": "988",
+    "name": "MCLAREN Elva",
+    "location": "Cocos Keeling Islands",
+    "price": "613457",
+    "year": "2018"
+  },
+  {
+    "@id": "989",
+    "coding": "989",
+    "name": "LOTUS Evora GT",
+    "location": "Newcastle",
+    "price": "420258",
+    "year": "2006"
+  },
+  {
+    "@id": "990",
+    "coding": "990",
+    "name": "DR MOTOR dr5",
+    "location": "Melbourne",
+    "price": "926255",
+    "year": "2000"
+  },
+  {
+    "@id": "991",
+    "coding": "991",
+    "name": "CHEVROLET SS",
+    "location": "Brisbane",
+    "price": "202812",
+    "year": "2013"
+  },
+  {
+    "@id": "992",
+    "coding": "992",
+    "name": "JEEP Compass",
+    "location": "Cairns",
+    "price": "524668",
+    "year": "2012"
+  },
+  {
+    "@id": "993",
+    "coding": "993",
+    "name": "PONTIAC Bonneville",
+    "location": "Brisbane",
+    "price": "262239",
+    "year": "2010"
+  },
+  {
+    "@id": "994",
+    "coding": "994",
+    "name": "LAND ROVER Defender 90",
+    "location": "Wollongong",
+    "price": "387648",
+    "year": "2010"
+  },
+  {
+    "@id": "995",
+    "coding": "995",
+    "name": "ROLLS-ROYCE Ghost",
+    "location": "Townsville",
+    "price": "414010",
+    "year": "2017"
+  },
+  {
+    "@id": "996",
+    "coding": "996",
+    "name": "KTM X-Bow R",
+    "location": "Cocos Keeling Islands",
+    "price": "802754",
+    "year": "2000"
+  },
+  {
+    "@id": "997",
+    "coding": "997",
+    "name": "SPYKER C12 LaTurbie",
+    "location": "Newcastle",
+    "price": "87330",
+    "year": "2009"
+  },
+  {
+    "@id": "998",
+    "coding": "998",
+    "name": "SAMSUNG SM 7",
+    "location": "Christmas Island",
+    "price": "903762",
+    "year": "2004"
+  },
+  {
+    "@id": "999",
+    "coding": "999",
+    "name": "SSANGYONG Korando",
+    "location": "Wollongong",
+    "price": "988934",
+    "year": "2012"
+  },
+  {
+    "@id": "1000",
+    "coding": "1000",
+    "name": "SSANGYONG Korando",
+    "location": "Newcastle",
+    "price": "416527",
+    "year": "2010"
+  }
+]

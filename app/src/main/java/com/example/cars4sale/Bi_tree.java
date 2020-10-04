@@ -52,7 +52,7 @@ public class Bi_tree {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse(".idea/cardata.xml");
+            Document d = builder.parse("app/src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
 

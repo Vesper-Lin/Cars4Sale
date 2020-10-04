@@ -3,15 +3,15 @@ package com.example.cars4sale;
 public class Car {
     private int id;
     private int coding;
-    private String carname;
+    private String name;
     private String location;
     private int price;
     private int year;
 
-    public Car(int id, int coding, String carname, String location, int price, int year) {
+    public Car(int id, int coding, String name, String location, int price, int year) {
         this.id = id;
         this.coding = coding;
-        this.carname = carname;
+        this.name = name;
         this.location = location;
         this.price = price;
         this.year = year;
@@ -25,28 +25,27 @@ public class Car {
         this.id = id;
     }
 
-    public int getcoding() {
+    public int getCoding() {
         return coding;
     }
 
-    public void setcoding(int id) {
+    public void setCoding(int coding) {
         this.coding = coding;
     }
 
-
-    public String getcarname() {
-        return carname;
+    public String getName() {
+        return name;
     }
 
-    public void setcarname(String carname) {
-        this.carname = carname;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getlocation() {
+    public String getLocation() {
         return location;
     }
 
-    public void setlocation(String location) {
+    public void setLocation(String location) {
         this.location = location;
     }
 
@@ -58,17 +57,24 @@ public class Car {
         this.price = price;
     }
 
-    public int getyear() {
+    public int getYear() {
         return year;
     }
 
-    public void setyear(int price) {
+    public void setYear(int year) {
         this.year = year;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id=" + id +
+                ", coding=" + coding +
+                ", name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                ", price=" + price +
+                ", year=" + year +
+                '}';
+    }
 
-    //public String toString()
-    //{
-    //   return "id: " + this.id + " - Carname: " + this.carname + " - Location: " + this.location + "- Price: " + this.price ;
-    // }
 }
