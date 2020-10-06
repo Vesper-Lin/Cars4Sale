@@ -13,10 +13,13 @@ import java.util.Scanner;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class Bi_tree {
+public class Bi_tree{
+
+    static List nodeList;
+    public static BST tree;
 
     public static void node(NodeList list) {
-        List nodeList = new ArrayList<>();
+        nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
             Node node = list.item(i);
             NodeList childtext = node.getChildNodes();
@@ -26,9 +29,17 @@ public class Bi_tree {
                 }
             }
         }
-        groupList(nodeList);
         Map aa = groupList(nodeList);
-        System.out.println(aa.get(0));
+        //for(int i = 0;i<1001;i++){
+          //  tree.insert(Integer.parseInt(aa.get(i).toString().split(",")[3].trim()),aa.get(i).toString().charAt(1));
+        //}
+
+
+
+       // String a = aa.get(0).toString().split(",")[3];
+
+
+       //System.out.println(aa);
     }
 
     public static Map groupList(List list) {
@@ -56,30 +67,16 @@ public class Bi_tree {
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
 
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-        String string1 = "";
-        String string2 = "";
-        String string3 = "";
-        String string4 = "";
+
+        //for(int i = 0;i<1001;i++){
+        //    tree.insert(Integer.parseInt(groupList(nodeList).get(i).toString().split(",")[3].trim()),groupList(nodeList).get(i).toString().charAt(1));
+        //}
 
 
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        String[] as = input.split(";");
-        for (int i = 0; i < as.length; i++) {
-            System.out.println(as[i]);
-            if (i == 0) {
-                string1 = as[i];
-            } else if (i == 1) {
-                string2 = as[i];
-            } else if (i == 2) {
-                string3 = as[i];
-            } else {
-                string4 = as[i];
-            }
-        }
 
 
     }
