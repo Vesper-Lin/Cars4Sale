@@ -26,6 +26,9 @@ code:
   - comment: Hide the keyboard when clicking outside of the text fields
       url: https://stackoverflow.com/questions/20713273/dismiss-keyboard-when-click-outside-of-edittext-in-android/32149756
       licence: Creative Commons Attribution-ShareAlike 4.0 International Public License
+  - comment: Lecture and Lab code from COMP2100_6442_S2_2020 GitLab repository of Bernardo Pereira Nunes
+      url: https://gitlab.cecs.anu.edu.au/u1064702/comp2100_6442_s2_2020
+      licence: No license. All rights reserved
   - comment:
       url:
       licence:
