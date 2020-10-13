@@ -16,7 +16,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class Bi_tree extends BST{
 
     static List nodeList;
-
+    static Map aa = new HashMap();
 
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
@@ -32,16 +32,14 @@ public class Bi_tree extends BST{
         Map aa = new HashMap();
         aa = groupList(nodeList);
         BST tree = new BST();
-       // System.out.println(returnlocation(aa,"Toowoomba"));
-       // System.out.println(returnname(aa,"SATURN Outlook"));
-       // System.out.println(return_beforeyear(aa,2010));
 
 
         //System.out.println(aa.get(10).toString().substring(1).split(",")[0].trim());
 
+
         for(int i = 0;i<1000;i++){
             //key--price; value--id
-           tree.insert(Integer.parseInt(aa.get(i).toString().split(",")[3].trim()),aa.get(i).toString().substring(1).split(",")[0].trim());
+            tree.insert(Integer.parseInt(aa.get(i).toString().split(",")[3].trim()),aa.get(i).toString().substring(1).split(",")[0].trim());
         }
         return tree;
     }
@@ -99,7 +97,7 @@ public class Bi_tree extends BST{
                 new_map.put(i,map.get(i));
             }
         }
-            return new_map;
+        return new_map;
 
     }
 
@@ -112,8 +110,11 @@ public class Bi_tree extends BST{
             }
         }
         return new_map;
-
     }
+
+
+
+
 
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -122,9 +123,22 @@ public class Bi_tree extends BST{
             Document d = builder.parse("app/src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
-            //System.out.println(preOrderTraverse(node(sList).root));
-            System.out.println(preOrderTraverse(node(sList).root));
-            //return_over_id(node(sList).root,1000);
+            aa=groupList(nodeList);
+
+
+            //System.out.println(aa.get(695));
+            //System.out.println(returnoverprice(node(sList).root,537072));
+           System.out.println(list_to_map(aa,list_to_list(returnoverprice(node(sList).root,988934))));
+            //System.out.println(list_to_map(aa,list_to_list(returnsmallprice(node(sList).root,537))).size());
+            //System.out.println(returnlocation(aa,"Toowoomba"));
+            // System.out.println(returnname(aa,"SATURN Outlook"));
+            // System.out.println(return_beforeyear(aa,2010));
+
+
+
+
+
+
 
 
         } catch (Exception e) {
