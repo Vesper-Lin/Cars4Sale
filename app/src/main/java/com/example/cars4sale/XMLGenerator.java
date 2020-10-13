@@ -23,7 +23,7 @@ public class XMLGenerator extends GetRandom {
     public static void main(String[] args) {
         XMLGenerator xml = new XMLGenerator();
 
-        for (int i = 0; i < 1001; i++) {
+        for (int i = 0; i < 1000; i++) {
             cars.add(new Car(i, i, getRandomCarModelName(), getRandomLocationOfAu(), getRandomPrice(10000, 1000000), getRandomYear(2000, 2020)));
         }
         xml.saveData("app/src/main/assets/carData.xml");
@@ -47,12 +47,12 @@ public class XMLGenerator extends GetRandom {
                 Node n = nl.item(i);
                 if (n.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) n;
-                    Integer id = Integer.parseInt(element.getAttribute("id"));
-                    Integer coding = Integer.parseInt(element.getAttribute("coding"));
+                    int id = Integer.parseInt(element.getAttribute("id"));
+                    int coding = Integer.parseInt(element.getAttribute("coding"));
                     String name = element.getElementsByTagName("name").item(0).getTextContent();
                     String location = element.getElementsByTagName("location").item(0).getTextContent();
-                    Integer price = Integer.parseInt(element.getAttribute("price"));
-                    Integer year = Integer.parseInt(element.getAttribute("year"));
+                    int price = Integer.parseInt(element.getAttribute("price"));
+                    int year = Integer.parseInt(element.getAttribute("year"));
 
                     Car car = new Car(id, coding, name, location, price, year);
                     cars.add(car);

@@ -2,8 +2,8 @@ package com.example.cars4sale;
 
 public class TokenizerDemo {
 
-    static String text1 = "location = canberra; price < 100000 ; year > 2000;";
-    static String text2 = "price >20000  ; location=canberra; year= 2018 ;";
+    static String text1 = "location = canberra; price < 100000 ; year > 2000";
+    static String text2 = "price >20000  ; location=canberra;year= 2018";
 
     public static void main(String[] args) {
         Tokenizer tz = new MyTokenizer(text1);
