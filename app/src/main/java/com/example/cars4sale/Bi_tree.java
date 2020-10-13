@@ -8,17 +8,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
+
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class Bi_tree{
+public class Bi_tree extends BST{
 
     static List nodeList;
-    public static BST tree;
 
-    public static void node(NodeList list) {
+
+    public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
             Node node = list.item(i);
@@ -29,18 +29,24 @@ public class Bi_tree{
                 }
             }
         }
-        Map aa = groupList(nodeList);
-        //for(int i = 0;i<1001;i++){
-          //  tree.insert(Integer.parseInt(aa.get(i).toString().split(",")[3].trim()),aa.get(i).toString().charAt(1));
-        //}
+        Map aa = new HashMap();
+        aa = groupList(nodeList);
+        BST tree = new BST();
+       // System.out.println(returnlocation(aa,"Toowoomba"));
+       // System.out.println(returnname(aa,"SATURN Outlook"));
+       // System.out.println(return_beforeyear(aa,2010));
 
 
+        //System.out.println(aa.get(10).toString().substring(1).split(",")[0].trim());
 
-       // String a = aa.get(0).toString().split(",")[3];
-
-
-       //System.out.println(aa);
+        for(int i = 0;i<1000;i++){
+            //key--price; value--id
+           tree.insert(Integer.parseInt(aa.get(i).toString().split(",")[3].trim()),aa.get(i).toString().substring(1).split(",")[0].trim());
+        }
+        return tree;
     }
+
+
 
     public static Map groupList(List list) {
         int listSize = list.size();
@@ -59,6 +65,56 @@ public class Bi_tree{
     }
 
 
+
+
+    public static Map returnname(Map map, String s){
+        Map new_map = new HashMap();
+        for(int i =0;i<1000;i++){
+            if (map.get(i).toString().split(",")[1].trim().equals(s)){
+                //map.get(i).toString().split(",")[0].trim();
+                new_map.put(i,map.get(i));
+            }
+        }
+
+        return new_map;
+    }
+
+    public static Map returnlocation(Map map, String s){
+        Map new_map = new HashMap();
+        for(int i =0;i<1000;i++){
+            if (map.get(i).toString().split(",")[2].trim().equals(s)){
+                //map.get(i).toString().split(",")[0].trim();
+                new_map.put(i,map.get(i));
+            }
+        }
+
+        return new_map;
+    }
+
+    public static Map return_beforeyear(Map map, Integer year){
+        Map new_map = new HashMap();
+        for(int i =0;i<1000;i++){
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0,4))<=year){
+                //map.get(i).toString().split(",")[0].trim();
+                new_map.put(i,map.get(i));
+            }
+        }
+            return new_map;
+
+    }
+
+    public static Map return_afteryear(Map map, Integer year){
+        Map new_map = new HashMap();
+        for(int i =0;i<1000;i++){
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0,4))>=year){
+                //map.get(i).toString().split(",")[0].trim();
+                new_map.put(i,map.get(i));
+            }
+        }
+        return new_map;
+
+    }
+
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
@@ -66,19 +122,14 @@ public class Bi_tree{
             Document d = builder.parse("app/src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
+            //System.out.println(preOrderTraverse(node(sList).root));
+            System.out.println(preOrderTraverse(node(sList).root));
+            //return_over_id(node(sList).root,1000);
 
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        //for(int i = 0;i<1001;i++){
-        //    tree.insert(Integer.parseInt(groupList(nodeList).get(i).toString().split(",")[3].trim()),groupList(nodeList).get(i).toString().charAt(1));
-        //}
-
-
-
-
     }
 
 }

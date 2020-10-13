@@ -1,5 +1,6 @@
 package com.example.cars4sale;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BST {
@@ -12,7 +13,7 @@ public class BST {
     }
 
 
-    public Node insert(Integer key, Character value) {
+    public Node insert(Integer key, String value) {
         Node parent = null;
         Node current = this.root;
         while (current != null) {
@@ -50,22 +51,53 @@ public class BST {
 
     }
 
+    public static List<String> return_over_id(Node t,Integer price) {
+        List<String> list = new ArrayList<String>();
+        if(null == t){
+            return list;
+        }
 
-    public static void preOrderTraverse(Node t) {
+        if (t.key>=price){
+            list.add(t.value);
+            if(t.left.key==null){
+
+            }
+            if(t.left.key>=price){
+                return_over_id(t.left,price);
+            }else {
+                return_over_id(t.right,price);
+            }
+
+        }else {
+            return_over_id(t.right,price);
+        }
+        return list;
+    }
+
+
+
+
+    public static List<String> list = new ArrayList<String>();
+    public static List<String> preOrderTraverse(Node t) {
 
         if (null == t) {
-            return;
+            return list;
         }
-        if (t.left != null) {
+        else if (t.left != null) {
+
             preOrderTraverse(t.left); // 中序遍历左子树
         }
         if (t.key!= 0) {
 
-            System.out.println("[" + t.key + "]"); // 显示当前节点的数据
+            list.add(t.value);
+            //System.out.println(t.value);
+           //System.out.println("[" + t.key + "]"); // 显示当前节点的数据
         }
 
         if (t.right != null) {
             preOrderTraverse(t.right); // 最后遍历右子树
         }
+
+        return list;
     }
 }

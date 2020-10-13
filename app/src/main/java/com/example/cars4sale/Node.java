@@ -2,12 +2,12 @@ package com.example.cars4sale;
 
 public class Node {
     Integer key;
-    Character value;
+    String value;
     Node parent;
     Node left;
     Node right;
 
-    public Node(Integer key, Character value) {
+    public Node(Integer key, String value) {
         this.key = key;
         this.value = value;
         this.parent = null;

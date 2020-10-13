@@ -23,7 +23,7 @@ public class XMLGenerator extends GetRandom {
     public static void main(String[] args) {
         XMLGenerator xml = new XMLGenerator();
 
-        for (int i = 1; i < 1001; i++) {
+        for (int i = 0; i < 1001; i++) {
             cars.add(new Car(i, i, getRandomCarModelName(), getRandomLocationOfAu(), getRandomPrice(10000, 1000000), getRandomYear(2000, 2020)));
         }
         xml.saveData("app/src/main/assets/carData.xml");
