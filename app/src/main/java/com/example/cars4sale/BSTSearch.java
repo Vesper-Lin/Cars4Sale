@@ -90,7 +90,7 @@ public class BSTSearch extends BST {
     public static Map getYearBefore(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) <= year) {
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) < year) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -100,7 +100,7 @@ public class BSTSearch extends BST {
     public static Map getYearAfter(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) >= year) {
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) > year) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -125,6 +125,7 @@ public class BSTSearch extends BST {
             //System.out.println(getName(map,"SATURN Outlook"));
             //System.out.println(getYearBefore(map,2010));
             //System.out.println(getName(map, "SaTuRn"));
+            //System.out.println(getYear(map, 2018));
 
         } catch (Exception e) {
             e.printStackTrace();
