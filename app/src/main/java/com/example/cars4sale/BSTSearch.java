@@ -14,10 +14,11 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class BSTSearch extends BST {
 
-    static List nodeList = new ArrayList<>();
+    static List nodeList;
     static Map map = new HashMap();
 
     public static BST node(NodeList list) {
+        nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
             Node node = list.item(i);
             NodeList childText = node.getChildNodes();
@@ -59,7 +60,7 @@ public class BSTSearch extends BST {
     public static Map getName(Map map, String s) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (map.get(i).toString().split(",")[1].trim().equals(s)) {
+            if (map.get(i).toString().split(",")[1].trim().toLowerCase().contains(s.toLowerCase())) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -108,11 +109,12 @@ public class BSTSearch extends BST {
 
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
-            System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
+            //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
             // System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getYearBefore(map,2010));
+            System.out.println(getName(map, "SaTuRn"));
 
         } catch (Exception e) {
             e.printStackTrace();

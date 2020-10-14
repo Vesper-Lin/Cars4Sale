@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class BST {
     public static List<String> list_price = new ArrayList<>();
-    public static List<Integer> l1 = new ArrayList<Integer>();
+    public static List<Integer> l1 = new ArrayList<>();
     Node root;
 
     public BST() {
