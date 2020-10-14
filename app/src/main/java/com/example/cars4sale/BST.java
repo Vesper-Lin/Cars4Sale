@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class BST {
     public static List<String> list_price = new ArrayList<>();
-    public static List<Integer> l1 = new ArrayList<>();
+    public static List<Integer> new_list = new ArrayList<>();
     Node root;
 
     public BST() {
@@ -18,8 +18,8 @@ public class BST {
 
         if (null == t) {
             return list_price;
-        } else if (t.left != null) {
 
+        } else if (t.left != null) {
             getHigherPrice(t.left, price); // 中序遍历左子树
         }
         if (t.key != 0) {
@@ -66,9 +66,9 @@ public class BST {
 
     public static List<Integer> list_to_list(List<String> list) {
         for (int i = 0; i < list.size(); i++) {
-            l1.add(Integer.parseInt(list.get(i)));
+            BST.new_list.add(Integer.parseInt(list.get(i)));
         }
-        return l1;
+        return BST.new_list;
     }
 
     public static Map list_to_map(Map map, List<Integer> list) {

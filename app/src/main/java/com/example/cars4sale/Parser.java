@@ -1,13 +1,12 @@
 package com.example.cars4sale;
 
 /**
- * Name: Parser.java
- *
- *  The main objective of this class is to implement a simple parser.
+ *  The main objective of this class is to implement a parser for the search query.
  *  It should be able to parser the following grammar rule:
- *  <exp>    ::= <term> | <term> + <exp> | <term> - <exp>
- *  <term>   ::=  <factor> | <factor> * <term> | <factor> / <term>
- *  <factor> ::= <unsigned integer> | ( <exp> )
+ *  <exp>    ::= <term> ; <exp> | <term>
+ *  <term>   ::= <key> <data>
+ *  <key>    ::= "name=" | "location=" | "price=" | "price<" | "price>" | "year=" | "year<" | "year>"
+ *  <data>   ::= <unsigned string>
  *
  */
 public class Parser {

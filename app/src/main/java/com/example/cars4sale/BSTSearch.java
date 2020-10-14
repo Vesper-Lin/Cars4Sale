@@ -77,6 +77,16 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    public static Map getYear(Map map, Integer year) {
+        Map new_map = new HashMap();
+        for (int i = 0; i < 1000; i++) {
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) == year) {
+                new_map.put(i, map.get(i));
+            }
+        }
+        return new_map;
+    }
+
     public static Map getYearBefore(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
