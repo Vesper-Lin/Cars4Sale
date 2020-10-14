@@ -14,37 +14,12 @@ public class BST {
         this.root = null;
     }
 
-    public static List<String> getHigherPrice(Node t, Integer price) {
-
-        if (null == t) {
-            return list_price;
-
-        } else if (t.left != null) {
-            getHigherPrice(t.left, price); // 中序遍历左子树
-        }
-        if (t.key != 0) {
-
-            if (t.key >= price) {
-                list_price.add(t.value);
-            }
-            //System.out.println(t.value);
-            //System.out.println("[" + t.key + "]"); // 显示当前节点的数据
-        }
-
-        if (t.right != null) {
-            getHigherPrice(t.right, price); // 最后遍历右子树
-        }
-
-        return list_price;
-    }
-
-
     public static List<String> getLowerPrice(Node t, Integer price) {
 
         if (null == t) {
             return list_price;
         } else if (t.left != null) {
-            getHigherPrice(t.left, price); // 中序遍历左子树
+            getLowerPrice(t.left, price);
         }
 
         if (t.key != 0) {
@@ -53,12 +28,34 @@ public class BST {
                 list_price.add(t.value);
 
             }
-            //System.out.println(t.value);
-            //System.out.println("[" + t.key + "]"); // 显示当前节点的数据
+
         }
 
         if (t.right != null) {
-            getHigherPrice(t.right, price); // 最后遍历右子树
+            getLowerPrice(t.right, price);
+        }
+
+        return list_price;
+    }
+
+    public static List<String> getHigherPrice(Node t, Integer price) {
+
+        if (null == t) {
+            return list_price;
+
+        } else if (t.left != null) {
+            getHigherPrice(t.left, price);
+        }
+        if (t.key != 0) {
+
+            if (t.key > price) {
+                list_price.add(t.value);
+            }
+
+        }
+
+        if (t.right != null) {
+            getHigherPrice(t.right, price);
         }
 
         return list_price;

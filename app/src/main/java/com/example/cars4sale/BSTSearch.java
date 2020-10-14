@@ -120,11 +120,11 @@ public class BSTSearch extends BST {
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
             //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
-            //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
+            //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,29370))));
             //System.out.println(getLocation(map,"Toowoomba"));
-            // System.out.println(getName(map,"SATURN Outlook"));
-            // System.out.println(getYearBefore(map,2010));
-            System.out.println(getName(map, "SaTuRn"));
+            //System.out.println(getName(map,"SATURN Outlook"));
+            //System.out.println(getYearBefore(map,2010));
+            //System.out.println(getName(map, "SaTuRn"));
 
         } catch (Exception e) {
             e.printStackTrace();
