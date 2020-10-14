@@ -1,9 +1,16 @@
 package com.example.cars4sale;
 
+import java.util.Map;
+
+/**
+ * Abstract class Exp to represent expressions
+ */
 public abstract class Exp {
 
-    public abstract String show(); // returns parsed expression of the current expression
+    // returns parsed expression of the current expression
+    public abstract String show();
 
-    public abstract int evaluate(); // returns evaluated value of the current expression
+    // returns evaluated search result map of the current expression
+    public abstract Map evaluate();
 
 }

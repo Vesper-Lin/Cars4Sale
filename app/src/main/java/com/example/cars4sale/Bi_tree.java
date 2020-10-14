@@ -126,14 +126,13 @@ public class Bi_tree extends BST{
             aa=groupList(nodeList);
 
 
-
-
-            //System.out.println(list_to_map(aa,list_to_list(returnoverprice(node(sList).root,988934))));
+            //System.out.println(aa.get(695));
+            //System.out.println(returnoverprice(node(sList).root,537072));
+           System.out.println(list_to_map(aa,list_to_list(returnoverprice(node(sList).root,988934))));
             //System.out.println(list_to_map(aa,list_to_list(returnsmallprice(node(sList).root,537))).size());
             //System.out.println(returnlocation(aa,"Toowoomba"));
             // System.out.println(returnname(aa,"SATURN Outlook"));
             // System.out.println(return_beforeyear(aa,2010));
-
 
 
 

@@ -92,7 +92,7 @@ public class BST {
         }
         if (t.key!= 0) {
 
-            if(t.key<=price){
+            if(t.key<price){
                 list_p.add(t.value);
             }
             //System.out.println(t.value);
