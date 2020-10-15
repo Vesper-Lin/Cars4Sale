@@ -16,6 +16,7 @@ public class BSTSearch extends BST {
 
     static List nodeList;
     static Map map = new HashMap();
+    public static NodeList sList;
 
 
     public static BST node(NodeList list) {
@@ -109,7 +110,7 @@ public class BSTSearch extends BST {
     }
 
 
-    public static NodeList sList;
+
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
