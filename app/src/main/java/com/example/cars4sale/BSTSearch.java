@@ -17,6 +17,7 @@ public class BSTSearch extends BST {
     static List nodeList;
     static Map map = new HashMap();
 
+
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -107,6 +108,8 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+
+    public static NodeList sList;
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
@@ -114,8 +117,8 @@ public class BSTSearch extends BST {
             Document d = builder.parse("app/src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
+            System.out.println(sList.getClass());
             map = groupList(nodeList);
-
 
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
