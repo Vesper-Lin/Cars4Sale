@@ -1,39 +1,5 @@
-Group project repo for COMP2100 (2020_S2) App - *Cars4Sale*
-
-## Team name - *Cars4Sale, Inc.*
-
-## Team structure and roles
-
-* Yuxuan Lin u6828533 - 
-* Xinxin Li u6750982 - 
-* Tianxiang Zhang u6773547 - 
-
-## App Overview
-
-*Add a paragraph that gives a summary of the app you implemented. Include screenshots here.*
-
-## App Implemented Features
-
-*List all implemented features
-
-## Usage Instructions
-
-*...
-
-## Design Summary
-
-*...
-
-## Testing Summary
-
-*...
-
-## Team meeting minutes
-
-*...
-
-## Statement of Originality
-
-*link to the soo file
-
-...
+Here is the group project repoistory for COMP2100 (2020_S2) App - **Cars4Sale**.
+| header | header |
+| ------ | ------ |
+| cell | cell |
+| cell | cell | 
