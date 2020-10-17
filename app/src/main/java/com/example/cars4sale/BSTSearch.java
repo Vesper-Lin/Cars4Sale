@@ -128,7 +128,7 @@ public class BSTSearch extends BST {
             //System.out.println(getLocation(map,"Toowoomba"));
             // System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getYearBefore(map,2010));
-            System.out.println(getName(map, "SaTuRn"));
+            // System.out.println(getName(map, "SaTuRn"));
 
         } catch (Exception e) {
             e.printStackTrace();
