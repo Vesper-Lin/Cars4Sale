@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.TurnOffActionBar">
-        <activity android:name=".ActivityWeb2"></activity>
+        <activity android:name=".HelpScreenActivity"></activity>
+        <activity android:name=".ActivityWeb2" />
         <activity android:name=".ActivityWeb" />
         <activity android:name=".MainActivity">
             <intent-filter>
