@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308753925306",
+    "firebase_url": "https://cars4sale-6b217.firebaseio.com",
+    "project_id": "cars4sale-6b217",
+    "storage_bucket": "cars4sale-6b217.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308753925306:android:2e65b04fdc77f2b81a2e83",
+        "android_client_info": {
+          "package_name": "com.example.cars4sale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308753925306-6skovvl99le35498o9qk2j7bj5rmo7kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0YKMb7DNEw7RIecRdBTBFJ09dUZ5TFPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308753925306-6skovvl99le35498o9qk2j7bj5rmo7kj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
