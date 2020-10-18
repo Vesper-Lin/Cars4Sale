@@ -9,7 +9,7 @@ public class Token {
     static final String nameRegex = "name*";
     static final String locationRegex = "location*";
     static final String priceRegex = "price*";
-    static final String year = "year*";
+    static final String yearRegex = "year*";
     private String _token = "";
     private Type _type = Type.UNKNOWN;
 
