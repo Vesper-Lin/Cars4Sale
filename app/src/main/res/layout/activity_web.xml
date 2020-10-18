@@ -17,7 +17,7 @@
             android:text="Cars Info"
             android:layout_marginBottom="5dp"/>
     <ListView
-            android:id="@+id/lvCars"
+            android:id="@+id/lvMonth"
             android:layout_width="wrap_content"
             android:layout_height="636dp"/>
     <Button
