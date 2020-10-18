@@ -47,6 +47,8 @@ public class MyTokenizer extends Tokenizer {
             return;
         }
 
+        int j = 0;
+
         char firstChar = _buffer.charAt(0);
 
         if (firstChar == ';') {
@@ -55,21 +57,18 @@ public class MyTokenizer extends Tokenizer {
 
         if (firstChar == '=' || firstChar == '<' || firstChar == '>') {
             currentToken = new Token(Character.toString(firstChar), Token.Type.COMPARISON);
-        }
-
-        else if (Character.isDigit(firstChar)) {
+        } else if (Character.isDigit(firstChar)) {
             StringBuilder stringBuilder = new StringBuilder(Character.toString(firstChar));
             for (int i = 1; i < _buffer.length() && Character.isDigit(_buffer.charAt(i)); i++) {
                 stringBuilder.append(_buffer.charAt(i));
             }
             currentToken = new Token(stringBuilder.toString(), Token.Type.INT);
-        }
-
-        else if (Character.isLetter(firstChar)) {
+        } else if (Character.isLetter(firstChar)) {
             int i = 0;
             while (Character.isLetter(_buffer.charAt(i)) && i < _buffer.length()) {
                 i += 1;
             }
+            j = i;
             String findWord = _buffer.substring(0, i);
             if (Token.regexMatching(findWord, Token.nameRegex) || Token.nameContaining(findWord)) {
                 findWord = "name";
@@ -89,11 +88,14 @@ public class MyTokenizer extends Tokenizer {
 
         // Remove the extracted token from buffer
         int tokenLen = currentToken.token().length();
+        if (j > tokenLen) {
+            tokenLen = j;
+        }
         _buffer = _buffer.substring(tokenLen);
     }
 
     public static void main(String[] args) {
-        String text = "locatin = canberra; pric < 100000 ; yea > 2000";
+        String text = "locatoinnnn = canberra; ppppiirce < 100000 ; yaeaar > 2000";
         MyTokenizer tokenizer = new MyTokenizer(text);
         while (tokenizer.hasNext()) {
             System.out.println(tokenizer.currentToken.token());
