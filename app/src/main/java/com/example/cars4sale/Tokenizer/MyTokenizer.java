@@ -2,6 +2,12 @@ package com.example.cars4sale.Tokenizer;
 
 import java.util.Arrays;
 
+/**
+ * Implement a Tokenizer to tokenize the search query, according to the designated vocabulary.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class MyTokenizer extends Tokenizer {
 
     private String _buffer;        //save text
@@ -14,6 +20,15 @@ public class MyTokenizer extends Tokenizer {
     public MyTokenizer(String text) {
         _buffer = text;        // save input text (string)
         next();        // extracts the first token.
+    }
+
+    public static void main(String[] args) {
+        String text = "locatoinnnn = canberra; ppppiirce < 100000 ; yaeaar > 2000";
+        MyTokenizer tokenizer = new MyTokenizer(text);
+        while (tokenizer.hasNext()) {
+            System.out.println(tokenizer.currentToken.token());
+            tokenizer.next();
+        }
     }
 
     /**
@@ -95,14 +110,5 @@ public class MyTokenizer extends Tokenizer {
             tokenLen = j;
         }
         _buffer = _buffer.substring(tokenLen);
-    }
-
-    public static void main(String[] args) {
-        String text = "locatoinnnn = canberra; ppppiirce < 100000 ; yaeaar > 2000";
-        MyTokenizer tokenizer = new MyTokenizer(text);
-        while (tokenizer.hasNext()) {
-            System.out.println(tokenizer.currentToken.token());
-            tokenizer.next();
-        }
     }
 }

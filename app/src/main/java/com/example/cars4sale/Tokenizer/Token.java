@@ -6,6 +6,13 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Pattern;
 
+/**
+ * Build a Token class with various types of tokens.
+ * The class also realizes the pretreatment of converting partially-correct words to the keywords.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class Token {
 
     static final String[] keyword = {"name", "location", "price", "year"};
