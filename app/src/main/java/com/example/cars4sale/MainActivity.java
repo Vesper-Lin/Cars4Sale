@@ -18,6 +18,7 @@ import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawer;
+    // Define Variable
     private TextInputEditText input;
 
     @Override
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void containedButton(View v) {
+        // Assign a value
         input = findViewById(R.id.outlinedTextField);
         Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
         intent.putExtra("query",input.getText().toString());
