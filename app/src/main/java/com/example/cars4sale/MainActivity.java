@@ -14,9 +14,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawer;
+    private TextInputEditText input;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         final EditText editText = findViewById(R.id.t_text);
-
 
         drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -78,8 +79,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void containedButton(View v) {
-        Intent intent = new Intent(this, ActivityWeb.class);
+        input = findViewById(R.id.outlinedTextField);
+        Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
+        intent.putExtra("query",input.getText().toString());
         startActivity(intent);
     }
-
 }
