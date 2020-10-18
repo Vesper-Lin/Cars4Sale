@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     // Define Variable
     private TextInputEditText input;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
