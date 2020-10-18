@@ -10,32 +10,12 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Top app bar - Material Design -->
-    <com.google.android.material.appbar.AppBarLayout
-            android:id="@+id/appBarLayout"
+    <TextView
+            android:text="ListView_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/AppTheme.AppBarOverlay"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.appbar.MaterialToolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:navigationIcon="@drawable/ic_baseline_menu_24"
-                app:popupTheme="@style/AppTheme.PopupOverlay"
-                app:title="@string/page_title"
-                app:titleTextColor="@color/colorTitle"/>
-        <TextView
-                android:text="ListView_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                android:textsize="32sp"
-                android:layout_marginBottom="5dp"/>
-
-    </com.google.android.material.appbar.AppBarLayout>
+            android:id="@+id/textView"
+            android:textsize="32sp"
+            android:layout_marginBottom="5dp"/>
 
 </LinearLayout>
