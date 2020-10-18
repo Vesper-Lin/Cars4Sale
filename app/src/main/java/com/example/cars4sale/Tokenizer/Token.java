@@ -1,5 +1,6 @@
 package com.example.cars4sale.Tokenizer;
 
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class Token {
@@ -18,6 +19,44 @@ public class Token {
         _type = type;
     }
 
+    public static boolean regexMatching(String regex, String input) {
+        return Pattern.matches(regex, input);
+    }
+
+    public static String sortString(String s) {
+        char[] charArray = s.toCharArray();
+        Arrays.sort(charArray);
+        return new String(charArray);
+    }
+
+    public static boolean nameContaining(String input) {
+        String keyword = "name";
+        keyword = sortString(keyword);
+        input = sortString(input);
+        return keyword.contains(input) || input.contains(keyword);
+    }
+
+    public static boolean locationContaining(String input) {
+        String keyword = "location";
+        keyword = sortString(keyword);
+        input = sortString(input);
+        return keyword.contains(input) || input.contains(keyword);
+    }
+
+    public static boolean priceContaining(String input) {
+        String keyword = "price";
+        keyword = sortString(keyword);
+        input = sortString(input);
+        return keyword.contains(input) || input.contains(keyword);
+    }
+
+    public static boolean yearContaining(String input) {
+        String keyword = "year";
+        keyword = sortString(keyword);
+        input = sortString(input);
+        return keyword.contains(input) || input.contains(keyword);
+    }
+
     public String token() {
         return _token;
     }
@@ -26,42 +65,6 @@ public class Token {
         return _type;
     }
 
-    public static boolean regexMatching(String regex, String input) {
-        return Pattern.matches(regex, input);
-    }
-
-    public static boolean nameContaining (String input) {
-        String keyword = "name";
-        if (keyword.contains(input) || input.contains(keyword)) {
-            return true;
-        }
-        return false;
-    }
-
-    public static boolean locationContaining (String input) {
-        String keyword = "location";
-        if (keyword.contains(input) || input.contains(keyword)) {
-            return true;
-        }
-        return false;
-    }
-
-    public static boolean priceContaining (String input) {
-        String keyword = "price";
-        if (keyword.contains(input) || input.contains(keyword)) {
-            return true;
-        }
-        return false;
-    }
-
-    public static boolean yearContaining (String input) {
-        String keyword = "year";
-        if (keyword.contains(input) || input.contains(keyword)) {
-            return true;
-        }
-        return false;
-    }
-
-    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, IGNORE}
+    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, ELSE}
 
 }
