@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 public class Token {
 
     static final String[] keyword = {"name", "location", "price", "year"};
-    static final char[] comparison = {'=', '<', '>'};
     static final String nameRegex = "name*";
     static final String locationRegex = "location*";
     static final String priceRegex = "price*";
@@ -28,7 +27,6 @@ public class Token {
 
     public static String sortString(String s) {
         Set<Character> set = new HashSet<>();
-        StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             set.add(s.charAt(i));
         }
@@ -36,54 +34,73 @@ public class Token {
         ArrayList<Character> arrayList = new ArrayList<>(set);
 
         char[] charArray = new char[arrayList.size()];
-        for(int i = 0; i < arrayList.size(); i++) {
+        for (int i = 0; i < arrayList.size(); i++) {
             charArray[i] = arrayList.get(i);
         }
         Arrays.sort(charArray);
         return new String(charArray);
     }
 
+    public static boolean commonCharacter(String s1, String s2) {
+        if (s1.length() < 2 || s2.length() < 2) {
+            return false;
+        } else if (s1.length() < s2.length()) {
+            for (int i = 0; i < s1.length(); i++) {
+                if (s2.indexOf(s1.charAt(i)) < 0) {
+                    return false;
+                }
+            }
+        } else if (s1.length() >= s2.length()) {
+            for (int i = 0; i < s2.length(); i++) {
+                if (s1.indexOf(s2.charAt(i)) < 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
     public static boolean nameContaining(String input) {
         String keyword = "name";
-        keyword = sortString(keyword);
-        input = sortString(input);
         if (keyword.contains(input) || input.contains(keyword)) {
             return true;
         } else {
-            return false;
+            keyword = sortString(keyword);
+            input = sortString(input);
+            return commonCharacter(input, keyword);
         }
     }
 
     public static boolean locationContaining(String input) {
         String keyword = "location";
-        keyword = sortString(keyword);
-        input = sortString(input);
         if (keyword.contains(input) || input.contains(keyword)) {
             return true;
         } else {
-            return false;
+            keyword = sortString(keyword);
+            input = sortString(input);
+            return commonCharacter(input, keyword);
         }
     }
 
     public static boolean priceContaining(String input) {
         String keyword = "price";
-        keyword = sortString(keyword);
-        input = sortString(input);
         if (keyword.contains(input) || input.contains(keyword)) {
             return true;
         } else {
-            return false;
+            keyword = sortString(keyword);
+            input = sortString(input);
+            return commonCharacter(input, keyword);
         }
     }
 
     public static boolean yearContaining(String input) {
         String keyword = "year";
-        keyword = sortString(keyword);
-        input = sortString(input);
         if (keyword.contains(input) || input.contains(keyword)) {
             return true;
         } else {
-            return false;
+            keyword = sortString(keyword);
+            input = sortString(input);
+            return commonCharacter(input, keyword);
         }
     }
 
@@ -107,10 +124,21 @@ public class Token {
         System.out.println(list);
 
         char[] myCharArray = new char[list.size()];
-        for(int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             myCharArray[i] = list.get(i);
         }
         System.out.println(myCharArray);
+
+        System.out.println(sortString("loc"));
+        System.out.println(sortString("location"));
+
+        System.out.println(commonCharacter("loc", "location"));
+
+        System.out.println(commonCharacter("hyeaarr", "year"));
+
+        System.out.println(commonCharacter("lo", "location"));
+
+        System.out.println(regexMatching(locationRegex, "locationnnnnn"));
 
     }
 
@@ -122,6 +150,6 @@ public class Token {
         return _type;
     }
 
-    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, ELSE}
+    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, NAME}
 
 }
