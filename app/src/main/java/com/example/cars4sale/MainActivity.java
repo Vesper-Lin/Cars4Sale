@@ -7,11 +7,8 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
+import android.widget.*;
 
-import android.widget.ListView;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -21,9 +18,7 @@ import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.zip.DataFormatException;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
-    ListView lvCars;
-    String[] cars;
+public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout drawer;
     // Define Variable
@@ -33,12 +28,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        lvCars = findViewById(R.id.lvCars);
-        cars = new DataFormatSymbols().getCars;
-        ArrayAdapter<String> carAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,cars);
-        lvCars.setAdapter(carAdapter);
-        lvCars.setOnItemClickListener(this);
 
         // Navigation drawer
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -99,11 +88,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
         intent.putExtra("query",input.getText().toString());
         startActivity(intent);
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-
     }
 }
