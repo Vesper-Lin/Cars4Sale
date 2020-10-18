@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
+import android.widget.*;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,10 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.textfield.TextInputEditText;
 
+import java.util.zip.DataFormatException;
+
 public class MainActivity extends AppCompatActivity {
+
     private DrawerLayout drawer;
     // Define Variable
     private TextInputEditText input;
