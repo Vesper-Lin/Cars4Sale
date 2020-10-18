@@ -13,6 +13,7 @@ import android.view.View;
 import java.util.zip.DataFormatException;
 
 public class ActivityWeb extends AppCompatActivity implements AdapterView.OnItemClickListener {
+    // List View Test
     ListView lvMonth;
     String[] months;
 
@@ -22,6 +23,7 @@ public class ActivityWeb extends AppCompatActivity implements AdapterView.OnItem
         setContentView(R.layout.activity_web);
 
         lvMonth = findViewById(R.id.lvMonth);
+        // Wrong!
         // months = new DataFormatSymbols.getMonths();
         ArrayAdapter<String> monthAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,months);
         lvMonth.setAdapter(monthAdapter);
