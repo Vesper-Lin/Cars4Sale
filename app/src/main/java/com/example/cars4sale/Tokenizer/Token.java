@@ -1,5 +1,7 @@
 package com.example.cars4sale.Tokenizer;
 
+import java.util.regex.Pattern;
+
 public class Token {
 
     static final String[] keyword = {"name", "location", "price", "year"};
@@ -24,6 +26,42 @@ public class Token {
         return _type;
     }
 
-    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON}
+    public static boolean regexMatching(String regex, String input) {
+        return Pattern.matches(regex, input);
+    }
+
+    public static boolean nameContaining (String input) {
+        String keyword = "name";
+        if (keyword.contains(input) || input.contains(keyword)) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean locationContaining (String input) {
+        String keyword = "location";
+        if (keyword.contains(input) || input.contains(keyword)) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean priceContaining (String input) {
+        String keyword = "price";
+        if (keyword.contains(input) || input.contains(keyword)) {
+            return true;
+        }
+        return false;
+    }
+
+    public static boolean yearContaining (String input) {
+        String keyword = "year";
+        if (keyword.contains(input) || input.contains(keyword)) {
+            return true;
+        }
+        return false;
+    }
+
+    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, IGNORE}
 
 }
