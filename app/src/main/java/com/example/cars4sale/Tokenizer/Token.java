@@ -10,6 +10,7 @@ public class Token {
 
     static final String[] keyword = {"name", "location", "price", "year"};
     static final char[] comparison = {'=', '<', '>'};
+    static final char[] whitespace = { ' ', '\n', '\t' };
     static final String nameRegex = "name*";
     static final String locationRegex = "location*";
     static final String priceRegex = "price*";
@@ -64,7 +65,7 @@ public class Token {
         String keyword = "name";
         keyword = sortString(keyword);
         input = sortString(input);
-        if (keyword.contains(input) || input.contains(keyword)) {
+        if (commonCharacter(input, keyword)) {
             return true;
         } else {
             return false;
@@ -75,7 +76,7 @@ public class Token {
         String keyword = "location";
         keyword = sortString(keyword);
         input = sortString(input);
-        if (keyword.contains(input) || input.contains(keyword)) {
+        if (commonCharacter(input, keyword)) {
             return true;
         } else {
             return false;
@@ -86,7 +87,7 @@ public class Token {
         String keyword = "price";
         keyword = sortString(keyword);
         input = sortString(input);
-        if (keyword.contains(input) || input.contains(keyword)) {
+        if (commonCharacter(input, keyword)) {
             return true;
         } else {
             return false;
@@ -97,7 +98,7 @@ public class Token {
         String keyword = "year";
         keyword = sortString(keyword);
         input = sortString(input);
-        if (keyword.contains(input) || input.contains(keyword)) {
+        if (commonCharacter(input, keyword)) {
             return true;
         } else {
             return false;
@@ -132,9 +133,11 @@ public class Token {
         System.out.println(sortString("loc"));
         System.out.println(sortString("location").toCharArray());
 
-        System.out.println(commonCharacter("loc", "location"));
+        System.out.println(commonCharacter("loc ", "location"));
 
         System.out.println(commonCharacter("hyearr", "year"));
+
+
 
     }
 
@@ -146,6 +149,6 @@ public class Token {
         return _type;
     }
 
-    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, ELSE}
+    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, NAME}
 
 }
