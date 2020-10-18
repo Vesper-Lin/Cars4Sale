@@ -18,7 +18,7 @@ public class ActivityWeb extends AppCompatActivity {
         finish();
     }
 
-    public void SearchdButton(View v) {
+    public void SearchButton(View v) {
         Intent intent = new Intent(this, ActivityWeb2.class);
         startActivity(intent);
     }
