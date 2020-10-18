@@ -13,8 +13,8 @@ public class Token {
     static final String locationRegex = "location*";
     static final String priceRegex = "price*";
     static final String yearRegex = "year*";
-    private String _token = "";
-    private Type _type = Type.UNKNOWN;
+    private String _token;
+    private Type _type;
 
     public Token(String token, Type type) {
         _token = token;
@@ -104,6 +104,17 @@ public class Token {
         }
     }
 
+    public String token() {
+        return _token;
+    }
+
+    public Type type() {
+        return _type;
+    }
+
+    public enum Type {INT, KEYWORD, COMPARISON, SEMICOLON, NAME}
+
+    /*
     public static void main(String[] args) {
         String keyword = "year";
         keyword = sortString(keyword);
@@ -140,16 +151,6 @@ public class Token {
 
         System.out.println(regexMatching(locationRegex, "locationnnnnn"));
 
-    }
-
-    public String token() {
-        return _token;
-    }
-
-    public Type type() {
-        return _type;
-    }
-
-    public enum Type {UNKNOWN, INT, KEYWORD, COMPARISON, SEMICOLON, NAME}
+    }*/
 
 }
