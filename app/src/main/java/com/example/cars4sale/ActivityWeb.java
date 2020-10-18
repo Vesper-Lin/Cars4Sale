@@ -3,6 +3,7 @@ package com.example.cars4sale;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -38,6 +39,7 @@ public class ActivityWeb extends AppCompatActivity implements AdapterView.OnItem
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        String month = parent.getItemAtPosition(position).toString();
+        Toast.makeText(getApplicationContext(),"Click:" + month, Toast.LENGTH_SHORT);
     }
 }
