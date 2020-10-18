@@ -36,11 +36,28 @@ public class Token {
         ArrayList<Character> arrayList = new ArrayList<>(set);
 
         char[] charArray = new char[arrayList.size()];
-        for(int i = 0; i < arrayList.size(); i++) {
+        for (int i = 0; i < arrayList.size(); i++) {
             charArray[i] = arrayList.get(i);
         }
         Arrays.sort(charArray);
         return new String(charArray);
+    }
+
+    public static boolean commonCharacter(String s1, String s2) {
+        if (s1.length() < s2.length()) {
+            for (int i = 0; i < s1.length(); i++) {
+                if (s2.indexOf(s1.charAt(i)) < 0) {
+                    return false;
+                }
+            }
+        } else if (s1.length() >= s2.length()) {
+            for (int i = 0; i < s2.length(); i++) {
+                if (s1.indexOf(s2.charAt(i)) < 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     public static boolean nameContaining(String input) {
@@ -107,10 +124,17 @@ public class Token {
         System.out.println(list);
 
         char[] myCharArray = new char[list.size()];
-        for(int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             myCharArray[i] = list.get(i);
         }
         System.out.println(myCharArray);
+
+        System.out.println(sortString("loc"));
+        System.out.println(sortString("location").toCharArray());
+
+        System.out.println(commonCharacter("loc", "location"));
+
+        System.out.println(commonCharacter("hyearr", "year"));
 
     }
 
