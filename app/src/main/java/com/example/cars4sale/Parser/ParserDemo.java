@@ -1,13 +1,15 @@
-package com.example.cars4sale;
+package com.example.cars4sale.Parser;
+
+import com.example.cars4sale.Tokenizer.MyTokenizer;
+import com.example.cars4sale.Tokenizer.Tokenizer;
 
 /**
  * Parser for grammar:
  *
- *  <exp>    ::= <term> ; <exp> | <term>
- *  <term>   ::= <key> <data>
- *  <key>    ::= "name=" | "location=" | "price=" | "price<" | "price>" | "year=" | "year<" | "year>"
- *  <data>   ::= <unsigned string>
- *
+ * <exp>    ::= <term> ; <exp> | <term>
+ * <term>   ::= <key> <data>
+ * <key>    ::= "name=" | "location=" | "price=" | "price<" | "price>" | "year=" | "year<" | "year>"
+ * <data>   ::= <unsigned string>
  */
 public class ParserDemo {
     //final static String exp = "name=tesla; location=canberra; price<100000; year>2012";
@@ -18,7 +20,6 @@ public class ParserDemo {
 
         Exp parsedExp = Parser.parseExp(tok);
 
-        System.out.println(parsedExp.show());
         System.out.println(parsedExp.evaluate());
     }
 }

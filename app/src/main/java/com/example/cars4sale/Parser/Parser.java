@@ -1,7 +1,6 @@
-package com.example.cars4sale;
+package com.example.cars4sale.Parser;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.example.cars4sale.Tokenizer.Tokenizer;
 
 /**
  * The main objective of this class is to implement a parser for the search query.
@@ -23,28 +22,6 @@ public class Parser {
      * @return parsed expression for <exp>
      */
     public static Exp parseExp(Tokenizer tok) {
-
-        Exp term = parseTerm(tok);
-
-        if (tok.hasNext() && tok.current().equals(";")) {
-            tok.next();
-            Exp exp = parseExp(tok);
-            return new ExpAnd(term, exp);
-        } else {
-            return term;
-        }
+        return null;
     }
-
-    public static Exp parseTerm(Tokenizer tok) {
-        Exp exp1 = (Exp) tok.current();
-        tok.next();
-        Exp exp2 = (Exp) tok.current();
-        tok.next();
-        Exp exp3 = (Exp) tok.current();
-        Exp test = new ExpTerm(exp1, exp2, exp3);
-        tok.next();
-        return test;
-    }
-
-
 }
