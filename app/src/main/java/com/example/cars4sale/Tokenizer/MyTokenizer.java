@@ -47,8 +47,6 @@ public class MyTokenizer extends Tokenizer {
             return;
         }
 
-        int j = 0;
-
         char firstChar = _buffer.charAt(0);
 
         if (firstChar == ';') {
@@ -57,15 +55,20 @@ public class MyTokenizer extends Tokenizer {
 
         if (firstChar == '=' || firstChar == '<' || firstChar == '>') {
             currentToken = new Token(Character.toString(firstChar), Token.Type.COMPARISON);
-        } else if (Character.isDigit(firstChar)) {
+        }
+
+        if (Character.isDigit(firstChar)) {
             StringBuilder stringBuilder = new StringBuilder(Character.toString(firstChar));
             for (int i = 1; i < _buffer.length() && Character.isDigit(_buffer.charAt(i)); i++) {
                 stringBuilder.append(_buffer.charAt(i));
             }
             currentToken = new Token(stringBuilder.toString(), Token.Type.INT);
-        } else if (Character.isLetter(firstChar)) {
+        }
+
+        int j = 0;
+        if (Character.isLetter(firstChar)) {
             int i = 0;
-            while (Character.isLetter(_buffer.charAt(i)) && i < _buffer.length()) {
+            while (i < _buffer.length() && Character.isLetter(_buffer.charAt(i))) {
                 i += 1;
             }
             j = i;
