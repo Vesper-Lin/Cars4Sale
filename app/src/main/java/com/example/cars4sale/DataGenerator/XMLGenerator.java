@@ -1,4 +1,4 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataGenerator;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

@@ -1,4 +1,6 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataStructure;
+
+import com.example.cars4sale.DataStructure.BST;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;

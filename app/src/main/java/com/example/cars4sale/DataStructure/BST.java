@@ -1,4 +1,4 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataStructure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
