@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.example.cars4sale.DataStructure.BSTSearch;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.zip.DataFormatException;
 
 public class ActivityWeb extends AppCompatActivity {
@@ -25,18 +27,6 @@ public class ActivityWeb extends AppCompatActivity {
         lvCar = (ListView) findViewById(R.id.lvCar);
         final ArrayList<String> arrayList = new ArrayList<>();
 
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
-        arrayList.add("Vesper SB");
-        arrayList.add("Carry SB");
         arrayList.add("Vesper SB");
         arrayList.add("Carry SB");
 
