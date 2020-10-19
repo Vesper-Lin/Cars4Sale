@@ -22,8 +22,8 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-        lvCar = (ListView)findViewById(R.id.lvCar);
-        ArrayList<String> arrayList = new ArrayList<>();
+        lvCar = (ListView) findViewById(R.id.lvCar);
+        final ArrayList<String> arrayList = new ArrayList<>();
 
         arrayList.add("Vesper SB");
         arrayList.add("Carry SB");
@@ -40,29 +40,14 @@ public class ActivityWeb extends AppCompatActivity {
         arrayList.add("Vesper SB");
         arrayList.add("Carry SB");
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
         lvCar.setAdapter(arrayAdapter);
 
-//        lvMonth = findViewById(R.id.lvMonth);
-//        // Wrong!
-//        // months = new DataFormatSymbols.getMonths();
-//        ArrayAdapter<String> monthAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, months);
-//        lvMonth.setAdapter(monthAdapter);
-//        lvMonth.setOnItemClickListener(this);
+        lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(ActivityWeb.this,"No." +position+ "" + arrayList.get(position).toString(),Toast.LENGTH_SHORT).show();
+            }
+        });
     }
-
-//    public void backButton(View v) {
-//        finish();
-//    }
-//
-//    public void SearchButton(View v) {
-//        Intent intent = new Intent(this, ActivityWeb2.class);
-//        startActivity(intent);
-//    }
-//
-//    @Override
-//    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//        String month = parent.getItemAtPosition(position).toString();
-//        Toast.makeText(getApplicationContext(), "Click:" + month, Toast.LENGTH_SHORT);
-//    }
 }
