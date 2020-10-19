@@ -24,19 +24,22 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-        lvCar = (ListView) findViewById(R.id.lvCar);
+        // lvCar = (ListView) findViewById(R.id.lvCar);
         final ArrayList<String> arrayList = new ArrayList<>();
-
         arrayList.add("Vesper SB");
         arrayList.add("Carry SB");
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
+        final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
+        final ListView lvcar = findViewById(R.id.lvCar);
         lvCar.setAdapter(arrayAdapter);
 
         lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(ActivityWeb.this,"No." +position+ "" + arrayList.get(position).toString(),Toast.LENGTH_SHORT).show();
+                String car = lvcar.getItemAtPosition(position).toString();
+                Intent intent = new Intent(ActivityWeb.this, ActivityWeb2.class);
+                intent.putExtra("CAR", car);
+                startActivity(intent);
             }
         });
     }

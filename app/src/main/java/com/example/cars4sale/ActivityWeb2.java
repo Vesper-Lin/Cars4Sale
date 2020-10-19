@@ -1,5 +1,6 @@
 package com.example.cars4sale;
 
+import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -11,9 +12,8 @@ public class ActivityWeb2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web2);
-    }
 
-    public void backButton2(View v){
-        finish();
+        Intent intent = getIntent();
+        String car = intent.getStringExtra("CAR");
     }
 }
