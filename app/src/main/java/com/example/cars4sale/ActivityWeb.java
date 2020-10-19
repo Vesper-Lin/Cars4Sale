@@ -10,17 +10,38 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.ArrayList;
 import java.util.zip.DataFormatException;
 
 public class ActivityWeb extends AppCompatActivity {
     // List View Test
-    ListView lvMonth;
-    String[] months;
+    ListView lvCar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
+
+        lvCar = (ListView)findViewById(R.id.lvCar);
+        ArrayList<String> arrayList = new ArrayList<>();
+
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
+        lvCar.setAdapter(arrayAdapter);
 
 //        lvMonth = findViewById(R.id.lvMonth);
 //        // Wrong!
