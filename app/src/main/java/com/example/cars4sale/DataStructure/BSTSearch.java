@@ -45,11 +45,13 @@ public class BSTSearch extends BST {
         return tree;
     }
 
+    //generate map
     public static Map groupList(List list) {
         int listSize = list.size();
         int toIndex = 5;
         Map map = new HashMap();
         int keyNum = 0;
+        //make sure every group has 4
         for (int i = 0; i < list.size(); i += 5) {
             if (i + 4 > listSize) {
                 toIndex = listSize - i;
@@ -61,6 +63,8 @@ public class BSTSearch extends BST {
         return map;
     }
 
+
+    //give a name and a map, then it can return all same name in map
     public static Map getName(Map map, String s) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
@@ -71,6 +75,7 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    //give a location and a map, then it can return all same location in map
     public static Map getLocation(Map map, String s) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
@@ -81,6 +86,7 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    //give a year and a map, then it can return all same year in map
     public static Map getYear(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
@@ -91,6 +97,7 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    //give a year and a map, then it can return all before this year in map
     public static Map getYearBefore(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
@@ -101,6 +108,7 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    //give a year and a map, then it can return all after this year in map
     public static Map getYearAfter(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
@@ -123,12 +131,13 @@ public class BSTSearch extends BST {
             System.out.println(sList.getClass());
             map = groupList(nodeList);
 
+            //test
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
             //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
-            // System.out.println(getName(map,"SATURN Outlook"));
+             //System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getYearBefore(map,2010));
             // System.out.println(getName(map, "SaTuRn"));
             //System.out.println(BSTSearch.map);
