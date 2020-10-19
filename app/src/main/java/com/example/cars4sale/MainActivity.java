@@ -19,7 +19,7 @@ import com.google.android.material.textfield.TextInputEditText;
 import java.util.zip.DataFormatException;
 
 public class MainActivity extends AppCompatActivity {
-
+    private Button button;
     private DrawerLayout drawer;
     // Define Variable
     private TextInputEditText input;
@@ -28,6 +28,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Search Button
+        button = (Button) findViewById(R.id.containedButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    openActivityWeb();
+
+            }
+        });
 
         // Navigation drawer
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -40,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+    }
+
+    // Main Activity to Activity Web
+    public void openActivityWeb() {
+        Intent intent = new Intent(this, ActivityWeb.class);
+        startActivity(intent);
     }
 
     @Override
