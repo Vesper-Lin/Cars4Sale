@@ -1,6 +1,7 @@
 package com.example.cars4sale.DataGenerator;
 
 public class StringData {
+    //all car name, when we random to create car name, it can select from this.
     static String[] carModelName = {
             "ACURA MDX A-Spec", "ACURA ILX", "ACURA TLX", "ALFA ROMEO Stelvio Quadrifoglio",
             "ALFA ROMEO MiTo", "ALFA ROMEO Giulia GTA", "ALPINE A106", "ALPINE A108",
@@ -83,6 +84,7 @@ public class StringData {
             "ZENDER Straight 8", "Zenvo ST1", "Zenvo TS1", "Zenvo TSR-S"
     };
 
+    //all car location, when we random to create location, it can select from this.
     static String[] locationOfAU = {
             "Sydney", "Wollongong", "Newcastle", "Brisbane", "Gold Coast", "Caloundra",
             "Townsville", "Cairns", "Toowoomba", "Adelaide", "Hobart", "Melbourne", "Geelong",

@@ -6,64 +6,95 @@ import java.util.List;
 import java.util.Map;
 
 public class BST {
-    public static List<String> list_price = new ArrayList<>();
-    public static List<Integer> new_list = new ArrayList<>();
-    Node root;
 
+    //list_price---String
+    public static List<String> list_price = new ArrayList<>();
+
+    //new_list--Integer
+    public static List<Integer> new_list = new ArrayList<>();
+
+
+    Node root;
     public BST() {
         this.root = null;
     }
 
+    //get all id that its pirce is higher than user give
     public static List<String> getHigherPrice(Node t, Integer price) {
 
         if (null == t) {
             return list_price;
 
         } else if (t.left != null) {
-            getHigherPrice(t.left, price); // 中序遍历左子树
+            getHigherPrice(t.left, price); //  The middle order traverses the left subtree
         }
         if (t.key != 0) {
 
             if (t.key >= price) {
-                list_price.add(t.value);
+                list_price.add(t.value);//add higher
             }
             //System.out.println(t.value);
-            //System.out.println("[" + t.key + "]"); // 显示当前节点的数据
+            //System.out.println("[" + t.key + "]"); //  Displays the data for the current node
         }
 
         if (t.right != null) {
-            getHigherPrice(t.right, price); // 最后遍历右子树
+            getHigherPrice(t.right, price); // Finally, traverse the right subtree
         }
 
         return list_price;
     }
 
 
+    //get all id that its pirce is lower than user give
     public static List<String> getLowerPrice(Node t, Integer price) {
 
         if (null == t) {
             return list_price;
         } else if (t.left != null) {
-            getHigherPrice(t.left, price); // 中序遍历左子树
+            getHigherPrice(t.left, price);
         }
 
         if (t.key != 0) {
 
             if (t.key < price) {
-                list_price.add(t.value);
+                list_price.add(t.value);//add lower
 
             }
-            //System.out.println(t.value);
-            //System.out.println("[" + t.key + "]"); // 显示当前节点的数据
         }
 
         if (t.right != null) {
-            getHigherPrice(t.right, price); // 最后遍历右子树
+            getHigherPrice(t.right, price);
         }
 
         return list_price;
     }
 
+
+    //get the price that same the user imput.
+    public static List<String> getPrice(Node t, Integer price) {
+
+        if (null == t) {
+            return list_price;
+        } else if (t.left != null) {
+            getHigherPrice(t.left, price);
+        }
+
+        if (t.key != 0) {
+
+            if (t.key == price) {
+                list_price.add(t.value);//add same price
+
+            }
+        }
+
+        if (t.right != null) {
+            getHigherPrice(t.right, price);
+        }
+
+        return list_price;
+    }
+
+    //make List<String> to List<Integer>
     public static List<Integer> list_to_list(List<String> list) {
         for (int i = 0; i < list.size(); i++) {
             BST.new_list.add(Integer.parseInt(list.get(i)));
@@ -71,6 +102,7 @@ public class BST {
         return BST.new_list;
     }
 
+    //according to list<Integer> to generate a map
     public static Map list_to_map(Map map, List<Integer> list) {
         Map new_map = new HashMap();
         for (int i = 0; i < list.size(); i++) {
@@ -79,6 +111,7 @@ public class BST {
 
         return new_map;
     }
+
 
     public Node insert(Integer key, String value) {
         Node parent = null;
