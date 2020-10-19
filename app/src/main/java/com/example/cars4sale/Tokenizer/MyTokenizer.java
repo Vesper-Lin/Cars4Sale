@@ -2,6 +2,13 @@ package com.example.cars4sale.Tokenizer;
 
 import java.util.Arrays;
 
+/**
+ * Implement a unique Tokenizer to tokenize the search queries, according to the designated vocabulary.
+ * MyTokenizer's pre-treatment functionality can handle most of the partially valid search queries.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class MyTokenizer extends Tokenizer {
 
     private String _buffer;        //save text
@@ -14,6 +21,22 @@ public class MyTokenizer extends Tokenizer {
     public MyTokenizer(String text) {
         _buffer = text;        // save input text (string)
         next();        // extracts the first token.
+    }
+
+    public static void main(String[] args) {
+        String text1 = "carname=bmw; carsloccccatedin = canberra; carsppppiirce < 100000 ; caryaeaar > 2000";
+        String text2 = "nme = mini; loc= canberra;pircce >100; earrrrr<2012";
+        MyTokenizer tokenizer1 = new MyTokenizer(text1);
+        while (tokenizer1.hasNext()) {
+            System.out.println(tokenizer1.currentToken.token());
+            tokenizer1.next();
+        }
+        System.out.println("---------------");
+        MyTokenizer tokenizer2 = new MyTokenizer(text2);
+        while (tokenizer2.hasNext()) {
+            System.out.println(tokenizer2.currentToken.token());
+            tokenizer2.next();
+        }
     }
 
     /**
@@ -66,6 +89,7 @@ public class MyTokenizer extends Tokenizer {
         }
 
         int j = 0;
+        int k = 0;
         if (Character.isLetter(firstChar)) {
             int i = 0;
             while (i < _buffer.length() && Character.isLetter(_buffer.charAt(i))) {
@@ -82,6 +106,7 @@ public class MyTokenizer extends Tokenizer {
             } else if (Token.regexMatching(findWord, Token.yearRegex) || Token.yearContaining(findWord)) {
                 findWord = "year";
             }
+            k = findWord.length();
             if (Arrays.asList(Token.keyword).contains(findWord.toLowerCase())) {
                 currentToken = new Token(findWord, Token.Type.KEYWORD);
             } else {
@@ -93,16 +118,9 @@ public class MyTokenizer extends Tokenizer {
         int tokenLen = currentToken.token().length();
         if (j > tokenLen) {
             tokenLen = j;
+        } else if (j < k) {
+            tokenLen = j;
         }
         _buffer = _buffer.substring(tokenLen);
-    }
-
-    public static void main(String[] args) {
-        String text = "locatoinnnn = canberra; ppppiirce < 100000 ; yaeaar > 2000";
-        MyTokenizer tokenizer = new MyTokenizer(text);
-        while (tokenizer.hasNext()) {
-            System.out.println(tokenizer.currentToken.token());
-            tokenizer.next();
-        }
     }
 }

@@ -10,38 +10,44 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.ArrayList;
 import java.util.zip.DataFormatException;
 
-public class ActivityWeb extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class ActivityWeb extends AppCompatActivity {
     // List View Test
-    ListView lvMonth;
-    String[] months;
+    ListView lvCar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-        lvMonth = findViewById(R.id.lvMonth);
-        // Wrong!
-        // months = new DataFormatSymbols.getMonths();
-        ArrayAdapter<String> monthAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,months);
-        lvMonth.setAdapter(monthAdapter);
-        lvMonth.setOnItemClickListener(this);
-    }
+        lvCar = (ListView) findViewById(R.id.lvCar);
+        final ArrayList<String> arrayList = new ArrayList<>();
 
-    public void backButton(View v){
-        finish();
-    }
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
+        arrayList.add("Vesper SB");
+        arrayList.add("Carry SB");
 
-    public void SearchButton(View v) {
-        Intent intent = new Intent(this, ActivityWeb2.class);
-        startActivity(intent);
-    }
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
+        lvCar.setAdapter(arrayAdapter);
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        String month = parent.getItemAtPosition(position).toString();
-        Toast.makeText(getApplicationContext(),"Click:" + month, Toast.LENGTH_SHORT);
+        lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(ActivityWeb.this,"No." +position+ "" + arrayList.get(position).toString(),Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
