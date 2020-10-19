@@ -16,8 +16,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class BSTSearch extends BST {
 
-    static List nodeList;
-    static Map map = new HashMap();
+    public static List nodeList;
+    public static Map map = new HashMap();
     public static NodeList sList;
 
 
