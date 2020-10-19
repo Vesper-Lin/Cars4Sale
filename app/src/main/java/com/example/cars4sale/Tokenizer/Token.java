@@ -159,5 +159,4 @@ public class Token {
         System.out.println(regexMatching(locationRegex, "locationnnnnn"));
 
     }*/
-
 }
