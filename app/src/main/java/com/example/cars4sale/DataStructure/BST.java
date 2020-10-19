@@ -15,8 +15,33 @@ public class BST {
 
 
     Node root;
+
     public BST() {
         this.root = null;
+    }
+
+    //get the price that same the user imput.
+    public static List<String> getPrice(Node t, Integer price) {
+
+        if (null == t) {
+            return list_price;
+        } else if (t.left != null) {
+            getHigherPrice(t.left, price);
+        }
+
+        if (t.key != 0) {
+
+            if (t.key == price) {
+                list_price.add(t.value);//add same price
+
+            }
+        }
+
+        if (t.right != null) {
+            getHigherPrice(t.right, price);
+        }
+
+        return list_price;
     }
 
     //get all id that its pirce is higher than user give
@@ -58,31 +83,6 @@ public class BST {
 
             if (t.key < price) {
                 list_price.add(t.value);//add lower
-
-            }
-        }
-
-        if (t.right != null) {
-            getHigherPrice(t.right, price);
-        }
-
-        return list_price;
-    }
-
-
-    //get the price that same the user imput.
-    public static List<String> getPrice(Node t, Integer price) {
-
-        if (null == t) {
-            return list_price;
-        } else if (t.left != null) {
-            getHigherPrice(t.left, price);
-        }
-
-        if (t.key != 0) {
-
-            if (t.key == price) {
-                list_price.add(t.value);//add same price
 
             }
         }
