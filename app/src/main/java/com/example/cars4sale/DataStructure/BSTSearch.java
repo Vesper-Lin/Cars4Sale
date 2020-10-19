@@ -1,4 +1,6 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataStructure;
+
+import com.example.cars4sale.DataStructure.BST;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -129,6 +131,7 @@ public class BSTSearch extends BST {
              //System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getYearBefore(map,2010));
             // System.out.println(getName(map, "SaTuRn"));
+            //System.out.println(BSTSearch.map);
 
         } catch (Exception e) {
             e.printStackTrace();

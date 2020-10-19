@@ -7,16 +7,22 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
+import android.widget.*;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import com.google.android.material.textfield.TextInputEditText;
+
+import java.util.zip.DataFormatException;
 
 public class MainActivity extends AppCompatActivity {
+
     private DrawerLayout drawer;
+    // Define Variable
+    private TextInputEditText input;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         final EditText editText = findViewById(R.id.t_text);
-
 
         drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -78,8 +83,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void containedButton(View v) {
-        Intent intent = new Intent(this, ActivityWeb.class);
+        // Assign a value
+        input = findViewById(R.id.outlinedTextField);
+        Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
+        intent.putExtra("query",input.getText().toString());
         startActivity(intent);
     }
-
 }

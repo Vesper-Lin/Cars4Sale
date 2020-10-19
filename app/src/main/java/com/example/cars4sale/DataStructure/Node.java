@@ -1,6 +1,4 @@
-package com.example.cars4sale;
-
-import java.util.Map;
+package com.example.cars4sale.DataStructure;
 
 public class Node {
     Integer key;

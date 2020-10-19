@@ -1,4 +1,4 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataGenerator;
 
 public class Car {
     private int id;

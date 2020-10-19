@@ -1,4 +1,4 @@
-package com.example.cars4sale;
+package com.example.cars4sale.DataGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
