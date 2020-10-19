@@ -7,16 +7,16 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import com.google.android.material.textfield.TextInputEditText;
 
-import java.util.zip.DataFormatException;
+import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Search Button
-        button = (Button) findViewById(R.id.containedButton);
+        button = findViewById(R.id.containedButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    openActivityWeb();
+                openActivityWeb();
 
             }
         });
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         // Assign a value
         input = findViewById(R.id.outlinedTextField);
         Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
-        intent.putExtra("query",input.getText().toString());
+        intent.putExtra("query", input.getText().toString());
         startActivity(intent);
     }
 }
