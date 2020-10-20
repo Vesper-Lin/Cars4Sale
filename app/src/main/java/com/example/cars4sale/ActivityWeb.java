@@ -7,6 +7,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+
 public class ActivityWeb extends AppCompatActivity {
     private Button button;
     ListView lvCar;
@@ -28,7 +33,7 @@ public class ActivityWeb extends AppCompatActivity {
 
         // Start Adapter
         lvcar.setAdapter(simple_adapter);
-        */
+*/
         button = (Button)findViewById(R.id.button_a);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +41,18 @@ public class ActivityWeb extends AppCompatActivity {
                 openMainActivity();
             }
         });
+/*
+        List<String> mapValuesToList = object.mapValuesToList(hashMap);
+        mapValuesToList.forEach(System.out::println);
+*/
     }
+
+    public List<String> mapValuesToList(Map<String,String> map) {
+        Collection<String> values = map.values();
+        ArrayList<String> arrayList = new ArrayList<>(values);
+        return arrayList;
+    }
+
 
     public void openMainActivity(){
         Intent intent = new Intent(this,MainActivity.class);
