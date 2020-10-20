@@ -176,6 +176,7 @@ public class BSTSearch extends BST {
              //System.out.println(getYearBefore(map,2010));
             // System.out.println(getName(map, "SaTuRn"));
             //System.out.println(BSTSearch.map);
+            System.out.println(BSTSearch.map);
 
         } catch (Exception e) {
             e.printStackTrace();
