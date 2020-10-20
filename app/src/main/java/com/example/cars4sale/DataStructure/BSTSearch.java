@@ -1,5 +1,7 @@
 package com.example.cars4sale.DataStructure;
 
+import com.example.cars4sale.DataStructure.BST;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -14,11 +16,10 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class BSTSearch extends BST {
 
-    private static List nodeList;
-    private static NodeList sList;
-    private static NodeList listUltra;
-    private static Map map = new HashMap();
-    private static Map mapUltra = new HashMap();
+    public static List nodeList;
+    public static Map map = new HashMap();
+    public static NodeList sList;
+
 
     public static List return_list(NodeList list) {
         nodeList = new ArrayList<>();
@@ -33,6 +34,8 @@ public class BSTSearch extends BST {
         }
         return nodeList;
     }
+
+
 
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
@@ -75,6 +78,7 @@ public class BSTSearch extends BST {
         }
         return map;
     }
+
 
     //give a name and a map, then it can return all same name in map
     public static Map getName(Map map, String s) {
@@ -131,7 +135,9 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
-    public static Map readData_map() {
+    static Map mapp = new HashMap();
+
+    public static Map readData_map(){
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -139,25 +145,28 @@ public class BSTSearch extends BST {
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
             System.out.println(sList.getClass());
-            mapUltra = groupList(return_list(sList));
+            mapp = groupList(return_list(sList));
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return mapUltra;
+        return mapp;
     }
 
-    public static NodeList readData_slist() {
+    public static NodeList readData_slist(){
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document d = builder.parse("app/src/main/assets/carData.xml");
-            listUltra = d.getElementsByTagName("car");
+            NodeList sList = d.getElementsByTagName("car");
+
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return listUltra;
+        return sList;
     }
+
 
 
     public static void main(String[] args) {
