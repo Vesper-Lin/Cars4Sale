@@ -9,7 +9,6 @@ import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
 import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.node;
-import static com.example.cars4sale.DataStructure.BSTSearch.sList;
 
 public class ExpAnd extends Exp {
 
@@ -22,8 +21,8 @@ public class ExpAnd extends Exp {
     }
 
     public static void main(String[] args) {
-        Map m1 = BSTSearch.getName(BSTSearch.readData_map(), "tesla");
-        //Map m1 = list_to_map(BSTSearch.readData_map(), list_to_list(getHigherPrice(node(sList).root, 988934)));
+
+        Map m1 = list_to_map(BSTSearch.readData_map(), list_to_list(getHigherPrice(node(BSTSearch.readData_slist()).root, 900000)));
         Map m2 = BSTSearch.getYear(BSTSearch.readData_map(), 2012);
         Map commonMap = new HashMap();
         for (Object i : m1.keySet()) {
