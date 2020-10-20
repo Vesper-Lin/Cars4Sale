@@ -4,12 +4,18 @@ import com.example.cars4sale.DataStructure.BSTSearch;
 
 import java.util.Map;
 
-import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
 import static com.example.cars4sale.DataStructure.BST.getLowerPrice;
 import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
+/**
+ * ExpLowerPrice: it is extended from the abstract class Exp.
+ *         This class is used to represent the expression of getting lower price.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class ExpLowerPrice extends Exp {
     private int price;
 

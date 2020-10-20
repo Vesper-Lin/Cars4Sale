@@ -2,20 +2,16 @@ package com.example.cars4sale.DataStructure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Stack;
 
-public class BST{
+public class BST {
 
-    //list_price---String
-    public static List<String> list_price = new ArrayList<>();
     public static List<String> list_lower_price = new ArrayList<>();
     public static List<String> list_higher_price = new ArrayList<>();
 
     //new_list--Integer
-   // public static List<Integer> new_list = new ArrayList<>();
+    // public static List<Integer> new_list = new ArrayList<>();
 
     public Node root;
 

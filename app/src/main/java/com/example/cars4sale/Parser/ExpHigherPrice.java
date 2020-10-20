@@ -9,6 +9,13 @@ import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
+/**
+ * ExpHigherPrice: it is extended from the abstract class Exp.
+ *         This class is used to represent the expression of getting higher price.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class ExpHigherPrice extends Exp {
 
     private int price;
