@@ -1,12 +1,11 @@
 package com.example.cars4sale.Parser;
 
 import com.example.cars4sale.Tokenizer.MyTokenizer;
-import com.example.cars4sale.Tokenizer.Tokenizer;
 
 import java.util.Map;
 
 /**
- * Parser for grammar:
+ * Parser demo for grammar:
  *
  * <exp>        ::=   <term> | <term> ; <exp>
  * <term>       ::=   <keyword> <comparison> <value>
@@ -24,4 +23,6 @@ public class ParserDemo {
         Map searchResult = _exp.evaluate();
         System.out.println(searchResult);
     }
+
+
 }

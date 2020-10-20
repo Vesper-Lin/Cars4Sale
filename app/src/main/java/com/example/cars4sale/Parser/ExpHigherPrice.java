@@ -6,8 +6,16 @@ import java.util.Map;
 
 import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
 import static com.example.cars4sale.DataStructure.BST.list_to_list;
+import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
+/**
+ * ExpHigherPrice: it is extended from the abstract class Exp.
+ *         This class is used to represent the expression of getting higher price.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class ExpHigherPrice extends Exp {
 
     private int price;
@@ -18,9 +26,11 @@ public class ExpHigherPrice extends Exp {
 
     @Override
     public Map evaluate() {
-        Map result = BSTSearch.list_to_map(
+        Map result = list_to_map(
                 BSTSearch.readData_map(),
-                list_to_list(getHigherPrice(node(BSTSearch.readData_slist()).root, price))
+                list_to_list(
+                        getHigherPrice(node(BSTSearch.readData_slist()).root, price)
+                )
         );
         return result;
     }

@@ -2,18 +2,16 @@ package com.example.cars4sale.DataStructure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Stack;
 
-public class BST{
+public class BST {
 
-    //list_price---String
-    public static List<String> list_price = new ArrayList<>();
+    public static List<String> list_lower_price = new ArrayList<>();
+    public static List<String> list_higher_price = new ArrayList<>();
 
     //new_list--Integer
-    public static List<Integer> new_list = new ArrayList<>();
+    // public static List<Integer> new_list = new ArrayList<>();
 
     public Node root;
 
@@ -21,35 +19,12 @@ public class BST{
         this.root = null;
     }
 
-    //get the price that same the user imput.
-    public static List<String> getPrice(Node t, Integer price) {
-
-        if (null == t) {
-            return list_price;
-        } else if (t.left != null) {
-            getHigherPrice(t.left, price);
-        }
-
-        if (t.key != 0) {
-
-            if (t.key == price) {
-                list_price.add(t.value);//add same price
-
-            }
-        }
-
-        if (t.right != null) {
-            getHigherPrice(t.right, price);
-        }
-
-        return list_price;
-    }
 
     //get all id that its pirce is higher than user give
     public static List<String> getHigherPrice(Node t, Integer price) {
 
         if (null == t) {
-            return list_price;
+            return list_higher_price;
 
         } else if (t.left != null) {
             getHigherPrice(t.left, price); //  The middle order traverses the left subtree
@@ -57,7 +32,7 @@ public class BST{
         if (t.key != 0) {
 
             if (t.key >= price) {
-                list_price.add(t.value);//add higher
+                list_higher_price.add(t.value);//add higher
             }
             //System.out.println(t.value);
             //System.out.println("[" + t.key + "]"); //  Displays the data for the current node
@@ -67,7 +42,7 @@ public class BST{
             getHigherPrice(t.right, price); // Finally, traverse the right subtree
         }
 
-        return list_price;
+        return list_higher_price;
     }
 
 
@@ -75,32 +50,33 @@ public class BST{
     public static List<String> getLowerPrice(Node t, Integer price) {
 
         if (null == t) {
-            return list_price;
+            return list_lower_price;
         } else if (t.left != null) {
-            getHigherPrice(t.left, price);
+            getLowerPrice(t.left, price);
         }
 
         if (t.key != 0) {
 
             if (t.key < price) {
-                list_price.add(t.value);//add lower
+                list_lower_price.add(t.value);//add lower
 
             }
         }
 
         if (t.right != null) {
-            getHigherPrice(t.right, price);
+            getLowerPrice(t.right, price);
         }
 
-        return list_price;
+        return list_lower_price;
     }
 
     //make List<String> to List<Integer>
     public static List<Integer> list_to_list(List<String> list) {
+        List<Integer> new_list = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
-            BST.new_list.add(Integer.parseInt(list.get(i)));
+            new_list.add(Integer.parseInt(list.get(i)));
         }
-        return BST.new_list;
+        return new_list;
     }
 
     //according to list<Integer> to generate a map
@@ -109,7 +85,6 @@ public class BST{
         for (int i = 0; i < list.size(); i++) {
             new_map.put(list.get(i), map.get(list.get(i)));
         }
-
         return new_map;
     }
 

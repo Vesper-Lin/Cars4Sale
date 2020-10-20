@@ -10,6 +10,13 @@ import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
+/**
+ * ExpAnd: it is extended from the abstract class Exp.
+ *         This class is used to represent the expression of intersection.
+ *
+ * @author: Yuxuan Lin
+ * @UID: u6828533
+ */
 public class ExpAnd extends Exp {
 
     private Exp term;

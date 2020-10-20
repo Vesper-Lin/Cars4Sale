@@ -42,6 +42,10 @@ public class Parser {
         } else throw new IllegalArgumentException();
     }
 
+    /**
+     * Parse the queries with the form of
+     * <keyword> ::= "name" | "location" | "price" | "year"
+     */
     public Exp parseKeyword() {
         if (_tokenizer.hasNext()) {
             Exp term = null;
@@ -58,6 +62,10 @@ public class Parser {
         } else throw new IllegalArgumentException();
     }
 
+    /**
+     * Parse the queries with the form of
+     * <value> ::= <unsigned string>
+     */
     public Exp parseName() {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
@@ -75,6 +83,9 @@ public class Parser {
         return null;
     }
 
+    /**
+     * Implement getLocation.
+     */
     public Exp parseLocation() {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
@@ -92,18 +103,14 @@ public class Parser {
         return null;
     }
 
+    /**
+     * Implement getHigherPrice and getLowerPrice.
+     */
     public Exp parsePrice() {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
             if (_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
-                if (_tokenizer.current().token().equals("=")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
-                        throw new IllegalArgumentException();
-                    }
-                    int price = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpPrice(price);
-                } else if (_tokenizer.current().token().equals("<")) {
+                if (_tokenizer.current().token().equals("<")) {
                     _tokenizer.next();
                     if (!_tokenizer.current().type().equals(Token.Type.INT)) {
                         throw new IllegalArgumentException();
@@ -117,12 +124,15 @@ public class Parser {
                     }
                     int price = Integer.parseInt(_tokenizer.current().token());
                     return new ExpHigherPrice(price);
-                }
+                } else throw new IllegalArgumentException();
             }
         } else throw new IllegalArgumentException();
         return null;
     }
 
+    /**
+     * Implement getYearBefore, getYearAfter and getYear.
+     */
     public Exp parseYear() {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
