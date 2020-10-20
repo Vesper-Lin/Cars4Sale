@@ -6,6 +6,7 @@ public class Node {
     Node parent;
     Node left;
     Node right;
+    Node root;
 
 
 
@@ -16,4 +17,10 @@ public class Node {
         this.left = null;
         this.right = null;
     }
+
+    public boolean isEmpty() {
+        return false;
+    }
+
+
 }

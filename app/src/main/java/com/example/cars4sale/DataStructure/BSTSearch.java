@@ -153,6 +153,19 @@ public class BSTSearch extends BST {
         return mapp;
     }
 
+    public static NodeList readData_slist(){
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
+            NodeList sList = d.getElementsByTagName("car");
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return sList;
+    }
 
 
 
@@ -169,7 +182,8 @@ public class BSTSearch extends BST {
             //test
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
-            System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
+            //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
+
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
              //System.out.println(getName(map,"SATURN Outlook"));
