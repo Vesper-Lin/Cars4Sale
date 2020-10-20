@@ -23,22 +23,6 @@ public class MyTokenizer extends Tokenizer {
         next();        // extracts the first token.
     }
 
-    public static void main(String[] args) {
-        String text1 = "carname=bmw; carsloccccatedin = canberra; carsppppiirce < 100000 ; caryaeaar > 2000";
-        String text2 = "nme = mini; loc= canberra;pircce >100; earrrrr<2012";
-        MyTokenizer tokenizer1 = new MyTokenizer(text1);
-        while (tokenizer1.hasNext()) {
-            System.out.println(tokenizer1.currentToken.token());
-            tokenizer1.next();
-        }
-        System.out.println("---------------");
-        MyTokenizer tokenizer2 = new MyTokenizer(text2);
-        while (tokenizer2.hasNext()) {
-            System.out.println(tokenizer2.currentToken.token());
-            tokenizer2.next();
-        }
-    }
-
     /**
      * returned the current token extracted by {@code next()}
      *

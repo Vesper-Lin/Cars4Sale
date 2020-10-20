@@ -1,30 +1,36 @@
 package com.example.cars4sale;
 
-import android.widget.*;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.example.cars4sale.DataGenerator.Car;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.cars4sale.DataStructure.BSTSearch;
 
-import java.util.*;
-
-import com.example.cars4sale.DataStructure.BSTSearch;
-
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Map;
-
-import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
-import static com.example.cars4sale.DataStructure.BST.list_to_list;
-import static com.example.cars4sale.DataStructure.BST.list_to_map;
-import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
 
 public class ActivityWeb extends AppCompatActivity {
-    private Button button;
     SimpleAdapter simple_adapter;
+    private Button button;
+
+    public static void main(String[] args) {
+
+        Map map = BSTSearch.readData_map();
+
+        ArrayList<String> arr = new ArrayList<>();
+        for (Object i : map.keySet()) {
+            arr.add(map.get(i).toString());
+        }
+        System.out.println(arr);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,14 +40,14 @@ public class ActivityWeb extends AppCompatActivity {
         /*
         // Click to add String on activity web
         String[] values = new String[]{
-                "Trump SB", "Vesper SB", "Carry SB"
+                "Trump SB", "Max SB", "Carry SB"
         };*/
 
 
         Map map = BSTSearch.readData_map();
 
         ArrayList<String> arr = new ArrayList<>();
-        for (Object i : map.keySet()){
+        for (Object i : map.keySet()) {
             arr.add(map.get(i).toString());
         }
 
@@ -61,19 +67,13 @@ public class ActivityWeb extends AppCompatActivity {
         });
 
         // Button back to main activity
-        button = (Button) findViewById(R.id.button_a);
+        button = findViewById(R.id.button_a);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMainActivity();
             }
         });
-    }
-
-    // Button back to main activity
-    public void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
     }
 
 
@@ -97,14 +97,9 @@ public class ActivityWeb extends AppCompatActivity {
       }
 */
 
-    public static void main(String[] args) {
-
-        Map map = BSTSearch.readData_map();
-
-        ArrayList<String> arr = new ArrayList<>();
-        for (Object i : map.keySet()){
-            arr.add(map.get(i).toString());
-        }
-        System.out.println(arr);
+    // Button back to main activity
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
