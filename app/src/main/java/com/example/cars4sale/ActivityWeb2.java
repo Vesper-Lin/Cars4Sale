@@ -15,7 +15,7 @@ public class ActivityWeb2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web2);
 
-        Intent intent = getIntent();
-        String car = intent.getStringExtra("CAR");
+//        Intent intent = getIntent();
+//        String car = intent.getStringExtra("CAR");
     }
 }

@@ -21,6 +21,22 @@ public class BSTSearch extends BST {
     public static NodeList sList;
 
 
+    public static List return_list(NodeList list) {
+        nodeList = new ArrayList<>();
+        for (int i = 0; i < list.getLength(); i++) {
+            Node node = list.item(i);
+            NodeList childText = node.getChildNodes();
+            for (int j = 0; j < childText.getLength(); j++) {
+                if (childText.item(j).getNodeType() == Node.ELEMENT_NODE) {
+                    nodeList.add(childText.item(j).getFirstChild().getNodeValue());
+                }
+            }
+        }
+        return nodeList;
+    }
+
+
+
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -120,13 +136,12 @@ public class BSTSearch extends BST {
     }
 
 
-
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document d = builder.parse("app/src/main/assets/carData.xml");
-            NodeList sList = d.getElementsByTagName("car");
+            sList = d.getElementsByTagName("car");
             node(sList);
             System.out.println(sList.getClass());
             map = groupList(nodeList);
@@ -134,11 +149,11 @@ public class BSTSearch extends BST {
             //test
             //System.out.println(map.get(695));
             //System.out.println(getHigherPrice(node(sList).root,537072));
-            //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
+            System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
              //System.out.println(getName(map,"SATURN Outlook"));
-            // System.out.println(getYearBefore(map,2010));
+             //System.out.println(getYearBefore(map,2010));
             // System.out.println(getName(map, "SaTuRn"));
             //System.out.println(BSTSearch.map);
             System.out.println(BSTSearch.map);
