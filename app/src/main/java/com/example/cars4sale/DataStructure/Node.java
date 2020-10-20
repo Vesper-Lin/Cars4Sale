@@ -8,18 +8,12 @@ public class Node {
     Node right;
     Node root;
 
-
-
     public Node(Integer key, String value) {
         this.key = key;
         this.value = value;
         this.parent = null;
         this.left = null;
         this.right = null;
-    }
-
-    public boolean isEmpty() {
-        return false;
     }
 
 
