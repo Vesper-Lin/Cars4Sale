@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class BST {
 
+    public static List<String> list_price = new ArrayList<>();
     public static List<String> list_lower_price = new ArrayList<>();
     public static List<String> list_higher_price = new ArrayList<>();
 
@@ -17,6 +18,31 @@ public class BST {
 
     public BST() {
         this.root = null;
+    }
+
+
+
+    public static List<String> getPrice(Node t, Integer price) {
+
+        if (null == t) {
+            return list_price;
+        } else if (t.left != null) {
+            getPrice(t.left, price);
+        }
+
+        if (t.key != 0) {
+
+            if (t.key == price) {
+                list_price.add(t.value);//add same price
+
+            }
+        }
+
+        if (t.right != null) {
+            getPrice(t.right, price);
+        }
+
+        return list_price;
     }
 
 
@@ -31,7 +57,7 @@ public class BST {
         }
         if (t.key != 0) {
 
-            if (t.key >= price) {
+            if (t.key > price) {
                 list_higher_price.add(t.value);//add higher
             }
             //System.out.println(t.value);
