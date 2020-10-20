@@ -22,7 +22,8 @@ public class ActivityWeb extends AppCompatActivity {
         setContentView(R.layout.activity_web);
 
         lvCar = findViewById(R.id.lvCar);
-        // Click to add String
+
+        // Click to add String on activity web
         String[] values = new String[]{
                 "Trump SB","Vesper SB","Carry SB"
         };
@@ -34,10 +35,9 @@ public class ActivityWeb extends AppCompatActivity {
         lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 0) {
                     Intent intent = new Intent(view.getContext(),ActivityWeb2.class);
                     startActivity(intent);
-                }
+
             }
         });
 
@@ -55,6 +55,7 @@ public class ActivityWeb extends AppCompatActivity {
         // Start Adapter
         // lvCar.setAdapter(simple_adapter);
 
+        // Button back to main activity
         button = (Button) findViewById(R.id.button_a);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +71,7 @@ public class ActivityWeb extends AppCompatActivity {
         return arrayList;
       }
 */
+    // Button back to main activity
     public void openMainActivity() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
