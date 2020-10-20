@@ -39,6 +39,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Help Button
+        button = (Button) findViewById(R.id.button_h);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openHelpScreenActivity();
+            }
+        });
+
         // Navigation drawer
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -50,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+    }
+
+    private void openHelpScreenActivity() {
+        Intent intent = new Intent(this, HelpScreenActivity.class);
+        startActivity(intent);
     }
 
     // Main Activity to Activity Web
