@@ -31,8 +31,6 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-
-
         /*
         // Click to add String on activity web
         String[] values = new String[]{
