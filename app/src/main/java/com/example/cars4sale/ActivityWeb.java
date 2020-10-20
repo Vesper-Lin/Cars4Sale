@@ -23,11 +23,14 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
+/*
         ListView lvcar = findViewById(R.id.lvCar);
+        String[] from = {"name","price","location"};
+        int[] to = {R.id.};
 
         // Settings of Adapter
-        // SimpleAdapter(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to)
-        // simple_adapter=new SimpleAdapter(this,list, R.layout.lvcar, from, to);
+        SimpleAdapter(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to)
+        simple_adapter=new SimpleAdapter(this,list, R.layout.lvcar, from, to);
 
         // Start Adapter
         lvcar.setAdapter(simple_adapter);
