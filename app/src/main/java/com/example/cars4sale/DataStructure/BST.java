@@ -1,11 +1,13 @@
 package com.example.cars4sale.DataStructure;
 
+import android.graphics.ColorSpace;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class BST {
+public class BST{
 
     //list_price---String
     public static List<String> list_price = new ArrayList<>();
@@ -13,8 +15,7 @@ public class BST {
     //new_list--Integer
     public static List<Integer> new_list = new ArrayList<>();
 
-
-    Node root;
+    public Node root;
 
     public BST() {
         this.root = null;
@@ -149,5 +150,12 @@ public class BST {
         }
 
     }
+
+
+
+
+
+
+
 
 }

@@ -31,6 +31,41 @@ public class XMLGenerator extends GetRandom {
         xml.saveData("app/src/main/assets/carData.xml");
     }
 
+    public static List<Car> loadData(String filePath) {
+        File f = new File(filePath);
+        //create a DocumentBuilder instance: DocumentBuilderFactory
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        List<Car> cars = new ArrayList<>();
+
+        try {
+            DocumentBuilder db = dbf.newDocumentBuilder();
+            Document d = db.parse(f); //parse file f, it is the root of the document tree
+            d.getDocumentElement().normalize(); //remove redundancies such as spaces between <  >, line breaks, some white spaces, ...
+
+            //get the list of nodes by tag name (all <car> items)
+            NodeList nl = d.getElementsByTagName("car");
+
+            for (int i = 0; i < nl.getLength(); i++) {
+                Node n = nl.item(i);
+                if (n.getNodeType() == Node.ELEMENT_NODE) {
+                    Element element = (Element) n;
+                    int id = Integer.parseInt(element.getAttribute("id"));
+                    int coding = Integer.parseInt(element.getAttribute("coding"));
+                    String name = element.getElementsByTagName("name").item(0).getTextContent();
+                    String location = element.getElementsByTagName("location").item(0).getTextContent();
+                    int price = Integer.parseInt(element.getAttribute("price"));
+                    int year = Integer.parseInt(element.getAttribute("year"));
+
+                    Car car = new Car(id, coding, name, location, price, year);
+                    cars.add(car);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return cars;
+    }
+
 
     public void saveData(String filePath) {
         File f = new File(filePath);
@@ -74,6 +109,8 @@ public class XMLGenerator extends GetRandom {
 
                 rootElement.appendChild(carElement);
             }
+
+
 
             //transform a source tree into a result tree
             //Used to process XML from a variety of sources and write the transformation output to a variety of sinks (see transformer documentation)

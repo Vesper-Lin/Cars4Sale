@@ -17,6 +17,10 @@ public class Car {
         this.year = year;
     }
 
+    public String getname(){
+        return this.name;
+    }
+
     public int getId() {
         return id;
     }
