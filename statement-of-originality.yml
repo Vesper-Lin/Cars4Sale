@@ -29,6 +29,9 @@ code:
   - comment: Lecture and Lab code from COMP2100_6442_S2_2020 GitLab repository of Bernardo Pereira Nunes
       url: https://gitlab.cecs.anu.edu.au/u1064702/comp2100_6442_s2_2020
       licence: No license. All rights reserved
+  - comment: Retrieve common key value pairs from two hashmaps
+      url: https://stackoverflow.com/questions/51039668/how-to-retrieve-common-key-value-pairs-from-two-hashmaps
+      licence: Creative Commons Attribution-ShareAlike 4.0 International Public License
   - comment:
       url:
       licence:
