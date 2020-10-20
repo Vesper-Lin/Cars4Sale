@@ -16,7 +16,8 @@ import java.util.Map;
  */
 public class ParserDemo {
 
-    final static String text = "name=tesla; location = perth; price<200000; year>2008";
+    //final static String text = "name=tesla; location = perth; price<200000; year>2008";
+    final static String text = "price>998177";
 
     public static void main(String[] args) {
         MyTokenizer _tokenizer = new MyTokenizer(text);
@@ -24,4 +25,6 @@ public class ParserDemo {
         Map searchResult = _exp.evaluate();
         System.out.println(searchResult);
     }
+
+
 }
