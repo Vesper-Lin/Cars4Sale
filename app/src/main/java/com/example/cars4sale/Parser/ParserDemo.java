@@ -16,11 +16,12 @@ public class ParserDemo {
     //final static String exp = "name=tesla; location=canberra; price<100000; year>2012";
     final static String exp = "name=tesla";
 
+    /*
     public static void main(String[] args) {
         Tokenizer tok = new MyTokenizer(exp);
 
         Exp parsedExp = Parser.parseExp();
 
         System.out.println(parsedExp.evaluate());
-    }
+    }*/
 }
