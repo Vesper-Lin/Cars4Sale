@@ -5,7 +5,8 @@ import com.example.cars4sale.DataStructure.BSTSearch;
 import java.util.Map;
 
 public class ExpName extends Exp {
-    String name;
+
+    private String name;
 
     public ExpName(String name) {
         this.name = name;

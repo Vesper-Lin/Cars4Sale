@@ -1,7 +1,5 @@
 package com.example.cars4sale.DataStructure;
 
-import com.example.cars4sale.DataStructure.BST;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -16,10 +14,11 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class BSTSearch extends BST {
 
-    public static List nodeList;
-    public static Map map = new HashMap();
-    public static NodeList sList;
-
+    private static List nodeList;
+    private static NodeList sList;
+    private static NodeList listUltra;
+    private static Map map = new HashMap();
+    private static Map mapUltra = new HashMap();
 
     public static List return_list(NodeList list) {
         nodeList = new ArrayList<>();
@@ -34,8 +33,6 @@ public class BSTSearch extends BST {
         }
         return nodeList;
     }
-
-
 
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
@@ -79,7 +76,6 @@ public class BSTSearch extends BST {
         return map;
     }
 
-
     //give a name and a map, then it can return all same name in map
     public static Map getName(Map map, String s) {
         Map new_map = new HashMap();
@@ -95,7 +91,7 @@ public class BSTSearch extends BST {
     public static Map getLocation(Map map, String s) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (map.get(i).toString().split(",")[2].trim().equals(s)) {
+            if (map.get(i).toString().split(",")[2].trim().toLowerCase().equals(s.toLowerCase())) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -135,9 +131,7 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
-    static Map mapp = new HashMap();
-
-    public static Map readData_map(){
+    public static Map readData_map() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
@@ -145,28 +139,26 @@ public class BSTSearch extends BST {
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
             System.out.println(sList.getClass());
-            mapp = groupList(return_list(sList));
+            mapUltra = groupList(return_list(sList));
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return mapp;
+        return mapUltra;
     }
 
-    public static NodeList readData_slist(){
+    public static NodeList readData_slist() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document d = builder.parse("app/src/main/assets/carData.xml");
-            NodeList sList = d.getElementsByTagName("car");
-
-
+            listUltra = d.getElementsByTagName("car");
+            node(listUltra);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return sList;
+        return listUltra;
     }
-
 
 
     public static void main(String[] args) {
@@ -181,16 +173,14 @@ public class BSTSearch extends BST {
 
             //test
             //System.out.println(map.get(695));
-            //System.out.println(getHigherPrice(node(sList).root,537072));
             //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
 
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
             //System.out.println(getName(map,"SATURN Outlook"));
-            //System.out.println(getYearBefore(map,2010));
             // System.out.println(getName(map, "SaTuRn"));
-            //System.out.println(BSTSearch.map);
             System.out.println(BSTSearch.map);
+            System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
 
         } catch (Exception e) {
             e.printStackTrace();
