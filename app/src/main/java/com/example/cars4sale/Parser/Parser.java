@@ -26,7 +26,7 @@ public class Parser {
     }
 
     public static void main(String[] args) {
-        String text = "name = mini";
+        String text = "name=mini; location=Hobart";
         MyTokenizer _tokenizer = new MyTokenizer(text);
         Exp _exp = new Parser(_tokenizer).parseExp();
         Map searchResult = _exp.evaluate();
@@ -39,28 +39,36 @@ public class Parser {
      */
     public Exp parseExp() {
         if (_tokenizer.current().type().equals(Token.Type.KEYWORD)) {
-            if (_tokenizer.current().token().equalsIgnoreCase("name")) {
+            Exp term = parseKeyword();
+            if (_tokenizer.hasNext()) {
                 _tokenizer.next();
-                if (!_tokenizer.current().token().equals("=")) {
-                    throw new IllegalArgumentException();
-                }
-                Exp term = parseName();
                 if (_tokenizer.hasNext() && _tokenizer.current().type().equals(Token.Type.SEMICOLON)) {
                     _tokenizer.next();
                     Exp exp = parseExp();
                     return new ExpAnd(term, exp);
                 }
-                return term;
             }
+            return term;
         } else throw new IllegalArgumentException();
-        return null;
+    }
+
+    public Exp parseKeyword() {
+        if (_tokenizer.hasNext()) {
+            Exp term = null;
+            if (_tokenizer.current().token().equalsIgnoreCase("name")) {
+                term = parseName();
+            } else if (_tokenizer.current().token().equalsIgnoreCase("location")) {
+                term = parseLocation();
+            }
+            return term;
+        } else throw new IllegalArgumentException();
     }
 
     public Exp parseName() {
-        if (_tokenizer.hasNext()){
+        if (_tokenizer.hasNext()) {
             _tokenizer.next();
-            if (_tokenizer.current().type().equals(Token.Type.COMPARISON)){
-                if (_tokenizer.current().token().equals("=")){
+            if (_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
+                if (_tokenizer.current().token().equals("=")) {
                     _tokenizer.next();
                     if (!_tokenizer.current().type().equals(Token.Type.NAME)) {
                         throw new IllegalArgumentException();
@@ -68,13 +76,25 @@ public class Parser {
                     String name = _tokenizer.current().token();
                     return new ExpName(name);
                 }
-                _tokenizer.next();
             }
         } else throw new IllegalArgumentException();
         return null;
     }
 
     public Exp parseLocation() {
+        if (_tokenizer.hasNext()) {
+            _tokenizer.next();
+            if (_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
+                if (_tokenizer.current().token().equals("=")) {
+                    _tokenizer.next();
+                    if (!_tokenizer.current().type().equals(Token.Type.NAME)) {
+                        throw new IllegalArgumentException();
+                    }
+                    String location = _tokenizer.current().token();
+                    return new ExpLocation(location);
+                }
+            }
+        } else throw new IllegalArgumentException();
         return null;
     }
 
