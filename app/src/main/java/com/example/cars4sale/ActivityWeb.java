@@ -6,15 +6,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.example.cars4sale.DataStructure.BSTSearch;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Collection;
+import java.util.List;
 import java.util.Map;
-import java.util.zip.DataFormatException;
 
 public class ActivityWeb extends AppCompatActivity {
-    // List View Test
+    private Button button;
     ListView lvCar;
     SimpleAdapter simple_adapter;
 
@@ -22,28 +21,40 @@ public class ActivityWeb extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-
 /*
         ListView lvcar = findViewById(R.id.lvCar);
-        String[] from = {"name","price","location"};
-        int[] to = {R.id.};
+
+        String[] from = {"name", "price", "location"};
+        int[] to = {R.id.name, R.id.price, R.id.location};
 
         // Settings of Adapter
-        SimpleAdapter(Context context, List<? extends Map<String, ?>> data, int resource, String[] from, int[] to)
-        simple_adapter=new SimpleAdapter(this,list, R.layout.lvcar, from, to);
+        // SimpleAdapter(Context context, List < ? extends Map<String, ?>>data,int resource, String[] from,int[] to)
+        simple_adapter = new SimpleAdapter(this, list, R.layout.lvcar, from, to);
 
         // Start Adapter
         lvcar.setAdapter(simple_adapter);
-
-/*
-        lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+*/
+        button = (Button)findViewById(R.id.button_a);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String car = lvcar.getItemAtPosition(position).toString();
-                Intent intent = new Intent(ActivityWeb.this, ActivityWeb2.class);
-                intent.putExtra("CAR", car);
-                startActivity(intent);
+            public void onClick(View v) {
+                openMainActivity();
             }
-        }); */
+        });
+/*
+        List<String> mapValuesToList = object.mapValuesToList(hashMap);
+        mapValuesToList.forEach(System.out::println);
+*/
+    }
+
+    public List<String> mapValuesToList(Map<String,String> map) {
+        Collection<String> values = map.values();
+        ArrayList<String> arrayList = new ArrayList<>(values);
+        return arrayList;
+    }
+
+    public void openMainActivity(){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
     }
 }
