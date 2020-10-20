@@ -27,7 +27,7 @@ public class ActivityWeb2 extends AppCompatActivity {
     }
 
     public void openMainActivity() {
-        Intent intent = new Intent(this, ActivityWeb2.class);
+        Intent intent = new Intent(this, ActivityWeb.class);
         startActivity(intent);
     }
 }
