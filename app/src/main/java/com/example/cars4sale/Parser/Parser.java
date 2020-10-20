@@ -2,7 +2,6 @@ package com.example.cars4sale.Parser;
 
 import com.example.cars4sale.Tokenizer.MyTokenizer;
 import com.example.cars4sale.Tokenizer.Token;
-import com.example.cars4sale.Tokenizer.Tokenizer;
 
 import java.util.Map;
 
@@ -26,6 +25,14 @@ public class Parser {
         this._tokenizer = _tokenizer;
     }
 
+    public static void main(String[] args) {
+        String text = "name = mini";
+        MyTokenizer _tokenizer = new MyTokenizer(text);
+        Exp _exp = new Parser(_tokenizer).parseExp();
+        Map searchResult = _exp.evaluate();
+        System.out.println(searchResult);
+    }
+
     /**
      * Parse the queries with the form of
      * <exp> ::= <term> | <term> ; <exp>
@@ -34,14 +41,14 @@ public class Parser {
         if (_tokenizer.current().type().equals(Token.Type.KEYWORD)) {
             if (_tokenizer.current().token().equalsIgnoreCase("name")) {
                 _tokenizer.next();
-                if (!_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
+                if (!_tokenizer.current().token().equals("=")) {
                     throw new IllegalArgumentException();
                 }
                 Exp term = parseName();
                 if (_tokenizer.hasNext() && _tokenizer.current().type().equals(Token.Type.SEMICOLON)) {
                     _tokenizer.next();
                     Exp exp = parseExp();
-                    return null;
+                    return new ExpAnd(term, exp);
                 }
                 return term;
             }
@@ -50,6 +57,20 @@ public class Parser {
     }
 
     public Exp parseName() {
+        if (_tokenizer.hasNext()){
+            _tokenizer.next();
+            if (_tokenizer.current().type().equals(Token.Type.COMPARISON)){
+                if (_tokenizer.current().token().equals("=")){
+                    _tokenizer.next();
+                    if (!_tokenizer.current().type().equals(Token.Type.NAME)) {
+                        throw new IllegalArgumentException();
+                    }
+                    String name = _tokenizer.current().token();
+                    return new ExpName(name);
+                }
+                _tokenizer.next();
+            }
+        } else throw new IllegalArgumentException();
         return null;
     }
 
@@ -63,14 +84,6 @@ public class Parser {
 
     public Exp parseYear() {
         return null;
-    }
-
-    public static void main(String[] args) {
-        String text = "name = mini; location = sydney; price > 10000; year > 2012";
-        MyTokenizer _tokenizer = new MyTokenizer(text);
-        Exp _exp = new Parser(_tokenizer).parseExp();
-        Map searchResult = _exp.evaluate();
-        System.out.println(searchResult);
     }
 
 }
