@@ -11,12 +11,14 @@ import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.getLocation;
 import static com.example.cars4sale.DataStructure.BSTSearch.groupList;
+import static com.example.cars4sale.DataStructure.BSTSearch.readData_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.return_list;
 import static com.example.cars4sale.DataStructure.BSTSearch.getName;
 
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -53,6 +55,10 @@ public class BSTTest {
             e.printStackTrace();
         }
         return map;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(readData_map());
     }
 
 

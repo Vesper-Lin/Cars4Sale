@@ -135,6 +135,26 @@ public class BSTSearch extends BST {
         return new_map;
     }
 
+    static Map mapp = new HashMap();
+
+    public static Map readData_map(){
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
+            NodeList sList = d.getElementsByTagName("car");
+            node(sList);
+            System.out.println(sList.getClass());
+            mapp = groupList(return_list(sList));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return mapp;
+    }
+
+
+
 
     public static void main(String[] args) {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
