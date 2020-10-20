@@ -181,7 +181,6 @@ public class BSTSearch extends BST {
 
             //test
             //System.out.println(map.get(695));
-            //System.out.println(getHigherPrice(node(sList).root,537072));
             //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 988934))));
 
             //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
