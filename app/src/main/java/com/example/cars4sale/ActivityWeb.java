@@ -7,18 +7,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.cars4sale.DataStructure.BSTSearch;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 
 public class ActivityWeb extends AppCompatActivity {
-    SimpleAdapter simple_adapter;
+
     private Button button;
 
     public static void main(String[] args) {
@@ -26,10 +25,11 @@ public class ActivityWeb extends AppCompatActivity {
         Map map = BSTSearch.readData_map();
 
         ArrayList<String> arr = new ArrayList<>();
-        for (Object i : map.keySet()) {
-            arr.add(map.get(i).toString());
-        }
-        System.out.println(arr);
+
+        List<Object> objectList = (List<Object>) map.get(1);
+
+        System.out.println(objectList);
+        System.out.println(objectList.get(2));
     }
 
     @Override
@@ -37,26 +37,22 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-        /*
-        // Click to add String on activity web
-        String[] values = new String[]{
-                "Trump SB", "Max SB", "Carry SB"
-        };*/
-
-
         Map map = BSTSearch.readData_map();
 
         ArrayList<String> arr = new ArrayList<>();
-        for (Object i : map.keySet()) {
-            arr.add(map.get(i).toString());
+
+        List<Object> objectList = null;
+
+        for (int i =0; i <map.size(); i++){
+            objectList.add((List<Object>) map.get(i));
+            arr.add(objectList.toString());
         }
 
-
-        final ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arr);
-
         final ListView lvCar = findViewById(R.id.lvCar);
+        final ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arr);
         lvCar.setAdapter(arrayAdapter);
 
+        /*
         lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
@@ -64,7 +60,7 @@ public class ActivityWeb extends AppCompatActivity {
                 Intent intent = new Intent(view.getContext(), ActivityWeb2.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         // Button back to main activity
         button = findViewById(R.id.button_a);
@@ -74,10 +70,27 @@ public class ActivityWeb extends AppCompatActivity {
                 openMainActivity();
             }
         });
+
     }
 
 
-        /*
+    // Button back to main activity
+    public void openMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+}
+
+
+/*
+        // Click to add String on activity web
+        String[] values = new String[]{
+                "Trump SB", "Max SB", "Carry SB"
+        };*/
+
+
+
+ /*
         // Settings of Adapter
         // SimpleAdapter(Context context, List < ? extends Map<String, ?>>data,int resource, String[] from,int[] to)
         // List<String extends Map<String, Object>> arrarylist;
@@ -96,10 +109,3 @@ public class ActivityWeb extends AppCompatActivity {
         return arrayList;
       }
 */
-
-    // Button back to main activity
-    public void openMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
-}
