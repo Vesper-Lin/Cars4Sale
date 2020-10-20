@@ -91,7 +91,7 @@ public class BSTSearch extends BST {
     public static Map getLocation(Map map, String s) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (map.get(i).toString().split(",")[2].trim().equals(s)) {
+            if (map.get(i).toString().split(",")[2].trim().toLowerCase().equals(s.toLowerCase())) {
                 new_map.put(i, map.get(i));
             }
         }
