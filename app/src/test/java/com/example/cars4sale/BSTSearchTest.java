@@ -5,12 +5,17 @@ import org.junit.Test;
 
 import java.util.Map;
 
+import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
+import static com.example.cars4sale.DataStructure.BST.list_to_list;
+import static com.example.cars4sale.DataStructure.BST.list_to_map;
 import static com.example.cars4sale.DataStructure.BSTSearch.getLocation;
 import static com.example.cars4sale.DataStructure.BSTSearch.getName;
 import static com.example.cars4sale.DataStructure.BSTSearch.getYear;
 import static com.example.cars4sale.DataStructure.BSTSearch.getYearAfter;
 import static com.example.cars4sale.DataStructure.BSTSearch.getYearBefore;
+import static com.example.cars4sale.DataStructure.BSTSearch.node;
 import static com.example.cars4sale.DataStructure.BSTSearch.readData_map;
+import static com.example.cars4sale.DataStructure.BSTSearch.sList;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
@@ -50,6 +55,12 @@ public class BSTSearchTest {
     public void testGetYearAfter() {
         int i = size(getYearAfter(car, 2019));
         assertEquals(96, i);
+    }
+
+    @Test(timeout = 1000)
+    public void testGetHigherPrice() {
+        int i = size(list_to_map(car,list_to_list(getHigherPrice(node(sList).root, 988934))));
+        assertEquals(7, i);
     }
 
 
