@@ -3,6 +3,8 @@ package com.example.cars4sale.Parser;
 import com.example.cars4sale.Tokenizer.MyTokenizer;
 import com.example.cars4sale.Tokenizer.Tokenizer;
 
+import java.util.Map;
+
 /**
  * Parser for grammar:
  *
@@ -13,15 +15,13 @@ import com.example.cars4sale.Tokenizer.Tokenizer;
  * <comparison> ::=   "=" | "<" | ">"
  */
 public class ParserDemo {
-    //final static String exp = "name=tesla; location=canberra; price<100000; year>2012";
-    final static String exp = "name=tesla";
 
-    /*
+    final static String text = "name=tesla; location = perth; price<200000; year>2008";
+
     public static void main(String[] args) {
-        Tokenizer tok = new MyTokenizer(exp);
-
-        Exp parsedExp = Parser.parseExp();
-
-        System.out.println(parsedExp.evaluate());
-    }*/
+        MyTokenizer _tokenizer = new MyTokenizer(text);
+        Exp _exp = new Parser(_tokenizer).parseExp();
+        Map searchResult = _exp.evaluate();
+        System.out.println(searchResult);
+    }
 }

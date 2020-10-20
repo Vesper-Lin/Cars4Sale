@@ -5,12 +5,12 @@ import com.example.cars4sale.DataStructure.BSTSearch;
 import java.util.Map;
 
 public class ExpLocation extends Exp {
-    String location;
+
+    private String location;
 
     public ExpLocation(String location) {
         this.location = location;
     }
-
 
     @Override
     public Map evaluate() {
