@@ -2,6 +2,9 @@ package com.example.cars4sale.Parser;
 
 import com.example.cars4sale.Tokenizer.MyTokenizer;
 import com.example.cars4sale.Tokenizer.Token;
+import com.example.cars4sale.Tokenizer.Tokenizer;
+
+import java.util.Map;
 
 /**
  * The main objective of this class is to implement a parser for the search query.
@@ -38,6 +41,7 @@ public class Parser {
                 if (_tokenizer.hasNext() && _tokenizer.current().type().equals(Token.Type.SEMICOLON)) {
                     _tokenizer.next();
                     Exp exp = parseExp();
+                    return null;
                 }
                 return term;
             }
@@ -59,6 +63,14 @@ public class Parser {
 
     public Exp parseYear() {
         return null;
+    }
+
+    public static void main(String[] args) {
+        String text = "name = mini; location = sydney; price > 10000; year > 2012";
+        MyTokenizer _tokenizer = new MyTokenizer(text);
+        Exp _exp = new Parser(_tokenizer).parseExp();
+        Map searchResult = _exp.evaluate();
+        System.out.println(searchResult);
     }
 
 }
