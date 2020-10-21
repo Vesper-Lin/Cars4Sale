@@ -135,7 +135,7 @@ public class BSTSearch extends BST {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
+            Document d = builder.parse("app/src/main/assets/carData.xml");
             //Document d = builder.parse("./src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
@@ -152,7 +152,7 @@ public class BSTSearch extends BST {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
+            Document d = builder.parse("app/src/main/assets/carData.xml");
             //Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
             listUltra = d.getElementsByTagName("car");
             node(listUltra);

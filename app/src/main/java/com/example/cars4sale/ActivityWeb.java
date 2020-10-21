@@ -3,7 +3,6 @@ package com.example.cars4sale;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -13,24 +12,12 @@ import com.example.cars4sale.DataStructure.BSTSearch;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 
 public class ActivityWeb extends AppCompatActivity {
 
     private Button button;
 
-    public static void main(String[] args) {
-
-        Map map = BSTSearch.readData_map();
-
-        ArrayList<String> arr = new ArrayList<>();
-
-        List<Object> objectList = (List<Object>) map.get(1);
-
-        System.out.println(objectList);
-        System.out.println(objectList.get(2));
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +28,10 @@ public class ActivityWeb extends AppCompatActivity {
 
         ArrayList<String> arr = new ArrayList<>();
 
-        List<Object> objectList = null;
+        List<Object> objectList = new ArrayList<>();
 
-        for (int i =0; i <map.size(); i++){
-            objectList.add((List<Object>) map.get(i));
+        for (int i = 0; i < map.size(); i++) {
+            objectList.add(map.get(i));
             arr.add(objectList.toString());
         }
 
