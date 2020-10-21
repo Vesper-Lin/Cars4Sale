@@ -1,18 +1,11 @@
 package com.example.cars4sale.Parser;
 
-import com.example.cars4sale.DataStructure.BSTSearch;
-
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
-import static com.example.cars4sale.DataStructure.BST.list_to_list;
-import static com.example.cars4sale.DataStructure.BST.list_to_map;
-import static com.example.cars4sale.DataStructure.BSTSearch.node;
-
 /**
  * ExpAnd: it is extended from the abstract class Exp.
- *         This class is used to represent the expression of intersection.
+ * This class is used to represent the expression of intersection.
  *
  * @author: Yuxuan Lin
  * @UID: u6828533
@@ -25,21 +18,6 @@ public class ExpAnd extends Exp {
     public ExpAnd(Exp term, Exp exp) {
         this.term = term;
         this.exp = exp;
-    }
-
-    public static void main(String[] args) {
-
-        Map m1 = list_to_map(BSTSearch.readData_map(), list_to_list(getHigherPrice(node(BSTSearch.readData_slist()).root, 900000)));
-        Map m2 = BSTSearch.getYear(BSTSearch.readData_map(), 2012);
-        Map commonMap = new HashMap();
-        for (Object i : m1.keySet()) {
-            if (m2.get(i) != null) {
-                if (m2.get(i).equals(m1.get(i))) {
-                    commonMap.put(i, m1.get(i));
-                }
-            }
-        }
-        System.out.println(commonMap);
     }
 
     @Override

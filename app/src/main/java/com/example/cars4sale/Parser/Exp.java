@@ -7,7 +7,7 @@ import java.util.Map;
  */
 public abstract class Exp {
 
-    // returns evaluated search result map of the current expression
+    // returns evaluated map search result of the current expression
     public abstract Map evaluate();
 
 }
