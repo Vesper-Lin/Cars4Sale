@@ -31,6 +31,8 @@ public class ActivityWeb extends AppCompatActivity {
         ArrayList<String> arr = new ArrayList<>();
 
         List<Object> objectList = new ArrayList<>();
+        List<String> strs = (List<String>)(List) objectList;
+
 
         for (int i = 0; i < map.size(); i++) {
             objectList.add(map.get(i));

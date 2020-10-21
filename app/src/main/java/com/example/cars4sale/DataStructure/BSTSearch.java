@@ -179,7 +179,8 @@ public class BSTSearch extends BST {
             //System.out.println(map11.size());
            // System.out.println(list_to_list(getHigherPrice(node(sList).root,942445)).size());
 
-            //System.out.println(getLocation(map,"Toowoomba"));
+           // Map tes = getLocation(map,"Toowoomba");
+
             //System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getName(map, "SaTuRn"));
             System.out.println(BSTSearch.map);
