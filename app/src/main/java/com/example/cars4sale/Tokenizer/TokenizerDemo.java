@@ -5,8 +5,8 @@ package com.example.cars4sale.Tokenizer;
  */
 public class TokenizerDemo {
 
-    final static String text1 = "carname=bmw; carsloccccatedin = canberra; carsppppiirce < 100000 ; caryaeaar > 2000";
-    final static String text2 = "nme = mini; loc= canberra;pircce >100; earrrrr<2012";
+    final static String text1 = "carNme=bmw; cArsLoCcccAtedin = canberra; carspPppIirce < 100000 ; carYaeAar > 2000";
+    final static String text2 = "nme = mini; LOC= canberra;pircCE >100; eaRrrrr<2012";
 
     public static void main(String[] args) {
         MyTokenizer tokenizer1 = new MyTokenizer(text1);

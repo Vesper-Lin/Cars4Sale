@@ -80,7 +80,7 @@ public class MyTokenizer extends Tokenizer {
                 i += 1;
             }
             j = i;
-            String findWord = _buffer.substring(0, i);
+            String findWord = _buffer.substring(0, i).toLowerCase();
             if (Token.regexMatching(findWord, Token.nameRegex) || Token.nameContaining(findWord)) {
                 findWord = "name";
             } else if (Token.regexMatching(findWord, Token.locationRegex) || Token.locationContaining(findWord)) {
