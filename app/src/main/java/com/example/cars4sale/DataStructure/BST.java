@@ -9,7 +9,7 @@ public class BST {
 
     public static List<String> list_price = new ArrayList<>();
     public static List<String> list_lower_price = new ArrayList<>();
-    public static List<String> list_higher_price = new ArrayList<>();
+   public static List<String> list_higher_price = new ArrayList<>();
 
     //new_list--Integer
     // public static List<Integer> new_list = new ArrayList<>();
@@ -21,44 +21,19 @@ public class BST {
     }
 
 
-
-    public static List<String> getPrice(Node t, Integer price) {
-
-        if (null == t) {
-            return list_price;
-        } else if (t.left != null) {
-            getPrice(t.left, price);
-        }
-
-        if (t.key != 0) {
-
-            if (t.key == price) {
-                list_price.add(t.value);//add same price
-
-            }
-        }
-
-        if (t.right != null) {
-            getPrice(t.right, price);
-        }
-
-        return list_price;
-    }
-
-
     //get all id that its pirce is higher than user give
     public static List<String> getHigherPrice(Node t, Integer price) {
 
         if (null == t) {
-            return list_higher_price;
+            return list_price;
 
         } else if (t.left != null) {
             getHigherPrice(t.left, price); //  The middle order traverses the left subtree
         }
         if (t.key != 0) {
 
-            if (t.key > price) {
-                list_higher_price.add(t.value);//add higher
+            if (t.key >= price) {
+                list_price.add(t.value);//add higher
             }
             //System.out.println(t.value);
             //System.out.println("[" + t.key + "]"); //  Displays the data for the current node
@@ -68,8 +43,9 @@ public class BST {
             getHigherPrice(t.right, price); // Finally, traverse the right subtree
         }
 
-        return list_higher_price;
+        return list_price;
     }
+
 
 
     //get all id that its pirce is lower than user give
@@ -151,6 +127,25 @@ public class BST {
         }
 
     }
+
+    public static boolean find(Node n, Integer key) {
+        if (n.key == key) {
+            return true;
+        }
+
+        int cmp = key.compareTo(n.key);
+        if (cmp < 0) {
+            return find(n.left, key);
+        }
+        else if (cmp > 0) {
+            return find(n.right, key);
+        }
+        else {
+            return false;
+        }
+    }
+
+
 
 
 }
