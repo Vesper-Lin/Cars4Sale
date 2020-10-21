@@ -24,15 +24,6 @@ public class ActivityWeb2 extends AppCompatActivity {
         //Intent intent = getIntent();
         //user = (User) Objects.requireNonNull(intent.getExtras()).getSerializable("USER");
 
-
-
-
-
-
-
-
-
-
         button = (Button) findViewById(R.id.button_b);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
