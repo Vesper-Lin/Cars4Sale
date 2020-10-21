@@ -1,6 +1,6 @@
 package com.example.cars4sale.Parser;
 
-import com.example.cars4sale.DataStructure.BSTSearch;
+import org.w3c.dom.NodeList;
 
 import java.util.Map;
 
@@ -11,7 +11,7 @@ import static com.example.cars4sale.DataStructure.BSTSearch.node;
 
 /**
  * ExpLowerPrice: it is extended from the abstract class Exp.
- *         This class is used to represent the expression of getting lower price.
+ * This class is used to represent the expression of getting lower price.
  *
  * @author: Yuxuan Lin
  * @UID: u6828533
@@ -24,11 +24,11 @@ public class ExpLowerPrice extends Exp {
     }
 
     @Override
-    public Map evaluate() {
+    public Map evaluate(Map map, NodeList nodeList) {
         Map result = list_to_map(
-                BSTSearch.readData_map(),
+                map,
                 list_to_list(
-                        getLowerPrice(node(BSTSearch.readData_slist()).root, price)
+                        getLowerPrice(node(nodeList).root, price)
                 )
         );
         return result;

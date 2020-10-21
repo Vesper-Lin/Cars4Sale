@@ -1,6 +1,6 @@
 package com.example.cars4sale.Parser;
 
-import com.example.cars4sale.DataStructure.BSTSearch;
+import org.w3c.dom.NodeList;
 
 import java.util.Map;
 
@@ -8,7 +8,7 @@ import static com.example.cars4sale.DataStructure.BSTSearch.getYear;
 
 /**
  * ExpYear: it is extended from the abstract class Exp.
- *         This class is used to represent the expression of integer year.
+ * This class is used to represent the expression of integer year.
  *
  * @author: Yuxuan Lin
  * @UID: u6828533
@@ -22,8 +22,8 @@ public class ExpYear extends Exp {
     }
 
     @Override
-    public Map evaluate() {
-        Map result = getYear(BSTSearch.readData_map(), year);
+    public Map evaluate(Map map, NodeList nodeList) {
+        Map result = getYear(map, year);
         return result;
     }
 }

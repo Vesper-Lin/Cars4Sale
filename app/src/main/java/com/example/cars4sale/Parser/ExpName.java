@@ -2,11 +2,13 @@ package com.example.cars4sale.Parser;
 
 import com.example.cars4sale.DataStructure.BSTSearch;
 
+import org.w3c.dom.NodeList;
+
 import java.util.Map;
 
 /**
  * ExpName: it is extended from the abstract class Exp.
- *         This class is used to represent the expression of string name (car name / location name).
+ * This class is used to represent the expression of string name (car name / location name).
  *
  * @author: Yuxuan Lin
  * @UID: u6828533
@@ -19,9 +21,8 @@ public class ExpName extends Exp {
         this.name = name;
     }
 
-
     @Override
-    public Map evaluate() {
-        return BSTSearch.getName(BSTSearch.readData_map(), name);
+    public Map evaluate(Map map, NodeList nodeList) {
+        return BSTSearch.getName(map, name);
     }
 }

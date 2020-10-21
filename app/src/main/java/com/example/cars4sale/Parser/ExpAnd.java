@@ -1,10 +1,12 @@
 package com.example.cars4sale.Parser;
 
+import org.w3c.dom.NodeList;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * ExpAnd: it is extended from the abstract class Exp.
+ * ExpHigherAnd: it is extended from the abstract class Exp.
  * This class is used to represent the expression of intersection.
  *
  * @author: Yuxuan Lin
@@ -21,9 +23,9 @@ public class ExpAnd extends Exp {
     }
 
     @Override
-    public Map evaluate() {
-        Map termMap = term.evaluate();
-        Map expMap = exp.evaluate();
+    public Map evaluate(Map map, NodeList nodeList) {
+        Map termMap = term.evaluate(map, nodeList);
+        Map expMap = exp.evaluate(map, nodeList);
         Map commonMap = new HashMap();
         for (Object i : termMap.keySet()) {
             if (expMap.get(i) != null) {

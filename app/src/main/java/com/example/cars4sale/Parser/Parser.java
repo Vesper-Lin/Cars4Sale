@@ -110,21 +110,26 @@ public class Parser {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
             if (_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
-                if (_tokenizer.current().token().equals("<")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                switch (_tokenizer.current().token()) {
+                    case "=":
                         throw new IllegalArgumentException();
+                    case "<": {
+                        _tokenizer.next();
+                        if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                            throw new IllegalArgumentException();
+                        }
+                        int price = Integer.parseInt(_tokenizer.current().token());
+                        return new ExpLowerPrice(price);
                     }
-                    int price = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpLowerPrice(price);
-                } else if (_tokenizer.current().token().equals(">")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
-                        throw new IllegalArgumentException();
+                    case ">": {
+                        _tokenizer.next();
+                        if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                            throw new IllegalArgumentException();
+                        }
+                        int price = Integer.parseInt(_tokenizer.current().token());
+                        return new ExpHigherPrice(price);
                     }
-                    int price = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpHigherPrice(price);
-                } else throw new IllegalArgumentException();
+                }
             }
         } else throw new IllegalArgumentException();
         return null;
@@ -137,27 +142,31 @@ public class Parser {
         if (_tokenizer.hasNext()) {
             _tokenizer.next();
             if (_tokenizer.current().type().equals(Token.Type.COMPARISON)) {
-                if (_tokenizer.current().token().equals("=")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
-                        throw new IllegalArgumentException();
+                switch (_tokenizer.current().token()) {
+                    case "=": {
+                        _tokenizer.next();
+                        if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                            throw new IllegalArgumentException();
+                        }
+                        int year = Integer.parseInt(_tokenizer.current().token());
+                        return new ExpYear(year);
                     }
-                    int year = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpYear(year);
-                } else if (_tokenizer.current().token().equals("<")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
-                        throw new IllegalArgumentException();
+                    case "<": {
+                        _tokenizer.next();
+                        if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                            throw new IllegalArgumentException();
+                        }
+                        int year = Integer.parseInt(_tokenizer.current().token());
+                        return new ExpYearBefore(year);
                     }
-                    int year = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpYearBefore(year);
-                } else if (_tokenizer.current().token().equals(">")) {
-                    _tokenizer.next();
-                    if (!_tokenizer.current().type().equals(Token.Type.INT)) {
-                        throw new IllegalArgumentException();
+                    case ">": {
+                        _tokenizer.next();
+                        if (!_tokenizer.current().type().equals(Token.Type.INT)) {
+                            throw new IllegalArgumentException();
+                        }
+                        int year = Integer.parseInt(_tokenizer.current().token());
+                        return new ExpYearAfter(year);
                     }
-                    int year = Integer.parseInt(_tokenizer.current().token());
-                    return new ExpYearAfter(year);
                 }
             }
         } else throw new IllegalArgumentException();
