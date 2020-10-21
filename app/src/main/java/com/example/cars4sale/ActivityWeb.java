@@ -6,19 +6,57 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import androidx.appcompat.app.AppCompatActivity;
-import com.example.cars4sale.DataStructure.BSTSearch;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import static com.example.cars4sale.DataStructure.BSTSearch.groupList;
+import static com.example.cars4sale.DataStructure.BSTSearch.node;
+import static com.example.cars4sale.DataStructure.BSTSearch.return_list;
 
 
 public class ActivityWeb extends AppCompatActivity {
 
+    private static NodeList listUltra;
+    private static Map mapUltra = new HashMap();
     private Button button;
 
+    public static void main(String[] args) {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document d = builder.parse("app/src/main/assets/carData.xml");
+            NodeList sList = d.getElementsByTagName("car");
+            node(sList);
+            System.out.println(sList.getClass());
+            mapUltra = groupList(return_list(sList));
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        Map map = mapUltra;
+
+        ArrayList<String> arr = new ArrayList<>();
+
+        List<Object> objectList = new ArrayList<>();
+        objectList = (List<Object>) map.get(2);
+        List<String> strs = (List<String>) (List) objectList;
+        String test = strs.get(1);
+
+        System.out.println(test);
+    }
 
 
     @Override
@@ -26,30 +64,33 @@ public class ActivityWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
 
-        Map map = BSTSearch.readData_map();
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        try {
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            InputStream is = getAssets().open("carData.xml");
+            Document d = builder.parse(is);
+            listUltra = d.getElementsByTagName("car");
+            node(listUltra);
+            System.out.println(listUltra.getClass());
+            mapUltra = groupList(return_list(listUltra));
 
-        ArrayList<String> arr = new ArrayList<>();
-
-        List<Object> objectList = new ArrayList<>();
-
-        for (int i = 0; i < map.size(); i++) {
-            objectList.add(map.get(i));
-            arr.add(objectList.toString());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-        final ListView lvCar = findViewById(R.id.lvCar);
-        final ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arr);
-        lvCar.setAdapter(arrayAdapter);
+        Map map = mapUltra;
 
-        /*
-        lvCar.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
-                String car = lvCar.getItemAtPosition(i).toString();
-                Intent intent = new Intent(view.getContext(), ActivityWeb2.class);
-                startActivity(intent);
-            }
-        });*/
+        List<Object> objectList;
+        objectList = (List<Object>) map.get(2);
+        List<String> strs = (List<String>) (List) objectList;
+        String test = strs.get(1);
+
+        final ArrayList<String> arr = new ArrayList<>();
+        arr.add(test);
+
+        final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arr);
+        final ListView listView = findViewById(R.id.lvCar);
+        listView.setAdapter(arrayAdapter);
 
         // Button back to main activity
         button = findViewById(R.id.button_a);
@@ -59,42 +100,12 @@ public class ActivityWeb extends AppCompatActivity {
                 openMainActivity();
             }
         });
-
     }
-
 
     // Button back to main activity
     public void openMainActivity() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
 }
-
-
-/*
-        // Click to add String on activity web
-        String[] values = new String[]{
-                "Trump SB", "Max SB", "Carry SB"
-        };*/
-
-
-
- /*
-        // Settings of Adapter
-        // SimpleAdapter(Context context, List < ? extends Map<String, ?>>data,int resource, String[] from,int[] to)
-        // List<String extends Map<String, Object>> arrarylist;
-        List<String> lyx = mapValuesToList(BSTSearch.readData_map());
-        SimpleAdapter simple_adapter = new SimpleAdapter(this, arraylist, R.layout.activity_web, from, to);
-
-        // Start Adapter
-        lvCar.setAdapter(simple_adapter);
-
-
-    }
-
-    public List<String> mapValuesToList(Map<String, String> map) {
-        Collection<String> values = map.values();
-        ArrayList<String> arrayList = new ArrayList<>(values);
-        return arrayList;
-      }
-*/
