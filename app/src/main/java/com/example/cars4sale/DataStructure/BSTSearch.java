@@ -113,7 +113,7 @@ public class BSTSearch extends BST {
     public static Map getYearBefore(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) <= year) {
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) < year) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -124,7 +124,7 @@ public class BSTSearch extends BST {
     public static Map getYearAfter(Map map, Integer year) {
         Map new_map = new HashMap();
         for (int i = 0; i < 1000; i++) {
-            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) >= year) {
+            if (Integer.parseInt(map.get(i).toString().split(",")[4].trim().substring(0, 4)) > year) {
                 new_map.put(i, map.get(i));
             }
         }
@@ -175,9 +175,10 @@ public class BSTSearch extends BST {
 
             //test
             //System.out.println(map.get(695));
+            //Map map11 =list_to_map(map,list_to_list(getHigherPrice(node(sList).root,942445)));
+            //System.out.println(map11.size());
+           // System.out.println(list_to_list(getHigherPrice(node(sList).root,942445)).size());
 
-
-            //System.out.println(list_to_map(map,list_to_list(getLowerPrice(node(sList).root,537))).size());
             //System.out.println(getLocation(map,"Toowoomba"));
             //System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getName(map, "SaTuRn"));
