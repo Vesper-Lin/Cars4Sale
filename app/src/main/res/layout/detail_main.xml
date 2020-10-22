@@ -20,7 +20,7 @@
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_baseline_menu_24"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="@string/page_title"
+            app:title="@string/page_title_detail"
             app:titleTextColor="@color/colorTitle" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -32,7 +32,7 @@
         android:layout_height="200dp"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="120dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
         android:contentDescription="@string/nav_header"
