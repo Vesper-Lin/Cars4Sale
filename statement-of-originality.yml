@@ -60,7 +60,7 @@ assets:
   - comment: Cars and Automakers Database, used for creating a car model database
       url: https://www.autoevolution.com/cars
       licence: Non-commercial use
-      
+
   - comment:
       url:
       licence:
@@ -69,7 +69,9 @@ assets:
 # sign *your* name and uid here
 - name: Yuxuan Lin
    uid: u6828533
+
 - name: Xinxin Li
    uid: u6750982
+
 - name: Tianxiang Zhang
    uid: u6773547

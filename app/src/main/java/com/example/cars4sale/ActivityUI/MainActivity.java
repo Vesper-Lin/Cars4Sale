@@ -1,4 +1,4 @@
-package com.example.cars4sale;
+package com.example.cars4sale.ActivityUI;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,63 +17,69 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.google.android.material.textfield.TextInputEditText;
+import com.example.cars4sale.Parser.Exp;
+import com.example.cars4sale.Parser.Parser;
+import com.example.cars4sale.R;
+import com.example.cars4sale.Tokenizer.MyTokenizer;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
     private DrawerLayout drawer;
-    // Define Variable
-    private TextInputEditText input;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Search Button
-        button = findViewById(R.id.containedButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivityWeb();
-
-            }
-        });
-
-        // Help Button
-        button = (Button) findViewById(R.id.button_h);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openHelpScreenActivity();
-            }
-        });
-
         // Navigation drawer
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        final EditText editText = findViewById(R.id.t_text);
 
         drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-    }
 
-    private void openHelpScreenActivity() {
-        Intent intent = new Intent(this, HelpScreenActivity.class);
-        startActivity(intent);
-    }
+        // Contained button from Material Design
+        final Button searchButton = findViewById(R.id.containedButton);
 
-    // Main Activity to Activity Web
-    public void openActivityWeb() {
-        Intent intent = new Intent(this, ActivityWeb.class);
-        startActivity(intent);
+        // Search button click activity
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Read edit text contents as a string of search query
+                EditText editText = findViewById(R.id.outlinedTextField);
+                String query = editText.getText().toString();
+
+                // Display a toast message when the search query is empty
+                if (query.matches("")) {
+                    Toast.makeText(getApplicationContext(), "Sry mate, plz don't leave it blank :)", Toast.LENGTH_SHORT).show();
+                } else {
+                    try {
+                        // Test with tokenizer and parser. If the query is valid then start the result activity.
+                        MyTokenizer _tokenizer = new MyTokenizer(query);
+                        Exp _exp = new Parser(_tokenizer).parseExp();
+
+                        // Start the result activity and put the query contents in extra
+                        Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+                        intent.putExtra("Query", query);
+                        startActivity(intent);
+
+                        // Clear the text field
+                        editText.setText("");
+                    }
+
+                    // If the query is invalid (IllegalArgumentException), display a toast message.
+                    catch (IllegalArgumentException e) {
+                        Toast.makeText(getApplicationContext(), "Oops, try to fix ya query mate!", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        });
     }
 
     @Override
+    // Hide the keyboard when clicking outside of the text fields
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -81,8 +88,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Hide the keyboard when clicking outside of the text fields
     @Override
+    // Hide the keyboard when clicking outside of the text field
     public boolean dispatchTouchEvent(MotionEvent ev) {
         View v = getCurrentFocus();
 
@@ -102,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
         return super.dispatchTouchEvent(ev);
     }
 
+    // Hide the keyboard when clicking outside of the text fields
     private void hideKeyboard(Activity activity) {
         if (activity != null && activity.getWindow() != null) {
             activity.getWindow().getDecorView();
@@ -110,13 +118,5 @@ public class MainActivity extends AppCompatActivity {
                 imm.hideSoftInputFromWindow(activity.getWindow().getDecorView().getWindowToken(), 0);
             }
         }
-    }
-
-    public void containedButton(View v) {
-        // Assign a value
-        input = findViewById(R.id.outlinedTextField);
-        Intent intent = new Intent(MainActivity.this, ActivityWeb.class);
-        intent.putExtra("query", input.getText().toString());
-        startActivity(intent);
     }
 }
