@@ -1,6 +1,9 @@
 package com.example.cars4sale.ActivityUI;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -91,5 +94,16 @@ public class ResultActivity extends AppCompatActivity {
         final ListView listView = findViewById(R.id.listViewResult);
         listView.setAdapter(arrayAdapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String carDetails = listView.getItemAtPosition(i).toString();
+
+                Intent intent = new Intent(ResultActivity.this, DetailActivity.class);
+                intent.putExtra("CarDetails", carDetails);
+                startActivity(intent);
+
+            }
+        });
     }
 }

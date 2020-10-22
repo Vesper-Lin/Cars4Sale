@@ -104,6 +104,6 @@
         app:layout_constraintStart_toEndOf="@+id/detail_image"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/slogan" />
+        app:srcCompat="@mipmap/ic_slogan_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
