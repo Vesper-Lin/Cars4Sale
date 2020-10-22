@@ -83,7 +83,7 @@ public class ResultActivity extends AppCompatActivity {
             String location = str.get(2);
             String price = str.get(3);
             String year = str.get(4);
-            arr.add("car: " + name + "\n" + "price: $" + price + "\n" + "year: " + year + "\n" + "location: " + location);
+            arr.add("Car: " + name + "\n" + "Price: $" + price + "\n" + "Year: " + year + "\n" + "Location: " + location);
         }
 
         // Display the search results in the ListView
