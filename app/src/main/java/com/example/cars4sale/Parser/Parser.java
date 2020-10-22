@@ -5,7 +5,7 @@ import com.example.cars4sale.Tokenizer.Token;
 
 /**
  * The main objective of this class is to implement a parser for the search query.
- * It should be able to parser the following context-free grammar rule:
+ * It should be able to parse the following context-free grammar rule:
  * <exp>        ::=   <term> | <term> ; <exp>
  * <term>       ::=   <keyword> <comparison> <value>
  * <value>      ::=   <unsigned string> | <unsigned integer>
