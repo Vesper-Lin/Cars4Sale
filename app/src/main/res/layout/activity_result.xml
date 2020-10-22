@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <!-- App main UI  -->
+    <!-- Result main UI  -->
     <include
         layout="@layout/result_main"
         android:layout_width="match_parent"

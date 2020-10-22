@@ -1,8 +1,10 @@
-package com.example.cars4sale;
+package com.example.cars4sale.ActivityUI;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.cars4sale.R;
 
 public class DetailActivity extends AppCompatActivity {
 
