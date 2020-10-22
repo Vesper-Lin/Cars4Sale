@@ -22,14 +22,17 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        String[] carDetails = intent.getStringExtra("CarDetails").split("\\\\n+");
+        String[] carDetails = intent.getStringExtra("CarDetails").split("\\n");
 
         final TextView name = findViewById(R.id.textName);
         final TextView price = findViewById(R.id.textPrice);
         final TextView location = findViewById(R.id.textLocation);
         final TextView year = findViewById(R.id.textYear);
 
-        name.setText(carDetails.toString());
+        name.setText(carDetails[0]);
+        price.setText(carDetails[1]);
+        location.setText(carDetails[2]);
+        year.setText(carDetails[3]);
 
     }
 }
