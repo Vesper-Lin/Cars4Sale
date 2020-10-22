@@ -32,33 +32,6 @@ public class ActivityWeb extends AppCompatActivity {
     private static Map mapUltra = new HashMap();
     private Button button;
 
-    public static void main(String[] args) {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        try {
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse("app/src/main/assets/carData.xml");
-            NodeList sList = d.getElementsByTagName("car");
-            node(sList);
-            System.out.println(sList.getClass());
-            mapUltra = groupList(return_list(sList));
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        Map map = mapUltra;
-
-        ArrayList<String> arr = new ArrayList<>();
-
-        List<Object> objectList = new ArrayList<>();
-        objectList = (List<Object>) map.get(2);
-        List<String> strs = (List<String>) (List) objectList;
-        String test = strs.get(1);
-
-        System.out.println(test);
-    }
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,13 +53,17 @@ public class ActivityWeb extends AppCompatActivity {
 
         Map map = mapUltra;
 
-        List<Object> objectList;
-        objectList = (List<Object>) map.get(2);
-        List<String> strs = (List<String>) (List) objectList;
-        String test = strs.get(1);
-
         final ArrayList<String> arr = new ArrayList<>();
-        arr.add(test);
+
+        for (int i=0; i<1000; i++){
+            List<Object> objectList = (List<Object>) map.get(i);
+            List<String> str = (List<String>) (List) objectList;
+            String name = str.get(1);
+            String location = str.get(2);
+            String price = str.get(3);
+            String year = str.get(4);
+            arr.add("car: " + name + "\n" + "price: $" + price + "\n" + "year: " + year + "\n" + "location: " + location);
+        }
 
         final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arr);
         final ListView listView = findViewById(R.id.lvCar);
