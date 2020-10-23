@@ -111,7 +111,6 @@ public class XMLGenerator extends GetRandom {
             }
 
 
-
             //transform a source tree into a result tree
             //Used to process XML from a variety of sources and write the transformation output to a variety of sinks (see transformer documentation)
             Transformer transformer = TransformerFactory.newInstance().newTransformer();

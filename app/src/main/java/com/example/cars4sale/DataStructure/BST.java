@@ -9,7 +9,7 @@ public class BST {
 
     public static List<String> list_price = new ArrayList<>();
     public static List<String> list_lower_price = new ArrayList<>();
-   public static List<String> list_higher_price = new ArrayList<>();
+    public static List<String> list_higher_price = new ArrayList<>();
 
     //new_list--Integer
     // public static List<Integer> new_list = new ArrayList<>();
@@ -45,7 +45,6 @@ public class BST {
 
         return list_price;
     }
-
 
 
     //get all id that its pirce is lower than user give
@@ -90,6 +89,21 @@ public class BST {
         return new_map;
     }
 
+    //find the node in the tree or not
+    public static boolean find(Node n, Integer key) {
+        if (n.key == key) {
+            return true;
+        }
+
+        int cmp = key.compareTo(n.key);
+        if (cmp < 0) {
+            return find(n.left, key);
+        } else if (cmp > 0) {
+            return find(n.right, key);
+        } else {
+            return false;
+        }
+    }
 
     //insert method
     public Node insert(Integer key, String value) {
@@ -128,26 +142,6 @@ public class BST {
         }
 
     }
-
-    //find the node in the tree or not
-    public static boolean find(Node n, Integer key) {
-        if (n.key == key) {
-            return true;
-        }
-
-        int cmp = key.compareTo(n.key);
-        if (cmp < 0) {
-            return find(n.left, key);
-        }
-        else if (cmp > 0) {
-            return find(n.right, key);
-        }
-        else {
-            return false;
-        }
-    }
-
-
 
 
 }

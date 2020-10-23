@@ -17,7 +17,7 @@ public class Car {
         this.year = year;
     }
 
-    public String getname(){
+    public String getname() {
         return this.name;
     }
 

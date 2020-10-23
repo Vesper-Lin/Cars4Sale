@@ -17,13 +17,13 @@
 
     <string name="text_help">
         "
-        Cars4Saleis an App that helps you get your car easier!\n
+        Cars4Sales an App that helps you get your car easier!\n
         Our designated grammar in the context-free format is\n
-        exp        ::=   term | term ; exp\n
-        term       ::=   keyword comparison value\n
-        value      ::=   unsigned string | unsigned integer \n
-        keyword    ::=   "name" | "location" | "price" | "year" \n
-        comparison ::=   "=" | "&#60;" | ">" \n
+        exp                   ::=   term | term ; exp\n
+        term                 ::=   keyword comparison value\n
+        value                ::=   unsigned string | unsigned integer\n
+        keyword          ::=   "name" | "location" | "price" | "year"\n
+        comparison   ::=   "=" | "&#60;" | ">"\n
 
         To search the car you want, you can enter a query like\n
         below:\n

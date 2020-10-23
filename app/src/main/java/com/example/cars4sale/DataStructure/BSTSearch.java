@@ -21,7 +21,7 @@ public class BSTSearch extends BST {
     private static Map mapUltra = new HashMap();
 
 
-//Nodelist--list
+    //Nodelist--list
     public static List return_list(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -37,7 +37,7 @@ public class BSTSearch extends BST {
     }
 
 
-//return tree
+    //return tree
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -181,9 +181,9 @@ public class BSTSearch extends BST {
             //System.out.println(map.get(695));
             //Map map11 =list_to_map(map,list_to_list(getHigherPrice(node(sList).root,942445)));
             //System.out.println(map11.size());
-           // System.out.println(list_to_list(getHigherPrice(node(sList).root,942445)).size());
+            // System.out.println(list_to_list(getHigherPrice(node(sList).root,942445)).size());
 
-           // Map tes = getLocation(map,"Toowoomba");
+            // Map tes = getLocation(map,"Toowoomba");
 
             //System.out.println(getName(map,"SATURN Outlook"));
             // System.out.println(getName(map, "SaTuRn"));
