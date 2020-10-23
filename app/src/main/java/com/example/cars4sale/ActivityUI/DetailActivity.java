@@ -75,7 +75,7 @@ public class DetailActivity extends AppCompatActivity implements NavigationView.
                         .setTitle("About")
                         .setMessage("Cars4Sale is co-developed by " +
                                 "Yuxuan Lin, Xinxin Li, and Tianxiang Zhang " +
-                                "for COMP2100 (2020_S2) group project")
+                                "for COMP2100 (2020_S2) group project.")
                         .setPositiveButton("Cheers!", (dialog, which) -> dialog.dismiss());
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
