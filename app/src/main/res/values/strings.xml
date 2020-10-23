@@ -10,4 +10,35 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header">nav_header</string>
+    <string name="textview_name">TextView</string>
+    <string name="textview_location">TextView</string>
+    <string name="textview_Year">TextView</string>
+    <string name="textview_price">TextView</string>
+
+    <string name="text_help">
+        "
+        Cars4Saleis an App that helps you get your car easier!\n
+        Our designated grammar in the context-free format is\n
+        exp        ::=   term | term ; exp\n
+        term       ::=   keyword comparison value\n
+        value      ::=   unsigned string | unsigned integer \n
+        keyword    ::=   "name" | "location" | "price" | "year" \n
+        comparison ::=   "=" | "&#60;" | ">" \n
+
+        To search the car you want, you can enter a query like\n
+        below:\n
+
+        name = mini; price >50000;\n
+        location = melbourne; year > 2000\n
+
+        It also works with partially correct queries.\n
+
+        For instance:\n
+
+        nNme=    miNi ;pirCee>  50000;\n
+        LoC    =MelBoUrnE; yaeEr > 2000\n
+
+        "
+
+    </string>
 </resources>

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -11,7 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -21,8 +24,11 @@ import com.example.cars4sale.Parser.Exp;
 import com.example.cars4sale.Parser.Parser;
 import com.example.cars4sale.R;
 import com.example.cars4sale.Tokenizer.MyTokenizer;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
     private DrawerLayout drawer;
 
     @Override
@@ -30,15 +36,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Navigation drawer
+        // Navigation toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Navigation drawer
         drawer = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.getMenu().getItem(0).setChecked(true);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+        navigationView.setNavigationItemSelectedListener(this);
 
         // Contained button from Material Design
         final Button searchButton = findViewById(R.id.containedButton);
@@ -78,8 +88,38 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     @Override
-    // Hide the keyboard when clicking outside of the text fields
+    // Click on the navigation item and start new activity.
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.nav_home:
+                Intent intent_home = new Intent(this, MainActivity.class);
+                intent_home.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent_home);
+                break;
+            case R.id.nav_help:
+                Intent intent_help = new Intent(this, HelpActivity.class);
+                startActivity(intent_help);
+                break;
+            case R.id.nav_info:
+                MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(MainActivity.this)
+                        .setTitle("About")
+                        .setMessage("Cars4Sale is co-developed by " +
+                                "Yuxuan Lin, Xinxin Li, and Tianxiang Zhang " +
+                                "for COMP2100 (2020_S2) group project")
+                        .setPositiveButton("Cheers!", (dialog, which) -> dialog.dismiss());
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
+        }
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
+
+
+    @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);

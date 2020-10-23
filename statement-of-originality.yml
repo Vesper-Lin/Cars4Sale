@@ -6,11 +6,6 @@ declaration: >-
   own work, with the following exceptions:
 
 
-# add as many "name+comment" entries as necessary
-# (or remove it altogether if you haven't collaborated with anyone)
-
-
-
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external code)
 code:
@@ -23,7 +18,7 @@ code:
       licence: Apache license version 2.0
 
   - comment: Navigation drawer with fragments
-      url: https://codinginflow.com/tutorials/android/navigation-drawer/part-2-layouts
+      url: https://codinginflow.com/tutorials/android/navigation-drawer/part-3-fragments
       licence: Apache license version 2.0
 
   - comment: Hide the keyboard when clicking outside of the text fields
@@ -38,9 +33,10 @@ code:
       url: https://stackoverflow.com/questions/51039668/how-to-retrieve-common-key-value-pairs-from-two-hashmaps
       licence: Creative Commons Attribution-ShareAlike 4.0 International Public License
 
-  - comment:
-      url:
-      licence:
+  - comment: Collapsing tool bar Layout - Material Design
+      url: https://github.com/zhangcarry/GetItDone/blob/master/app/src/main/res/layout/activity_welcome_help.xml
+      licence: Creative Commons Attribution-ShareAlike 4.0 International Public License
+
 
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
@@ -60,10 +56,6 @@ assets:
   - comment: Cars and Automakers Database, used for creating a car model database
       url: https://www.autoevolution.com/cars
       licence: Non-commercial use
-
-  - comment:
-      url:
-      licence:
 
 
 # sign *your* name and uid here
