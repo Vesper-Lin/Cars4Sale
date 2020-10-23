@@ -20,6 +20,8 @@ public class BSTSearch extends BST {
     private static Map map = new HashMap();
     private static Map mapUltra = new HashMap();
 
+
+//Nodelist--list
     public static List return_list(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -34,6 +36,8 @@ public class BSTSearch extends BST {
         return nodeList;
     }
 
+
+//return tree
     public static BST node(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {

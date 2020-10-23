@@ -91,6 +91,7 @@ public class BST {
     }
 
 
+    //insert method
     public Node insert(Integer key, String value) {
         Node parent = null;
         Node current = this.root;
@@ -128,6 +129,7 @@ public class BST {
 
     }
 
+    //find the node in the tree or not
     public static boolean find(Node n, Integer key) {
         if (n.key == key) {
             return true;

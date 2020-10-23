@@ -44,7 +44,7 @@ public class DataStructureTest {
     }
 
     @Test(timeout=1000)
-    public void testRoot() {
+    public void testtree() {
         tree.insert(14,"b");
         Assert.assertEquals(true,find(tree.root,14));
     }
