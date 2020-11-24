@@ -6,7 +6,6 @@ public class Node {
     Node parent;
     Node left;
     Node right;
-    Node root;
 
     public Node(Integer key, String value) {
         this.key = key;

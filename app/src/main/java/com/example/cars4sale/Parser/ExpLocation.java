@@ -1,10 +1,10 @@
 package com.example.cars4sale.Parser;
 
-import com.example.cars4sale.DataStructure.BSTSearch;
-
 import org.w3c.dom.NodeList;
 
 import java.util.Map;
+
+import static com.example.cars4sale.DataStructure.SearchUtils.getLocation;
 
 /**
  * ExpLocation: it is extended from the abstract class Exp.
@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class ExpLocation extends Exp {
 
-    private String location;
+    private final String location;
 
     public ExpLocation(String location) {
         this.location = location;
@@ -23,6 +23,6 @@ public class ExpLocation extends Exp {
 
     @Override
     public Map evaluate(Map map, NodeList nodeList) {
-        return BSTSearch.getLocation(map, location);
+        return getLocation(map, location);
     }
 }

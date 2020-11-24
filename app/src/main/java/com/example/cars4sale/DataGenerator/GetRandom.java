@@ -21,7 +21,7 @@ public class GetRandom extends StringData {
 
     //method about get car model name
     public static String getRandomCarModelName() {
-        String ran = "";
+        String ran;
         String[] doc = carModelName;
         int index = (int) (Math.random() * doc.length);
         ran = doc[index];
@@ -30,7 +30,7 @@ public class GetRandom extends StringData {
 
     //method about get location
     public static String getRandomLocationOfAu() {
-        String ran = "";
+        String ran;
         String[] doc = locationOfAU;
         int index = (int) (Math.random() * doc.length);
         ran = doc[index];

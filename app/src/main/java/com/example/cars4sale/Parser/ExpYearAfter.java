@@ -4,7 +4,7 @@ import org.w3c.dom.NodeList;
 
 import java.util.Map;
 
-import static com.example.cars4sale.DataStructure.BSTSearch.getYearAfter;
+import static com.example.cars4sale.DataStructure.SearchUtils.getYearAfter;
 
 /**
  * ExpYearAfter: it is extended from the abstract class Exp.
@@ -15,7 +15,7 @@ import static com.example.cars4sale.DataStructure.BSTSearch.getYearAfter;
  */
 public class ExpYearAfter extends Exp {
 
-    private int year;
+    private final int year;
 
     public ExpYearAfter(int year) {
         this.year = year;
@@ -23,7 +23,6 @@ public class ExpYearAfter extends Exp {
 
     @Override
     public Map evaluate(Map map, NodeList nodeList) {
-        Map result = getYearAfter(map, year);
-        return result;
+        return getYearAfter(map, year);
     }
 }

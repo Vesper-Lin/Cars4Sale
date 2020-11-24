@@ -14,8 +14,8 @@ import java.util.Map;
  */
 public class ExpAnd extends Exp {
 
-    private Exp term;
-    private Exp exp;
+    private final Exp term;
+    private final Exp exp;
 
     public ExpAnd(Exp term, Exp exp) {
         this.term = term;

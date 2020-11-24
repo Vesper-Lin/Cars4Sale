@@ -20,8 +20,8 @@ public class Token {
     static final String locationRegex = "location*";
     static final String priceRegex = "price*";
     static final String yearRegex = "year*";
-    private String _token;
-    private Type _type;
+    private final String _token;
+    private final Type _type;
 
     public Token(String token, Type type) {
         _token = token;
@@ -57,7 +57,7 @@ public class Token {
                     return false;
                 }
             }
-        } else if (s1.length() >= s2.length()) {
+        } else {
             for (int i = 0; i < s2.length(); i++) {
                 if (s1.indexOf(s2.charAt(i)) < 0) {
                     return false;

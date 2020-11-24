@@ -7,7 +7,7 @@ import java.util.Map;
 import static com.example.cars4sale.DataStructure.BST.getHigherPrice;
 import static com.example.cars4sale.DataStructure.BST.list_to_list;
 import static com.example.cars4sale.DataStructure.BST.list_to_map;
-import static com.example.cars4sale.DataStructure.BSTSearch.node;
+import static com.example.cars4sale.DataStructure.SearchUtils.node;
 
 /**
  * ExpHigherPrice: it is extended from the abstract class Exp.
@@ -18,7 +18,7 @@ import static com.example.cars4sale.DataStructure.BSTSearch.node;
  */
 public class ExpHigherPrice extends Exp {
 
-    private int price;
+    private final int price;
 
     public ExpHigherPrice(int price) {
         this.price = price;

@@ -36,9 +36,9 @@ import java.util.Objects;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import static com.example.cars4sale.DataStructure.BSTSearch.groupList;
-import static com.example.cars4sale.DataStructure.BSTSearch.node;
-import static com.example.cars4sale.DataStructure.BSTSearch.return_list;
+import static com.example.cars4sale.DataStructure.SearchUtils.groupList;
+import static com.example.cars4sale.DataStructure.SearchUtils.node;
+import static com.example.cars4sale.DataStructure.SearchUtils.return_list;
 
 public class ResultActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

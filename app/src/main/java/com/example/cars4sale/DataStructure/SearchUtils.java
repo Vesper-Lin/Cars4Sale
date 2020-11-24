@@ -12,16 +12,14 @@ import java.util.Map;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class BSTSearch extends BST {
+public class SearchUtils extends BST {
 
     private static List nodeList;
-    private static NodeList sList;
     private static NodeList listUltra;
-    private static Map map = new HashMap();
     private static Map mapUltra = new HashMap();
 
 
-    //Nodelist--list
+    //transform NodeList to List
     public static List return_list(NodeList list) {
         nodeList = new ArrayList<>();
         for (int i = 0; i < list.getLength(); i++) {
@@ -49,7 +47,7 @@ public class BSTSearch extends BST {
                 }
             }
         }
-        map = groupList(nodeList);
+        Map map = groupList(nodeList);
 
         BST tree = new BST();
         for (int i = 0; i < 1000; i++) {
@@ -140,7 +138,6 @@ public class BSTSearch extends BST {
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document d = builder.parse("app/src/main/assets/carData.xml");
-            //Document d = builder.parse("./src/main/assets/carData.xml");
             NodeList sList = d.getElementsByTagName("car");
             node(sList);
             System.out.println(sList.getClass());
@@ -152,46 +149,16 @@ public class BSTSearch extends BST {
         return mapUltra;
     }
 
-    public static NodeList readData_slist() {
+    public static NodeList readData_sList() {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document d = builder.parse("app/src/main/assets/carData.xml");
-            //Document d = builder.parse("/Users/lixinxin/Desktop/comp2100_6442_s2_2020_group_project/app/src/main/assets/carData.xml");
             listUltra = d.getElementsByTagName("car");
             node(listUltra);
         } catch (Exception e) {
             e.printStackTrace();
         }
         return listUltra;
-    }
-
-
-    public static void main(String[] args) {
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        try {
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document d = builder.parse("app/src/main/assets/carData.xml");
-            sList = d.getElementsByTagName("car");
-            node(sList);
-            System.out.println(sList.getClass());
-            map = groupList(nodeList);
-
-            //test
-            //System.out.println(map.get(695));
-            //Map map11 =list_to_map(map,list_to_list(getHigherPrice(node(sList).root,942445)));
-            //System.out.println(map11.size());
-             System.out.println(list_to_list(getHigherPrice(node(sList).root,942445)).size());
-
-            // Map tes = getLocation(map,"Toowoomba");
-
-            //System.out.println(getName(map,"SATURN Outlook"));
-            // System.out.println(getName(map, "SaTuRn"));
-            System.out.println(BSTSearch.map);
-            //System.out.println(list_to_map(map, list_to_list(getHigherPrice(node(sList).root, 969186))));
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }

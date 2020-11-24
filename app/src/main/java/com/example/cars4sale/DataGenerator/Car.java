@@ -2,7 +2,7 @@ package com.example.cars4sale.DataGenerator;
 
 public class Car {
     private int id;
-    private int coding;
+    private final int coding;
     private String name;
     private String location;
     private int price;
@@ -17,10 +17,6 @@ public class Car {
         this.year = year;
     }
 
-    public String getname() {
-        return this.name;
-    }
-
     public int getId() {
         return id;
     }
@@ -31,10 +27,6 @@ public class Car {
 
     public int getCoding() {
         return coding;
-    }
-
-    public void setCoding(int coding) {
-        this.coding = coding;
     }
 
     public String getName() {

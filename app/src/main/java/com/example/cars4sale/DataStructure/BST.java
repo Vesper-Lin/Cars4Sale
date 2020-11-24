@@ -9,10 +9,6 @@ public class BST {
 
     public static List<String> list_price = new ArrayList<>();
     public static List<String> list_lower_price = new ArrayList<>();
-    public static List<String> list_higher_price = new ArrayList<>();
-
-    //new_list--Integer
-    // public static List<Integer> new_list = new ArrayList<>();
 
     public Node root;
 
@@ -21,7 +17,7 @@ public class BST {
     }
 
 
-    //get all id that its pirce is higher than user give
+    //get all id that its price is higher than user give
     public static List<String> getHigherPrice(Node t, Integer price) {
 
         if (null == t) {
@@ -30,13 +26,12 @@ public class BST {
         } else if (t.left != null) {
             getHigherPrice(t.left, price); //  The middle order traverses the left subtree
         }
+
         if (t.key != 0) {
 
             if (t.key >= price) {
                 list_price.add(t.value);//add higher
             }
-            //System.out.println(t.value);
-            //System.out.println("[" + t.key + "]"); //  Displays the data for the current node
         }
 
         if (t.right != null) {
@@ -47,7 +42,7 @@ public class BST {
     }
 
 
-    //get all id that its pirce is lower than user give
+    //get all id that its price is lower than user give
     public static List<String> getLowerPrice(Node t, Integer price) {
 
         if (null == t) {
@@ -87,22 +82,6 @@ public class BST {
             new_map.put(list.get(i), map.get(list.get(i)));
         }
         return new_map;
-    }
-
-    //find the node in the tree or not
-    public static boolean find(Node n, Integer key) {
-        if (n.key == key) {
-            return true;
-        }
-
-        int cmp = key.compareTo(n.key);
-        if (cmp < 0) {
-            return find(n.left, key);
-        } else if (cmp > 0) {
-            return find(n.right, key);
-        } else {
-            return false;
-        }
     }
 
     //insert method
