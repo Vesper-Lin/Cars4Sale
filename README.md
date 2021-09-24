@@ -1,6 +1,6 @@
-# Cars4Sale
+<img src="https://github.com/Vesper-Lin/Cars4Sale/blob/master/app/src/main/res/drawable-xxxhdpi/cars4sale.png" height="150">
 
-<img src="https://github.com/Vesper-Lin/Cars4Sale/blob/master/app/src/main/res/drawable-xxxhdpi/cars4sale.png" height="200">
+# Cars4Sale
 
 ANU COMP2100 : Software Design Methodologies - Group Project
 
