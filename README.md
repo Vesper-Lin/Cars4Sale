@@ -140,4 +140,4 @@ The binary tree is used to store the price and ID of the car, ensuring that the 
 
 
 ## Project Wiki
-[**Link**](https://github.com/Vesper-Lin/Cars4Sale/wiki)
+[**Wiki link**](https://github.com/Vesper-Lin/Cars4Sale/wiki).
