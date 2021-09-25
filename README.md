@@ -139,4 +139,5 @@ The binary tree is used to store the price and ID of the car, ensuring that the 
 | testTokenizerInEquity2() | MyTokenizer() | 1 |
 
 
-To learn more about this project, please read the project [**Wiki**](https://github.com/Vesper-Lin/Cars4Sale/wiki).
+## Project Wiki
+[**Link**](https://github.com/Vesper-Lin/Cars4Sale/wiki)
